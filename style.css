@@ -9,7 +9,6 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  border: solid 1px green;
   align-content: center;
 }
 
@@ -129,9 +128,9 @@ body {
 .main {
   width: 100%;
   height: 620px;
-  border: 1px green dashed;
   background-image: url(img/teslatxt.svg);
-  background-position: center;
+  background-position: top, center;
+  margin-bottom: 130px;
 }
 
 .models {
@@ -162,16 +161,137 @@ body {
   margin-left: 14%;
 }
 
-.test_drive {
+.footer {
+  display: flex;
+  justify-content: flex-end;
+
+}
+.speed {
+  margin-right: 5%;
   display: inline-block;
+  width: 380px;
+  height: 58px;
+  background-image: url(img/speed_km.svg);
+  background-repeat: no-repeat;
+}
+
+.button {
+  display: block;
   width: 160px;
   height: 40px;
   border: 2px solid #E51937;
   text-align: center;
+  text-decoration: none;
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 700;
   font-size: 13px;
   font-style: normal;
-  line-height: 15px;
-  color: #E51937; 
+  line-height: 36px;
+  color: #E51937;
+  margin-right: 317px;
 }
+
+.test__img {
+  background-image: url(img/test_drive.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+  width: 130px;
+  height: 22px;
+  content: "";
+  margin-right: 40px;
+  margin-top: 13px;
+}
+
+.future {
+background-image: url(img/tesla_inside.svg);
+padding-left: 80%;
+margin: 0;
+}
+
+.future__block {
+  background-color: #E51937;
+}
+
+.future__driving {
+  margin-top: 0;
+  width: 90%;
+  font-family: "montserratregular", arial, helvetica, sans-serif ;
+  font-weight: 600;
+  font-size: 30px;
+  font-style: normal;
+  line-height: 36px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.future__text{
+  font-family: "montserratregular", arial, helvetica, sans-serif ;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 18px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 55px;
+}
+
+.display {
+  width: 187px;
+  height: 65px;
+  background-image: url(img/display.svg);
+  background-repeat: no-repeat;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 35px;
+}
+
+.wifi {
+  width: 269px;
+  height: 71px;
+  background-image: url(img/wifi.svg);
+  background-repeat: no-repeat;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.bag {
+  width: 202px;
+  height: 71px;
+  background-image: url(img/bag.svg);
+  background-repeat: no-repeat;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 270px;
+}
+
+.future__block_info {
+  margin-bottom: 63px;
+  color: #FFFFFF;
+  margin: auto;
+  padding-left: 10px;
+  margin-right: 1px;
+  font-family: "montserratregular", arial, helvetica, sans-serif ;
+  font-weight: 700;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 35px;
+}
+
+.future__block_order {
+  display: inline-block;
+  width: 160px;
+  height:  40px;
+  border: 2px solid #FFFFFF;
+  text-align: center;
+  color: #FFFFFF;
+  margin: auto;
+  font-family: "montserratregular", arial, helvetica, sans-serif ;
+  font-weight: 700;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 35px;
+}
+
+.
