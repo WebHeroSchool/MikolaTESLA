@@ -11,6 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  margin-bottom: 58px;
 }
 
 .logo {
@@ -18,6 +19,7 @@ body {
   width: 166px;
   height: 51px;
   background-image: url(img/Logo.svg);
+  margin-right: 43px;
 }
 
 .menu__models {
@@ -131,7 +133,7 @@ body {
   height: 620px;
   background-image: url(img/teslatxt.svg);
   background-position: top, center;
-  margin-bottom: 130px;
+  margin-bottom: 200px;
 }
 
 .main__title {
@@ -142,7 +144,7 @@ body {
   line-height: 110px;
   text-align: center;
   margin-bottom: 0;
-  margin-top: 75px;
+  margin-top: 59px;
 }
 
 .main__text {
@@ -160,26 +162,27 @@ body {
   width: 970px;
   height: 450px;
   margin-left: 14%;
+  margin-bottom: 23px;
 }
 
 .main__info {
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 38px;
 
 }
 
 .main__arrow {
-  transform: rotate(45deg);
-  margin: auto;
-  width: 28px;
-  height: 2px;
+  padding: 10px;
   display: block;
-  border-radius: 3px;
-  background-color: #E51937;
-  margin-top: 40px;
+  width: 28px;
+  height: 14px;
+  background-image: url(img/Vector.svg);
+  background-repeat: no-repeat;
+  margin-left: 703px;
 }
 
-.main__arrow::before {
+/*.main__arrow::before {
   position: relative;
   content: "";
   transform: rotate(90deg);
@@ -191,7 +194,7 @@ body {
   top: -14px;
   left: 13px;
   background-color: #E51937;
-}
+}*/
 
 .main__info_speed {
   margin-right: 5%;
@@ -200,6 +203,7 @@ body {
   height: 58px;
   background-image: url(img/speed_km.svg);
   background-repeat: no-repeat;
+  margin-right: 100px;
 }
 
 .main__info_button {
@@ -232,21 +236,34 @@ body {
 
 .future {
 background-image: url(img/tesla_inside.svg);
-padding-left: 70%;
+padding-left: 1000px;
 margin: 0;
+/*margin-bottom: 120px;*/
+}
+
+.future__logo-models {
+  display: block;
+  position: absolute;
+  width: 288px;
+  height: 86px;
+  background-image: url(img/ModelSfut.svg);
+  background-repeat: no-repeat;
+  left: 86px;
+  margin-top: 25px;
 }
 
 .future__info {
+  padding: 0;
+  margin: 0;
   background-color: #E51937;
-  padding-bottom: 120px;
 }
 
 .future__info_title {
   margin-top: 0;
-  width: 80%;
+  width: 77%;
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 33px;
   font-style: normal;
   line-height: 36px;
   margin: auto;
@@ -256,10 +273,10 @@ margin: 0;
 .future__info_description {
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 18px;
   font-style: normal;
   line-height: 18px;
-  width: 80%;
+  width: 77%;
   margin: auto;
   margin-bottom: 55px;
 }
@@ -291,7 +308,7 @@ margin: 0;
   background-repeat: no-repeat;
   width: 80%;
   margin: auto;
-  margin-bottom: 165px;
+  margin-bottom: 191px;
 }
 
 .future__info_more {
@@ -348,36 +365,37 @@ margin: 0;
 .safety {
   background-image: url(img/ModelS.svg);
   background-repeat: no-repeat;
-  padding-right: 70%;
+  padding-right: 1003px;
   margin: 0;
-  background-position: top right;
+  background-position-x: right;
+  background-position-y: 87px;
 }
 
 .safety__info {
+  margin: 0;
+  padding: 0;
   background-color: #E51937;
-  padding-bottom: 68px;
 }
 
 .safety__info_title {
   margin-top: 0;
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 31px;
   font-style: normal;
   line-height: 36px;
-  width: 80%;
+  width: 73%;
   margin: auto;
   margin-bottom: 12px;
-  padding-top: 50px;
 }
 
 .safety__info_description {
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 18px;
   font-style: normal;
   line-height: 18px;
-  width: 80%;
+  width: 75%;
   margin: auto;
   margin-bottom: 50px;
 }
@@ -389,7 +407,7 @@ margin: 0;
   font-style: normal;
   line-height: 36px;
   width: 57%;
-  margin: auto;
+  margin-left: 57px;
   margin-bottom: 25px;
 }
  .info__protection_front, .info__protection_side, .info__protection_side_rack, .info__protection_driver, .info__protection_passenger {
@@ -422,7 +440,7 @@ margin: 0;
 }
 
 .protection__passenger_one {
-  margin-bottom: 100px;
+  margin-left: : 38px;
 }
 
 .stars {
@@ -447,8 +465,40 @@ margin: 0;
   position: absolute;
   width: 1049px;
   height: 540px;
-  top: 1960px;
-  left: 330px;
+  top: 2015px;
+  left: 345px;
+}
+
+.more-safety {
+  position: absolute;
+  width: 1049px;
+  height: 540px;
+  top: 2015px;
+  left: 345px;
+}
+
+.Car_crash {
+  left: 598px;
+  top: 218px;
+  position: relative;
+  width: 250px;
+  height: 128px;
+}
+
+.Protection_1 {
+  left: 10px;
+  top: 4px;
+  position: relative;
+  width: 193px;
+  height: 285px;
+}
+
+.Protection_2 {
+  left: 92px;
+  top: -192px;
+  position: relative;
+  width: 189px;
+  height: 137px;
 }
 
 .safety__info_more {
