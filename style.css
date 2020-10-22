@@ -561,5 +561,32 @@ margin-bottom: 115px;
 }
 
 @media (max-width: 375px) {
-  
+
+.wrapper {
+  width: 100%;
+}
+
+.header {
+  margin-top: 76px;
+}
+
+.menu__models, .menu__shop_item {
+  display: none;
+}
+.logo {
+  margin-left: 0px;
+  width: 140px;
+  height: 32px;
+  background-size: cover;
+}
+
+.main__title {
+  position: absolute;
+  left: 90px;
+  top: 137px;
+  width: 201px;
+  height: 61px;
+  display: block;
+  background-size: contain;
+
 }
