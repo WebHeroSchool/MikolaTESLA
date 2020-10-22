@@ -3,15 +3,15 @@ body {
 }
 
 .wrapper {
-  width: 100%;
+  width: 97%;
 }
 
 .header {
   margin-top: 25px;
+  margin-bottom: 157px;
   display: flex;
   justify-content: space-between;
   align-content: center;
-  margin-bottom: 58px;
 }
 
 .logo {
@@ -77,7 +77,7 @@ body {
   font-size: 15px;
   font-style: normal;
   line-height: 18px;
-  margin-right: 45px;
+  margin-right: 36px;
   padding-top: 20px;
   text-decoration: none;
   color: #000;
@@ -133,28 +133,33 @@ body {
   height: 620px;
   background-image: url(img/teslatxt.svg);
   background-position: top, center;
-  margin-bottom: 200px;
+  background-repeat: no-repeat;
+  margin-bottom: 102px;
+  background-position-x: 0px;
+  background-position-y: -99px;
 }
 
 .main__title {
-  font-family: "montserratregular", arial, helvetica, sans-serif ;
-  font-weight: 600;
-  font-size: 90px;
-  font-style: normal;
-  line-height: 110px;
-  text-align: center;
-  margin-bottom: 0;
-  margin-top: 59px;
+  position: absolute;
+  left: 543px;
+  top: 133px;
+  width: 370px;
+  height: 110px;
+  display: block;
+  background-image: url(img/ModelS12.svg);
+  background-repeat: no-repeat;
 }
 
 .main__text {
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 17px;
   font-style: normal;
   line-height: 18px;
   text-align: center;
   margin-top: 0;
+  margin-left: 41px;
+  margin-bottom: 26px;
 }
 
 .main__img {
@@ -168,7 +173,7 @@ body {
 .main__info {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 38px;
+  margin-bottom: 34px;
 
 }
 
@@ -219,7 +224,8 @@ body {
   font-style: normal;
   line-height: 36px;
   color: #E51937;
-  margin-right: 317px;
+  margin-right: 278px;
+  margin-top: 10px;
 }
 
 .main__info_test {
@@ -230,14 +236,15 @@ body {
   width: 130px;
   height: 22px;
   content: "";
-  margin-right: 40px;
-  margin-top: 13px;
+  margin-right: 27px;
+  margin-top: 20px;
 }
 
 .future {
 background-image: url(img/tesla_inside.svg);
 padding-left: 1000px;
 margin: 0;
+margin-bottom: 115px;
 /*margin-bottom: 120px;*/
 }
 
@@ -260,14 +267,14 @@ margin: 0;
 
 .future__info_title {
   margin-top: 0;
-  width: 77%;
+  width: 81%;
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 600;
   font-size: 33px;
   font-style: normal;
-  line-height: 36px;
-  margin: auto;
-  margin-bottom: 10px;
+  line-height: 31px;
+  padding-left: 52px;
+  margin-bottom: -4px;
 }
 
 .future__info_description {
@@ -276,9 +283,9 @@ margin: 0;
   font-size: 18px;
   font-style: normal;
   line-height: 18px;
-  width: 77%;
-  margin: auto;
-  margin-bottom: 55px;
+  width: 78%;
+  padding-left: 52px;
+  margin-bottom: 60px;
 }
 
 .future__info_display {
@@ -287,7 +294,7 @@ margin: 0;
   background-image: url(img/display.svg);
   background-repeat: no-repeat;
   width: 80%;
-  margin: auto;
+  margin-left: 52px;
   margin-bottom: 35px;
 }
 
@@ -297,7 +304,7 @@ margin: 0;
   background-image: url(img/wifi.svg);
   background-repeat: no-repeat;
   width: 80%;
-  margin: auto;
+  margin-left: 48px;
   margin-bottom: 25px;
 }
 
@@ -307,19 +314,19 @@ margin: 0;
   background-image: url(img/bag.svg);
   background-repeat: no-repeat;
   width: 80%;
-  margin: auto;
-  margin-bottom: 191px;
+  margin-left: 52px;
+  margin-bottom: 169px;
 }
 
 .future__info_more {
   margin-bottom: 63px;
   color: #FFFFFF;
   margin: auto;
-  padding-left: 48px;
-  margin-right: 23px;
+  padding-left: 55px;
+  margin-right: 16px;
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 11px;
   font-style: normal;
   line-height: 35px;
 }
@@ -328,12 +335,12 @@ margin: 0;
   position: relative;
   display: inline-block;
   content: "";
-  width: 22px;
-  height: 22px;
+  width: 19px;
+  height: 19px;
   border: 2px solid #FFFFFF;
   border-radius: 50%;
-  left: -16px;
-  top: 6px;
+  left: -7px;
+  top: 7px;
 }
 
 .future__info_more::after {
@@ -342,9 +349,9 @@ margin: 0;
   display: inline-block;
   content: "i";
   border-radius: 50%;
-  left: -181px;
+  left: -148px;
   top: 2px;
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .future__info_order {
@@ -365,10 +372,10 @@ margin: 0;
 .safety {
   background-image: url(img/ModelS.svg);
   background-repeat: no-repeat;
-  padding-right: 1029px;
+  padding-right: 958px;
   margin: 0;
-  background-position-x: right;
-  background-position-y: 87px;
+  background-position-x: 647px;
+  background-position-y: 91px;
 }
 
 .safety__info {
@@ -392,18 +399,18 @@ margin: 0;
 .safety__info_description {
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 17px;
   font-style: normal;
   line-height: 18px;
   width: 75%;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 57px;
 }
 
 .safety__info_protection_title {
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 31px;
   font-style: normal;
   line-height: 36px;
   width: 57%;
@@ -414,33 +421,33 @@ margin: 0;
   position: relative;
   display: block;
   margin: auto;
-  width: 80%;
-  margin-bottom: 16px;
+  width: 75%;
+  margin-bottom: 8px;
 
 }
 
 .protection__front_one {
-  margin-left: 20%;
+  margin-left: 54px;
 }
 
 .protection__side_one {
-  margin-left: 27%;
+  margin-left: 78px;
 }
 
 .protection__side_rack_one {
-  margin-left: 4%;
+  margin-left: 5px;
 }
 
 .protection__driver_one {
-  margin-left: 16%;
+  margin-left: 42px;
 }
 
 .fiveth__one {
-  margin-left: 14%;
+  margin-left: 34px;
 }
 
 .protection__passenger_one {
-  margin-left: : 38px;
+  margin-left: 36px;
 }
 
 .stars {
@@ -448,24 +455,25 @@ margin: 0;
   width: 25px;
   height: 25px;
   background-image: url(img/Star.svg);
-  text-align: center;
   background-repeat: no-repeat;
 }
 
 .safety__info_result {
   display: block;
   margin: auto;
-  width: 280px;
+  width: 309px;
   height: 92px;
   background-image: url(img/five_stars.svg);
   margin-bottom: 50px;
+  margin-top: 94px;
+  background-repeat: no-repeat;
 }
 
 .safety__img {
   position: absolute;
   width: 1049px;
   height: 540px;
-  top: 2015px;
+  top: 2023px;
   left: 345px;
 }
 
@@ -509,7 +517,7 @@ margin: 0;
   margin-right: 23px;
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 10px;
   font-style: normal;
   line-height: 35px;
 }
@@ -518,11 +526,11 @@ margin: 0;
   position: relative;
   display: inline-block;
   content: "";
-  width: 22px;
-  height: 22px;
+  width: 19px;
+  height: 19px;
   border: 2px solid #FFFFFF;
   border-radius: 50%;
-  left: -16px;
+  left: -11px;
   top: 6px;
 }
 
@@ -532,9 +540,9 @@ margin: 0;
   display: inline-block;
   content: "i";
   border-radius: 50%;
-  left: -181px;
+  left: -140px;
   top: 2px;
-  font-size: 21px;
+  font-size: 18px;
 }
 
 .safety__info__order {
@@ -550,4 +558,8 @@ margin: 0;
   font-size: 13px;
   font-style: normal;
   line-height: 35px;
+}
+
+@media (max-width: 375px) {
+  
 }
