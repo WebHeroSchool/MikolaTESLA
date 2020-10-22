@@ -568,6 +568,7 @@ margin-bottom: 115px;
 
 .header {
   margin-top: 76px;
+  margin-bottom: 95px;
 }
 
 .menu__models, .menu__shop_item {
@@ -580,13 +581,71 @@ margin-bottom: 115px;
   background-size: cover;
 }
 
+.main {
+width: 100%;
+background-image: url(img/Tesla-Wordmark-Red.svg);
+background-repeat: no-repeat;
+background-position-x: 0px;
+background-position-y: 23px;
+}
+
 .main__title {
+  margin: 0;
   position: absolute;
   left: 90px;
-  top: 137px;
+  top: 157px;
   width: 201px;
   height: 61px;
   display: block;
   background-size: contain;
+}
+
+.main__text {
+  font-family: "montserratregular", arial, helvetica, sans-serif ;
+  font-weight: 500;
+  font-size: 11px;
+  font-style: normal;
+  line-height: 18px;
+  margin-left: -3px;
+  margin-bottom: 46px; }
+
+.main__img {
+  width: 357px;
+  height: 166px;
+  margin-left: 3%;
+  margin-bottom: 20px;
+}
+
+.main__info {
+  display: inline-block;
+  margin-bottom: 28px;
+}
+
+.main__info_speed {
+  margin-left: 39px;
+  margin-bottom: 11px;
+  width: 300px;
+  height: 50px;
+  background-size: contain;
+}
+
+.main__info_test {
+  top: 41px;
+  margin-top: -8px;
+  margin-left: 32px;
+}
+
+.main__info_button {
+  margin-left: 175px;
+}
+
+.main__arrow {
+  margin-left: 172px;
+}
+
+.future__logo-models {
+  display: none;
+}
+
 
 }
