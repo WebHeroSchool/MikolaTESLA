@@ -22,13 +22,13 @@ body {
   margin-right: 43px;
 }
 
-.menu__models {
+.menu-models {
   display: flex;
   justify-content: space-between;
   vertical-align: middle;
 }
 
-.menu__models_item {
+.menu-models__item {
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 600;
   font-size: 15px;
@@ -40,7 +40,7 @@ body {
   color: #000;
 }
 
-.menu__models_item_active::after{
+.menu-models__item_active::after{
   display: block;
   position: relative;
   content: "";
@@ -49,11 +49,11 @@ body {
   background-color: #E51937;
 }
 
-.menu__models_item_active {
+.menu-models__item_active {
   color: #E51937;
 }
 
-.menu__models_item:hover::after {
+.menu-models__item:hover::after {
   display: block;
   position: relative;
   content: "";
@@ -62,16 +62,16 @@ body {
   background-color: #E51937;
 }
 
-.menu__models_item:hover {
+.menu-models__item:hover {
   color: #E51937;
 }
 
-.menu__shop {
+.menu-shop {
   display: flex;
   justify-content: space-between;
 }
 
-.menu__shop_item {
+.menu-shop__item {
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 600;
   font-size: 15px;
@@ -83,7 +83,7 @@ body {
   color: #000;
 }
 
-.menu__shop_item:hover::after {
+.menu-shop__item:hover::after {
   display: block;
   position: relative;
   content: "";
@@ -92,11 +92,11 @@ body {
   background-color: #E51937;
 }
 
-.menu__shop_item:hover {
+.menu-shop__item:hover {
   color: #E51937;
 }
 
-.menu__mobile {
+.menu-shop__mobile {
   margin-right: 20px;
   margin-top: 26px;
   position: relative;
@@ -108,7 +108,7 @@ body {
   cursor: pointer;
 }
 
-.menu__mobile::after {
+.menu-shop__mobile::after {
   position: relative;
   display: block;
   content: "";
@@ -118,7 +118,7 @@ body {
   transform: translateY(4px);
 }
 
-.menu__mobile::before {
+.menu-shop__mobile::before {
   position: relative;
   display: block;
   content: "";
@@ -581,12 +581,19 @@ margin-bottom: 115px;
   background-size: cover;
 }
 
+.menu__mobile {
+  top: -6px;
+}
+
 .main {
 width: 100%;
-background-image: url(img/Tesla-Wordmark-Red.svg);
+height: 439px;
+background-image: url(img/teslatxt.svg);
 background-repeat: no-repeat;
-background-position-x: 0px;
+background-size: 115%;
+background-position-x: -20px;
 background-position-y: 23px;
+margin-bottom: 0;
 }
 
 .main__title {
@@ -647,5 +654,273 @@ background-position-y: 23px;
   display: none;
 }
 
+.future {
+  padding-left: 0;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  padding-top: 317px;
+  background-position-x: -28px;
+  margin-bottom: 0;
+}
+
+.future__info_title{
+  width: 92%;
+  padding-left: 26px;
+  padding-top: 22px;
+}
+
+.future__info_description {
+  width: 92%;
+  padding-left: 27px;
+}
+
+.future__info_display, .future__info_wifi, .future__info_bag, .future__info_more, .future__info_order,
+.safety__info_protection_title, .info__protection_front, .info__protection_side, .info__protection_side_rack,
+.info__protection_driver, .info__protection_passenger, .safety__info_result, .safety__info_more, .safety__info__order {
+  display: none;
+}
+
+.safety {
+  background-size: 30%;
+  padding-top: 276px;
+  padding-right: 0;
+}
+
+.safety__info_title {
+  width: 92%;
+  padding-left: 31px;
+  padding-top: 18px;
+}
+
+.safety__info_description {
+  width: 92%;
+  padding-left: 30px;
+  padding-bottom: 73px;
+  font-size: 18px;
+}
+
+.safety__img {
+  width: 362px;
+  height: 186px;
+  left: -2px;
+  top: 1337px;
+}
+
+.more-safety {
+  width: 362px;
+  height: 186px;
+  left: -2px;
+  top: 1337px;
+}
+
+.Car_crash {
+  width: 86px;
+  height: 44px;
+  left: 206px;
+  top: 72px;
+}
+
+.Protection_1 {
+  width: 66px;
+  height: 98px;
+  left: 1px;
+  top: 0px;
+}
+
+.Protection_2 {
+  width: 65px;
+  height: 47px;
+  left: 27px;
+  top: -70px;
+}
+}
+
+@media (max-width: 768px) {
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .header {
+    margin-top: 24px;
+    margin-bottom: 181px;
+  }
+
+  .menu__models, .menu__shop_item {
+    display: none;
+  }
+  .logo {
+    margin-left: 15px;
+    width: 166px;
+    height: 51px;
+    background-size: cover;
+  }
+
+  .menu__mobile {
+    width: 35px;
+    left: -13px;
+    top: -2px;
+  }
+
+  .menu__mobile::after, .menu__mobile::before {
+    width: 35px;
+  }
+
+  .main {
+  width: 100%;
+  height: 755px;
+  background-image: url(img/teslatxt.svg);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position-x: -17px;
+  background-position-y: -8px;
+  margin-bottom: 0;
+  }
+
+  .main__title {
+    margin: 0;
+    position: absolute;
+    left: 206px;
+    top: 174px;
+    width: 360px;
+    height: 110px;
+    display: block;
+    background-size: contain;
+  }
+
+  .main__text {
+    font-family: "montserratregular", arial, helvetica, sans-serif ;
+    font-weight: 500;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 18px;
+    margin-left: -3px;
+    margin-bottom: 87px;
+  }
+
+  .main__img {
+    width: 695px;
+    height: 327px;
+    margin-left: 5%;
+    margin-bottom: 36px;
+  }
+
+  .main__info {
+    display: inline-block;
+    margin-bottom: 56px;
+  }
+
+  .main__info_speed {
+    margin-left: 135px;
+    margin-bottom: 11px;
+    width: 520px;
+    height: 100px;
+    background-size: contain;
+  }
+
+  .main__info_test {
+    width: 162px;
+    height: 40px;
+    background-size: contain;
+    top: 61px;
+    margin-top: -27px;
+    margin-left: 173px;
+  }
+
+  .main__info_button {
+    width: 220px;
+    height: 52px;
+    margin-left: 370px;
+    margin-right: 0;
+  }
+
+  .main__arrow {
+    margin-left: 367px;
+  }
+
+  .future__logo-models {
+    left: 440px;
+    top: 1056px;
+  }
+
+  .future {
+    padding-left: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 550px;
+    background-position-x: 22px;
+    background-position-y: 45px;
+    margin-bottom: 0;
+  }
+
+  .future__info_title{
+    width: 43%;
+    padding-left: 35px;
+    padding-top: 58px;
+  }
+
+  .future__info_description {
+    width: 43%;
+    padding-left: 36px;
+    padding-top: 11px;
+  }
+
+.future__info_display {
+  width: 25%;
+}
+
+  .safety {
+    background-size: 30%;
+    padding-top: 276px;
+    padding-right: 0;
+  }
+
+  .safety__info_title {
+    width: 92%;
+    padding-left: 31px;
+    padding-top: 18px;
+  }
+
+  .safety__info_description {
+    width: 92%;
+    padding-left: 30px;
+    padding-bottom: 73px;
+    font-size: 18px;
+  }
+
+  .safety__img {
+    width: 362px;
+    height: 186px;
+    left: -2px;
+    top: 2280px;
+  }
+
+  .more-safety {
+    width: 362px;
+    height: 186px;
+    left: -2px;
+    top: 2280px;
+  }
+
+  .Car_crash {
+    width: 86px;
+    height: 44px;
+    left: 206px;
+    top: 72px;
+  }
+
+  .Protection_1 {
+    width: 66px;
+    height: 98px;
+    left: 1px;
+    top: 0px;
+  }
+
+  .Protection_2 {
+    width: 65px;
+    height: 47px;
+    left: 27px;
+    top: -70px;
+  }
 
 }
