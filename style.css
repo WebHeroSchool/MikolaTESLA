@@ -1019,7 +1019,7 @@ margin-bottom: 0;
   .safety__img-more_Car-crash {
     width: 189px;
     height: 84px;
-    left: 422px;
+    left: 435px;
     top: 146px;
   }
 
@@ -1060,6 +1060,8 @@ margin-bottom: 0;
   font-size: 17px;
   top: 2768px;
   left: 366px;
+  margin-top: 17px;
+  margin-bottom: 1px;
 }
 
 .safety__info_protection-driver {
