@@ -344,7 +344,7 @@ background-position-y: 57px;
   color: #FFFFFF;
   margin: auto;
   padding-left: 55px;
-  margin-right: 17px;
+  margin-right: 21px;
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 700;
   font-size: 11px;
@@ -446,9 +446,19 @@ background-position-y: 57px;
   width: 75%;
 }
 
+.safety__info_protection-front {
+  margin-bottom: 8px;
+}
+
 .safety__info_protection-side-rack {
  margin-left: 55px;
+ margin-top: 9px;
+ margin-bottom: 7px;
  font-size: 13px;
+}
+
+.safety__info_protection-driver {
+  margin-bottom: 8px;
 }
 
 .protection-front__one {
@@ -955,6 +965,7 @@ margin-bottom: 0;
   height: 51px;
   font-size: 17px;
   vertical-align: middle;
+  line-height: 50px;
 }
 
  .safety__info_result {
@@ -1087,6 +1098,7 @@ margin-bottom: 0;
   height: 51px;
   font-size: 17px;
   vertical-align: middle;
-
+  line-height: 50px;
+}
 
 }
