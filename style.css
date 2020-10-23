@@ -970,7 +970,7 @@ margin-bottom: 0;
   }
 
   .safety__info {
-    padding-bottom: 93px;
+    padding-bottom: 62px;
   }
 
   .safety__info_title {
@@ -986,7 +986,9 @@ margin-bottom: 0;
     padding-top: 12px;
     padding-bottom: 73px;
     font-size: 17px;
-    margin: 0;
+    margin-bottom: 22px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .safety__img {
@@ -1004,24 +1006,24 @@ margin-bottom: 0;
   }
 
   .safety__img-more_Car-crash {
-    width: 86px;
-    height: 44px;
-    left: 206px;
-    top: 72px;
+    width: 189px;
+    height: 84px;
+    left: 422px;
+    top: 146px;
   }
 
   .safety__img-more_Protection-1 {
-    width: 66px;
-    height: 98px;
-    left: 1px;
-    top: 0px;
+    width: 136px;
+    height: 203px;
+    left: 2px;
+    top: 1px;
   }
 
   .safety__img-more_Protection-2 {
-    width: 65px;
-    height: 47px;
-    left: 27px;
-    top: -70px;
+    width: 135px;
+    height: 98px;
+    left: 61px;
+    top: -139px;
   }
 
 .safety__info_protection-title {
@@ -1060,6 +1062,31 @@ margin-bottom: 0;
   top: 2858px;
   left: 421px;
 }
+
+.safety__info_more {
+  padding-left: 176px;
+  font-size: 16px;
+}
+
+.safety__info_more::after {
+  width: 23px;
+  height: 23px;
+  left: -188px;
+  top: 1px;
+}
+
+.safety__info_more::before {
+  width: 25px;
+  height: 25px;
+  left: -20px;
+  top: 10px;
+}
+
+.safety__info__order {
+  width: 216px;
+  height: 51px;
+  font-size: 17px;
+  vertical-align: middle;
 
 
 }
