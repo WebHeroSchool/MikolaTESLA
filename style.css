@@ -477,8 +477,8 @@ background-position-y: 57px;
 
 .stars {
   display: inline-block;
-  width: 25px;
-  height: 25px;
+  width: 24px;
+  height: 24px;
   background-image: url(img/Star.svg);
   background-repeat: no-repeat;
 }
@@ -957,23 +957,36 @@ margin-bottom: 0;
   vertical-align: middle;
 }
 
+ .safety__info_result {
+   display: none;
+ }
+
   .safety {
-    background-size: 30%;
-    padding-top: 276px;
+    background-size: 77%;
+    background-position-x: 96px;
+    background-position-y: 69px;
+    padding-top: 538px;
     padding-right: 0;
   }
 
+  .safety__info {
+    padding-bottom: 93px;
+  }
+
   .safety__info_title {
-    width: 92%;
-    padding-left: 31px;
-    padding-top: 18px;
+    width: 42%;
+    padding-top: 15px;
+    padding-left: 33px;
+    margin: 0;
   }
 
   .safety__info_description {
-    width: 92%;
-    padding-left: 30px;
+    width: 42%;
+    padding-left: 33px;
+    padding-top: 12px;
     padding-bottom: 73px;
-    font-size: 18px;
+    font-size: 17px;
+    margin: 0;
   }
 
   .safety__img {
@@ -1010,5 +1023,43 @@ margin-bottom: 0;
     left: 27px;
     top: -70px;
   }
+
+.safety__info_protection-title {
+  position: absolute;
+  top: 2618px;
+  left: 364px;
+}
+
+.safety__info_protection-front {
+  position: absolute;
+  top: 2710px;
+  left: 421px;
+}
+
+.safety__info_protection-side {
+  position: absolute;
+  top: 2747px;
+  left: 421px;
+}
+
+.safety__info_protection-side-rack {
+  position: absolute;
+  font-size: 17px;
+  top: 2768px;
+  left: 366px;
+}
+
+.safety__info_protection-driver {
+  position: absolute;
+  top: 2822px;
+  left: 421px;
+}
+
+.safety__info_protection-passenger {
+  position: absolute;
+  top: 2858px;
+  left: 421px;
+}
+
 
 }
