@@ -977,17 +977,17 @@ margin-bottom: 0;
   }
 
   .safety__img {
-    width: 362px;
-    height: 186px;
-    left: -2px;
-    top: 2280px;
+    width: 760px;
+    height: 400px;
+    left: -22px;
+    top: 2159px;
   }
 
-  .more-safety {
-    width: 362px;
-    height: 186px;
-    left: -2px;
-    top: 2280px;
+  .safety__img-more {
+    width: 760px;
+    height: 440px;
+    left: -22px;
+    top: 2159px;
   }
 
   .safety__img-more_Car-crash {
