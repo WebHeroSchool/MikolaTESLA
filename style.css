@@ -242,6 +242,7 @@ body {
 
 .future {
 background-image: url(img/tesla_inside.svg);
+background-repeat: no-repeat;
 padding-left: 1000px;
 margin: 0;
 margin-bottom: 115px;
@@ -407,7 +408,7 @@ margin-bottom: 115px;
   margin-bottom: 57px;
 }
 
-.safety__info_protection_title {
+.safety__info_protection-title {
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 600;
   font-size: 31px;
@@ -417,7 +418,7 @@ margin-bottom: 115px;
   margin-left: 57px;
   margin-bottom: 25px;
 }
- .info__protection_front, .info__protection_side, .info__protection_side_rack, .info__protection_driver, .info__protection_passenger {
+ .safety__info_protection-front, .safety__info_protection-side, .info__protection_side_rack, .safety__info_protection-driver, .safety__info_protection-passenger {
   position: relative;
   display: block;
   margin: auto;
@@ -426,19 +427,19 @@ margin-bottom: 115px;
 
 }
 
-.protection__front_one {
+.protection-front__one {
   margin-left: 54px;
 }
 
-.protection__side_one {
+.protection-side__one {
   margin-left: 78px;
 }
 
-.protection__side_rack_one {
+.protection-side-rack__one {
   margin-left: 5px;
 }
 
-.protection__driver_one {
+.protection-driver__one {
   margin-left: 42px;
 }
 
@@ -446,7 +447,7 @@ margin-bottom: 115px;
   margin-left: 34px;
 }
 
-.protection__passenger_one {
+.protection-passenger__one {
   margin-left: 36px;
 }
 
@@ -477,7 +478,7 @@ margin-bottom: 115px;
   left: 345px;
 }
 
-.more-safety {
+.safety__img-more {
   position: absolute;
   width: 1049px;
   height: 540px;
@@ -485,7 +486,7 @@ margin-bottom: 115px;
   left: 345px;
 }
 
-.Car_crash {
+.safety__img-more_Car-crash {
   left: 598px;
   top: 218px;
   position: relative;
@@ -493,7 +494,7 @@ margin-bottom: 115px;
   height: 128px;
 }
 
-.Protection_1 {
+.safety__img-more_Protection-1 {
   left: 10px;
   top: 4px;
   position: relative;
@@ -501,7 +502,7 @@ margin-bottom: 115px;
   height: 285px;
 }
 
-.Protection_2 {
+.safety__img-more_Protection-2 {
   left: 92px;
   top: -192px;
   position: relative;
@@ -571,7 +572,7 @@ margin-bottom: 115px;
   margin-bottom: 95px;
 }
 
-.menu__models, .menu__shop_item {
+.menu-models, .menu-shop_item {
   display: none;
 }
 .logo {
@@ -581,7 +582,7 @@ margin-bottom: 115px;
   background-size: cover;
 }
 
-.menu__mobile {
+.menu-shop__mobile {
   top: -6px;
 }
 
@@ -675,8 +676,8 @@ margin-bottom: 0;
 }
 
 .future__info_display, .future__info_wifi, .future__info_bag, .future__info_more, .future__info_order,
-.safety__info_protection_title, .info__protection_front, .info__protection_side, .info__protection_side_rack,
-.info__protection_driver, .info__protection_passenger, .safety__info_result, .safety__info_more, .safety__info__order {
+.safety__info_protection-title, .safety__info_protection-front, .safety__info_protection-side, .info__protection_side_rack,
+.safety__info_protection-driver, .safety__info_protection-passenger, .safety__info_result, .safety__info_more, .safety__info__order {
   display: none;
 }
 
@@ -713,21 +714,21 @@ margin-bottom: 0;
   top: 1337px;
 }
 
-.Car_crash {
+.safety__img-more_Car-crash {
   width: 86px;
   height: 44px;
   left: 206px;
   top: 72px;
 }
 
-.Protection_1 {
+.safety__img-more_Protection-1 {
   width: 66px;
   height: 98px;
   left: 1px;
   top: 0px;
 }
 
-.Protection_2 {
+.safety__img-more_Protection-2 {
   width: 65px;
   height: 47px;
   left: 27px;
@@ -735,7 +736,7 @@ margin-bottom: 0;
 }
 }
 
-@media (max-width: 768px) {
+@media (width: 768px) {
 
   .wrapper {
     width: 100%;
@@ -746,7 +747,7 @@ margin-bottom: 0;
     margin-bottom: 181px;
   }
 
-  .menu__models, .menu__shop_item {
+  .menu-models, .menu-shop__item {
     display: none;
   }
   .logo {
@@ -756,13 +757,13 @@ margin-bottom: 0;
     background-size: cover;
   }
 
-  .menu__mobile {
+  .menu-shop__mobile {
     width: 35px;
     left: -13px;
     top: -2px;
   }
 
-  .menu__mobile::after, .menu__mobile::before {
+  .menu-shop__mobile::after, .menu-menu__mobile::before {
     width: 35px;
   }
 
@@ -902,21 +903,21 @@ margin-bottom: 0;
     top: 2280px;
   }
 
-  .Car_crash {
+  .safety__img-more_Car-crash {
     width: 86px;
     height: 44px;
     left: 206px;
     top: 72px;
   }
 
-  .Protection_1 {
+  .safety__img-more_Protection-1 {
     width: 66px;
     height: 98px;
     left: 1px;
     top: 0px;
   }
 
-  .Protection_2 {
+  .safety__img-more_Protection-2 {
     width: 65px;
     height: 47px;
     left: 27px;
