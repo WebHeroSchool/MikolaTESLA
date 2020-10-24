@@ -512,7 +512,7 @@ background-position-y: 57px;
   left: 345px;
 }
 
-.safety__img-more {
+.img-more {
   position: absolute;
   width: 1049px;
   height: 540px;
@@ -520,7 +520,7 @@ background-position-y: 57px;
   left: 345px;
 }
 
-.safety__img-more_Car-crash {
+.img-more__Car-crash {
   left: 598px;
   top: 218px;
   position: relative;
@@ -528,7 +528,7 @@ background-position-y: 57px;
   height: 128px;
 }
 
-.safety__img-more_Protection-1 {
+.img-more__Protection-1 {
   left: 10px;
   top: 4px;
   position: relative;
@@ -536,7 +536,7 @@ background-position-y: 57px;
   height: 285px;
 }
 
-.safety__img-more_Protection-2 {
+.img-more__Protection-2 {
   left: 92px;
   top: -192px;
   position: relative;
@@ -758,28 +758,28 @@ margin-bottom: 0;
   top: 1337px;
 }
 
-.safety__img-more {
+.img-more {
   width: 362px;
   height: 186px;
   left: -2px;
   top: 1340px;
 }
 
-.safety__img-more_Car-crash {
+.img-more__Car-crash {
   width: 86px;
   height: 44px;
   left: 206px;
   top: 72px;
 }
 
-.safety__img-more_Protection-1 {
+.img-more__Protection-1 {
   width: 66px;
   height: 98px;
   left: 1px;
   top: 0px;
 }
 
-.safety__img-more_Protection-2 {
+.img-more__Protection-2 {
   width: 65px;
   height: 47px;
   left: 27px;
@@ -1012,28 +1012,28 @@ margin-bottom: 0;
     top: 2159px;
   }
 
-  .safety__img-more {
+  .img-more {
     width: 760px;
     height: 440px;
     left: -22px;
     top: 2159px;
   }
 
-  .safety__img-more_Car-crash {
+  .img-more__Car-crash {
     width: 189px;
     height: 84px;
     left: 435px;
     top: 146px;
   }
 
-  .safety__img-more_Protection-1 {
+  .img-more__Protection-1 {
     width: 136px;
     height: 203px;
     left: 2px;
     top: 1px;
   }
 
-  .safety__img-more_Protection-2 {
+  .img-more__Protection-2 {
     width: 135px;
     height: 98px;
     left: 61px;
