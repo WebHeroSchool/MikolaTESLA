@@ -921,6 +921,7 @@ margin-bottom: 0;
   }
 
 .future__info_display {
+  width: 38%;
   position: absolute;
   margin: 0;
   top: 1617px;
@@ -928,6 +929,7 @@ margin-bottom: 0;
 }
 
 .future__info_wifi {
+  width: 38%;
   position: absolute;
   margin: 0;
   top: 1702px;
@@ -935,6 +937,7 @@ margin-bottom: 0;
 }
 
 .future__info_bag {
+  width: 38%;
   position: absolute;
   margin: 0;
   top: 1794px;
@@ -1038,24 +1041,28 @@ margin-bottom: 0;
   }
 
 .safety__info_protection-title {
+  width: 43%;
   position: absolute;
   top: 2618px;
   left: 364px;
 }
 
 .safety__info_protection-front {
+  width: 42%;
   position: absolute;
   top: 2710px;
   left: 421px;
 }
 
 .safety__info_protection-side {
+  width: 42%;
   position: absolute;
   top: 2747px;
   left: 421px;
 }
 
 .safety__info_protection-side-rack {
+  width: 42%;
   position: absolute;
   font-size: 17px;
   top: 2768px;
@@ -1065,12 +1072,14 @@ margin-bottom: 0;
 }
 
 .safety__info_protection-driver {
+  width: 42%;
   position: absolute;
   top: 2822px;
   left: 421px;
 }
 
 .safety__info_protection-passenger {
+  width: 42%;
   position: absolute;
   top: 2858px;
   left: 421px;
