@@ -189,7 +189,7 @@ body {
   margin-bottom: 23px;
 }
 
-.main__info {
+.info-tesla {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 34px;
@@ -220,17 +220,26 @@ body {
   background-color: #E51937;
 }*/
 
-.main__info_speed {
+.info-tesla__speed {
   margin-right: 5%;
   display: inline-block;
   width: 380px;
   height: 58px;
-  background-image: url(img/speed_km.svg);
+  background-image: url(img/2,7.svg);
   background-repeat: no-repeat;
   margin-right: 100px;
 }
 
-.main__info_button {
+.info-tesla__km {
+  margin-right: 5%;
+  display: inline-block;
+  width: 380px;
+  height: 58px;
+  background-image: url(img/632.svg);
+  background-repeat: no-repeat;
+}
+
+.info-tesla__button {
   display: block;
   width: 160px;
   height: 40px;
@@ -247,7 +256,7 @@ body {
   margin-top: 10px;
 }
 
-.main__info_test {
+.info-tesla__test {
   background-image: url(img/test_drive.svg);
   background-repeat: no-repeat;
   position: relative;
@@ -399,14 +408,14 @@ background-position-y: 57px;
   background-position-y: 141px;
 }
 
-.safety__info {
+.safety-info {
   margin: 0;
   padding-top: 51px;
   padding-bottom: 62px;
   background-color: #E51937;
 }
 
-.safety__info_title {
+.safety-info__title {
   margin-top: 0;
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 600;
@@ -418,7 +427,7 @@ background-position-y: 57px;
   margin-bottom: 12px;
 }
 
-.safety__info_description {
+.safety-info__description {
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 500;
   font-size: 17px;
@@ -429,7 +438,7 @@ background-position-y: 57px;
   margin-bottom: 57px;
 }
 
-.safety__info_protection-title {
+.safety-info__protection-title {
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 600;
   font-size: 33px;
@@ -439,41 +448,41 @@ background-position-y: 57px;
   margin-left: 57px;
   margin-bottom: 28px;
 }
- .safety__info_protection-front, .safety__info_protection-side, .info__protection-side-rack, .safety__info_protection-driver, .safety__info_protection-passenger {
+ .front-stars, .side-stars, .info__protection-side-rack, .driver-stars, .passenger-stars {
   position: relative;
   display: block;
   margin: auto;
   width: 75%;
 }
 
-.safety__info_protection-front {
+.front-stars {
   margin-bottom: 8px;
 }
 
-.safety__info_protection-side-rack {
+.rack-stars {
  margin-left: 55px;
  margin-top: 9px;
  margin-bottom: 7px;
  font-size: 13px;
 }
 
-.safety__info_protection-driver {
+.driver-stars {
   margin-bottom: 8px;
 }
 
-.protection-front__one {
+.front-stars__first {
   margin-left: 54px;
 }
 
-.protection-side__one {
+.side-stars__first {
   margin-left: 78px;
 }
 
-.protection-side-rack__one {
+.rack-stars__first {
   margin-left: 52px;
 }
 
-.protection-driver__one {
+.driver-stars__first {
   margin-left: 42px;
 }
 
@@ -481,7 +490,7 @@ background-position-y: 57px;
   margin-left: 34px;
 }
 
-.protection-passenger__one {
+.passenger-stars__first {
   margin-left: 36px;
 }
 
@@ -493,7 +502,7 @@ background-position-y: 57px;
   background-repeat: no-repeat;
 }
 
-.safety__info_result {
+.safety-info__result {
   display: block;
   margin: auto;
   width: 309px;
@@ -544,7 +553,7 @@ background-position-y: 57px;
   height: 137px;
 }
 
-.safety__info_more {
+.safety-info__more {
   margin-bottom: 63px;
   color: #FFFFFF;
   margin: auto;
@@ -557,7 +566,7 @@ background-position-y: 57px;
   line-height: 35px;
 }
 
-.safety__info_more::before {
+.safety-info__more::before {
   position: relative;
   display: inline-block;
   content: "";
@@ -569,7 +578,7 @@ background-position-y: 57px;
   top: 6px;
 }
 
-.safety__info_more::after {
+.safety-info__more::after {
   text-align: center;
   position: relative;
   display: inline-block;
@@ -580,7 +589,7 @@ background-position-y: 57px;
   font-size: 18px;
 }
 
-.safety__info__order {
+.safety-info__order {
   display: inline-block;
   width: 160px;
   height:  40px;
@@ -632,7 +641,7 @@ background-position-y: 23px;
 margin-bottom: 0;
 }
 
-.main__info {
+.info-tesla {
   width: 100%;
 }
 
@@ -663,12 +672,12 @@ margin-bottom: 0;
   margin-bottom: 20px;
 }
 
-.main__info {
+.info-tesla {
   display: inline-block;
   margin-bottom: 28px;
 }
 
-.main__info_speed {
+.info-tesla__speed {
   margin-right: 0px;
   margin-left: 39px;
   margin-bottom: 11px;
@@ -677,13 +686,21 @@ margin-bottom: 0;
   background-size: contain;
 }
 
-.main__info_test {
+.info-tesla__km {
+  margin-right: 0px;
+  margin-left: 39px;
+  margin-bottom: 11px;
+  width: 300px;
+  height: 50px;
+  background-size: contain;
+
+.info-tesla__test {
   top: 41px;
   margin-top: -8px;
   margin-left: 32px;
 }
 
-.main__info_button {
+.info-tesla__button {
   margin-left: 175px;
 }
 
@@ -723,8 +740,8 @@ margin-bottom: 0;
 }
 
 .future__info_display, .future__info_wifi, .future__info_bag, .future__info_more, .future__info_order,
-.safety__info_protection-title, .safety__info_protection-front, .safety__info_protection-side, .safety__info_protection-side-rack,
-.safety__info_protection-driver, .safety__info_protection-passenger, .safety__info_result, .safety__info_more, .safety__info__order {
+.safety-info__protection-title, .front-stars, .side-stars, .rack-stars,
+.driver-stars, .passenger-stars, .safety-info__result, .safety-info__more, .safety-info__order {
   display: none;
 }
 
@@ -734,18 +751,18 @@ margin-bottom: 0;
   padding-right: 0;
 }
 
-.safety__info {
+.safety-info {
   padding-top: 0;
   padding-bottom: 17px;
 }
 
-.safety__info_title {
+.safety-info__title {
   width: 92%;
   padding-left: 31px;
   padding-top: 18px;
 }
 
-.safety__info_description {
+.safety-info__description {
   width: 92%;
   padding-left: 30px;
   font-size: 18px;
@@ -857,12 +874,12 @@ margin-bottom: 0;
     margin-bottom: 36px;
   }
 
-  .main__info {
+  .info-tesla {
     display: inline-block;
     margin-bottom: 56px;
   }
 
-  .main__info_speed {
+  .info-tesla__speed {
     margin-left: 135px;
     margin-bottom: 11px;
     width: 520px;
@@ -870,7 +887,14 @@ margin-bottom: 0;
     background-size: contain;
   }
 
-  .main__info_test {
+  .info-tesla__km {
+    margin-left: 135px;
+    margin-bottom: 11px;
+    width: 520px;
+    height: 100px;
+    background-size: contain;
+
+  .info-tesla__test {
     width: 162px;
     height: 40px;
     background-size: contain;
@@ -879,7 +903,7 @@ margin-bottom: 0;
     margin-left: 173px;
   }
 
-  .main__info_button {
+  .info-tesla__button {
     width: 220px;
     height: 52px;
     margin-left: 370px;
@@ -971,7 +995,7 @@ margin-bottom: 0;
   line-height: 50px;
 }
 
- .safety__info_result {
+ .safety-info__result {
    display: none;
  }
 
@@ -983,18 +1007,18 @@ margin-bottom: 0;
     padding-right: 0;
   }
 
-  .safety__info {
+  .safety-info {
     padding-bottom: 62px;
   }
 
-  .safety__info_title {
+  .safety-info__title {
     width: 42%;
     padding-top: 15px;
     padding-left: 33px;
     margin: 0;
   }
 
-  .safety__info_description {
+  .safety-info__description {
     width: 42%;
     padding-left: 33px;
     padding-top: 12px;
@@ -1040,28 +1064,28 @@ margin-bottom: 0;
     top: -139px;
   }
 
-.safety__info_protection-title {
+.safety-info__protection-title {
   width: 43%;
   position: absolute;
   top: 2618px;
   left: 364px;
 }
 
-.safety__info_protection-front {
+.front-stars {
   width: 42%;
   position: absolute;
   top: 2710px;
   left: 421px;
 }
 
-.safety__info_protection-side {
+.side-stars {
   width: 42%;
   position: absolute;
   top: 2747px;
   left: 421px;
 }
 
-.safety__info_protection-side-rack {
+.rack-stars {
   width: 42%;
   position: absolute;
   font-size: 17px;
@@ -1071,40 +1095,40 @@ margin-bottom: 0;
   margin-bottom: 1px;
 }
 
-.safety__info_protection-driver {
+.driver-stars {
   width: 42%;
   position: absolute;
   top: 2822px;
   left: 421px;
 }
 
-.safety__info_protection-passenger {
+.passenger-stars {
   width: 42%;
   position: absolute;
   top: 2858px;
   left: 421px;
 }
 
-.safety__info_more {
+.safety-info__more {
   padding-left: 176px;
   font-size: 16px;
 }
 
-.safety__info_more::after {
+.safety-info__more::after {
   width: 23px;
   height: 23px;
   left: -188px;
   top: 1px;
 }
 
-.safety__info_more::before {
+.safety-info__more::before {
   width: 25px;
   height: 25px;
   left: -20px;
   top: 10px;
 }
 
-.safety__info__order {
+.safety-info__order {
   width: 216px;
   height: 51px;
   font-size: 17px;
