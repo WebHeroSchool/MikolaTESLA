@@ -8,7 +8,7 @@ body {
 
 .header {
   margin-top: 25px;
-  margin-bottom: 157px;
+  margin-bottom: 5%;
   display: flex;
   justify-content: start;
   align-content: center;
@@ -150,19 +150,17 @@ body {
 
 .main {
   width: 100%;
-  height: 565px;
   background-image: url(img/teslatxt.svg);
   background-position: top, center;
   background-repeat: no-repeat;
-  margin-bottom: 102px;
+  margin-bottom: 14px;
   background-position-x: 0px;
-  background-position-y: -99px;
+  background-position-y: -131%;
 }
 
 .main__title {
-  position: absolute;
+  position: relative;
   left: 543px;
-  top: 133px;
   width: 370px;
   height: 110px;
   display: block;
@@ -173,12 +171,14 @@ body {
 .main__text {
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 13px;
   font-style: normal;
   line-height: 18px;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 26px;
+  margin-bottom: -1%;
+  position: relative;
+  top: -44px;
 }
 
 .main__img {
@@ -187,13 +187,13 @@ body {
   height: 450px;
   margin-left: 14%;
   margin-bottom: 23px;
+  top: -44%;
 }
 
 .info-tesla {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 34px;
-
 }
 
 .main__arrow {
@@ -223,7 +223,7 @@ body {
 .info-tesla__speed {
   margin-right: 5%;
   display: inline-block;
-  width: 380px;
+  width: 172px;
   height: 58px;
   background-image: url(img/2,7.svg);
   background-repeat: no-repeat;
@@ -233,7 +233,7 @@ body {
 .info-tesla__km {
   margin-right: 5%;
   display: inline-block;
-  width: 380px;
+  width: 153px;
   height: 58px;
   background-image: url(img/632.svg);
   background-repeat: no-repeat;
@@ -278,14 +278,14 @@ background-position-y: 57px;
 }
 
 .future__logo-models {
+  top: 71px;
   display: block;
-  position: absolute;
+  position: relative;
   width: 288px;
   height: 86px;
   background-image: url(img/ModelSfut.svg);
   background-repeat: no-repeat;
-  left: 86px;
-  margin-top: 80px;
+  left: -208%;
 }
 
 .future__info {
@@ -518,19 +518,19 @@ background-position-y: 57px;
 }
 
 .safety__img {
-  position: absolute;
+  position: relative;
   width: 1049px;
   height: 540px;
-  top: 2023px;
-  left: 345px;
+  top: 174px;
+  left: 85%;
 }
 
 .img-more {
-  position: absolute;
+  position: relative;
   width: 1049px;
   height: 540px;
-  top: 2015px;
-  left: 345px;
+  top: -366px;
+  left: 85%;
 }
 
 .img-more__Car-crash {
