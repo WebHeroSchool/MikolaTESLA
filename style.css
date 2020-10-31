@@ -521,37 +521,46 @@ background-position-y: 57px;
   position: relative;
   width: 1049px;
   height: 540px;
-  top: 174px;
-  left: 85%;
 }
 
 .img-more {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(img/carframe.svg);
   position: relative;
-  width: 1049px;
-  height: 540px;
-  top: -366px;
-  left: 85%;
+  width: 190%;
+  top: 61px;
+  left: 109%;
 }
 
 .img-more__Car-crash {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(img/Carcrash.svg);
   left: 598px;
-  top: 218px;
+  top: 364px;
   position: relative;
-  width: 250px;
+  width: 235px;
   height: 128px;
 }
 
 .img-more__Protection-1 {
-  left: 10px;
-  top: 4px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(img/Protection1.svg);
+  left: 264px;
+  top: -132px;
   position: relative;
-  width: 193px;
+  width: 172px;
   height: 285px;
 }
 
 .img-more__Protection-2 {
-  left: 92px;
-  top: -192px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(img/Protection2.svg);
+  left: 543px;
+  top: -462px;
   position: relative;
   width: 189px;
   height: 137px;
