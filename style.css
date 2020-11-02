@@ -8,7 +8,7 @@ body {
 
 .header {
   margin-top: 25px;
-  margin-bottom: 5%;
+  margin-bottom: 5.3%;
   display: flex;
   justify-content: start;
   align-content: center;
@@ -29,11 +29,11 @@ body {
 }
 
 .menu-models__item1 {
-  margin-right: 68px;
+  margin-right: 64px;
 }
 
 .menu-models__item2 {
-  margin-right: 23px;
+  margin-right: 27px;
 }
 
 .menu-models__item3 {
@@ -55,12 +55,13 @@ body {
   font-size: 16px;
   font-style: normal;
   line-height: 18px;
-  padding-top: 18px;
+  padding-top: 17px;
   text-decoration: none;
   color: #000;
 }
 
 .menu-models__item_active::after{
+  top: 5px;
   display: block;
   position: relative;
   content: "";
@@ -94,11 +95,11 @@ body {
 .menu-shop__item {
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 16px;
   font-style: normal;
   line-height: 18px;
-  margin-right: 36px;
-  padding-top: 20px;
+  margin-right: 32px;
+  padding-top: 17px;
   text-decoration: none;
   color: #000;
 }
@@ -153,9 +154,8 @@ body {
   background-image: url(img/teslatxt.svg);
   background-position: top, center;
   background-repeat: no-repeat;
-  margin-bottom: 14px;
   background-position-x: 0px;
-  background-position-y: -131%;
+  background-position-y: -6%;
 }
 
 .main__title {
@@ -163,6 +163,7 @@ body {
   left: 543px;
   width: 370px;
   height: 110px;
+  margin-bottom: 12px;
   display: block;
   background-image: url(img/ModelS12.svg);
   background-repeat: no-repeat;
@@ -178,7 +179,7 @@ body {
   margin-top: 0;
   margin-bottom: -1%;
   position: relative;
-  top: -44px;
+  top: -41px;
 }
 
 .main__img {
@@ -186,7 +187,7 @@ body {
   width: 970px;
   height: 450px;
   margin-left: 14%;
-  margin-bottom: 23px;
+  margin-bottom: 19px;
   top: -44%;
 }
 
@@ -227,11 +228,11 @@ body {
   height: 58px;
   background-image: url(img/2,7.svg);
   background-repeat: no-repeat;
-  margin-right: 100px;
+  margin-right: 4.2%;
 }
 
 .info-tesla__km {
-  margin-right: 5%;
+  margin-right: 6.5%;
   display: inline-block;
   width: 153px;
   height: 58px;
@@ -241,8 +242,8 @@ body {
 
 .info-tesla__button {
   display: block;
-  width: 160px;
-  height: 40px;
+  width: 155px;
+  height: 35px;
   border: 2px solid #E51937;
   text-align: center;
   text-decoration: none;
@@ -254,6 +255,7 @@ body {
   color: #E51937;
   margin-right: 317px;
   margin-top: 10px;
+  margin-right: 22.5%;
 }
 
 .info-tesla__test {
@@ -266,6 +268,7 @@ body {
   content: "";
   margin-right: 32px;
   margin-top: 20px;
+  margin-right: 2%;
 }
 
 .future {
@@ -273,12 +276,12 @@ background-image: url(img/tesla_inside.svg);
 background-repeat: no-repeat;
 padding-left: 1000px;
 margin: 0;
-background-position-y: 57px;
+background-position-y: 75px;
 /*margin-bottom: 120px;*/
 }
 
 .future__logo-models {
-  top: 71px;
+  top: 98px;
   display: block;
   position: relative;
   width: 288px;
@@ -289,10 +292,12 @@ background-position-y: 57px;
 }
 
 .future__info {
-  padding-top: 55px;
+  position: relative;
+  top: -66px;
+  padding-top: 53px;
+  padding-bottom: 60px;
   margin: 0;
   background-color: #E51937;
-  padding-bottom: 60px;
 }
 
 .future__info_title {
@@ -305,7 +310,7 @@ background-position-y: 57px;
   font-style: normal;
   line-height: 31px;
   padding-left: 52px;
-  margin-bottom: -4px;
+  margin-bottom: -1px;
 }
 
 .future__info_description {
@@ -389,7 +394,7 @@ background-position-y: 57px;
 .future__info_order {
   display: inline-block;
   width: 160px;
-  height:  40px;
+  height:  37px;
   border: 2px solid #FFFFFF;
   text-align: center;
   color: #FFFFFF;
@@ -407,10 +412,12 @@ background-position-y: 57px;
   padding-right: 1000px;
   margin: 0;
   background-position-x: 647px;
-  background-position-y: 141px;
+  background-position-y: 71px;
 }
 
 .safety-info {
+  position: relative;
+  top: -616px;
   margin: 0;
   padding-top: 51px;
   padding-bottom: 62px;
@@ -427,7 +434,7 @@ background-position-y: 57px;
   line-height: 36px;
   width: 73%;
   margin: auto;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .safety-info__description {
@@ -450,7 +457,7 @@ background-position-y: 57px;
   line-height: 36px;
   width: 61%;
   margin-left: 57px;
-  margin-bottom: 28px;
+  margin-bottom: 26px;
 }
  .front-stars, .side-stars, .info__protection-side-rack, .driver-stars, .passenger-stars {
   position: relative;
@@ -483,7 +490,7 @@ background-position-y: 57px;
 }
 
 .rack-stars__first {
-  margin-left: 52px;
+  margin-left: 25px;
 }
 
 .driver-stars__first {
@@ -512,7 +519,7 @@ background-position-y: 57px;
   width: 309px;
   height: 92px;
   background-image: url(img/five_stars.svg);
-  margin-bottom: 50px;
+  margin-bottom: 52px;
   margin-top: 94px;
   background-repeat: no-repeat;
 }
@@ -528,19 +535,20 @@ background-position-y: 57px;
   background-repeat: no-repeat;
   background-image: url(img/carframe.svg);
   position: relative;
-  width: 190%;
-  top: 61px;
-  left: 109%;
+  width: 237%;
+  top: 157px;
+  left: 79%;
+  z-index: 1;
 }
 
 .img-more__Car-crash {
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(img/Carcrash.svg);
-  left: 598px;
-  top: 364px;
+  left: 596px;
+  top: 368px;
   position: relative;
-  width: 235px;
+  width: 249px;
   height: 128px;
 }
 
@@ -548,10 +556,10 @@ background-position-y: 57px;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(img/Protection1.svg);
-  left: 264px;
+  left: 261px;
   top: -132px;
   position: relative;
-  width: 172px;
+  width: 193px;
   height: 285px;
 }
 
@@ -559,8 +567,8 @@ background-position-y: 57px;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(img/Protection2.svg);
-  left: 543px;
-  top: -462px;
+  left: 540px;
+  top: -465px;
   position: relative;
   width: 189px;
   height: 137px;
@@ -571,7 +579,7 @@ background-position-y: 57px;
   color: #FFFFFF;
   margin: auto;
   padding-left: 48px;
-  margin-right: 23px;
+  margin-right: 29px;
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 700;
   font-size: 10px;
@@ -604,8 +612,8 @@ background-position-y: 57px;
 
 .safety-info__order {
   display: inline-block;
-  width: 160px;
-  height:  40px;
+  width: 155px;
+  height:  37px;
   border: 2px solid #FFFFFF;
   text-align: center;
   color: #FFFFFF;
