@@ -668,9 +668,9 @@ margin-bottom: 0;
 
 .main__title {
   margin: 0;
-  position: absolute;
+  position: relative;
   left: 24%;
-  top: 19.8%;
+  top: -10.2%;
   width: 201px;
   height: 61px;
   display: block;
@@ -678,6 +678,7 @@ margin-bottom: 0;
 }
 
 .main__text {
+  top: -14%;
   font-family: "montserratregular", arial, helvetica, sans-serif ;
   font-weight: 500;
   font-size: 11px;
@@ -687,15 +688,16 @@ margin-bottom: 0;
   margin-bottom: 12.5%; }
 
 .main__img {
+  top: -14%;
   width: 357px;
   height: 166px;
   margin-left: 3%;
-  margin-bottom: 20px;
+  margin-bottom: -11%;
 }
 
 .info-tesla {
   display: inline-block;
-  margin-bottom: 28px;
+  margin-bottom: 9%;
 }
 
 .info-tesla__speed {
@@ -720,7 +722,7 @@ margin-bottom: 0;
   background-image: url(img/Testdrive-mobile.svg);
   top: 37px;
   margin-top: -8px;
-  margin-left: 8.5%;
+  margin-left: 9.5%;
 }
 
 .info-tesla__button {
@@ -728,7 +730,7 @@ margin-bottom: 0;
   background-color: #E51937;
   font-size: 14px;
   margin-top: 1%;
-  margin-left: 47%;
+  margin-left: 48%;
 }
 
 .main__arrow {
@@ -743,7 +745,7 @@ margin-bottom: 0;
   padding-left: 0;
   background-size: 135%;
   background-repeat: no-repeat;
-  padding-top: 85%;
+  padding-top: 103%;
   background-position-y: -2%;
   background-position-x: 31%;
   margin-bottom: 0;
@@ -766,6 +768,7 @@ margin-bottom: 0;
   width: 92%;
   padding-left: 7%;
   margin-bottom: 0;
+  margin-top: 3%;
 }
 
 .future__info_display, .future__info_wifi, .future__info_bag, .future__info_more, .future__info_order,
@@ -783,6 +786,7 @@ margin-bottom: 0;
 }
 
 .safety-info {
+  top: -250px;
   padding-top: 0;
   padding-bottom: 5%;
 }
@@ -810,6 +814,8 @@ margin-bottom: 0;
 }
 
 .img-more {
+  position: relative;
+  top: -282px;
   width: 96%;
   height: 186px;
   left: -1px;
@@ -897,9 +903,9 @@ margin-bottom: 0;
 
   .main__title {
     margin: 0;
-    position: absolute;
+    position: relative;
     left: 27%;
-    top: 22%;
+    top: -82px;
     width: 360px;
     height: 110px;
     display: block;
@@ -907,6 +913,7 @@ margin-bottom: 0;
   }
 
   .main__text {
+    top: -111px;
     font-family: "montserratregular", arial, helvetica, sans-serif ;
     font-weight: 500;
     font-size: 17px;
@@ -917,13 +924,17 @@ margin-bottom: 0;
   }
 
   .main__img {
-    width: 698px;
+    top: -110px;
+    width: 92%;
     height: 327px;
-    margin-left: 5%;
-    margin-bottom: 4.3%;
+    margin-left: 4%;
+    margin-bottom: 0;
   }
 
   .info-tesla {
+    padding-top: 2.5%;
+    position: relative;
+    top: -98px;
     width: 100%;
     display: inline-block;
     margin-bottom: 8%;
@@ -977,19 +988,20 @@ margin-bottom: 0;
 
   .future__logo-models {
     left: 57.3%;
-    top: 126%;
+    top: -480px;
   }
 
   .future {
     padding-left: 0;
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-top: 71.5%;
+    padding-top: 69%;
     background-position-x: 0px;
-    background-position-y: 8.3%;
+    background-position-y: 3.3%;
     margin-bottom: 0;
   }
   .future__info {
+    top: -86px;
     padding-bottom: 6.1%;
   }
   .future__info_title{
