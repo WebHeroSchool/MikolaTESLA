@@ -1230,4 +1230,40 @@ margin-bottom: 0;
 
 }
 
-@media (min-width: 769px)
+@media (min-width: 769px) {
+
+.main__text {
+  font-size: 13px;
+}
+
+.info-tesla__button {
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+.future__logo-models {
+  top: 99px;
+}
+
+.future__info {
+  padding-top: 13%;
+}
+
+.future {
+  background-position-y: 54%;
+}
+
+.future__info_bag {
+  margin-bottom: 38%;
+}
+
+.future__info_more::after {
+  left: -27%;
+}
+
+.future__info_more {
+  font-size: 11px;
+}
+
+
+}
