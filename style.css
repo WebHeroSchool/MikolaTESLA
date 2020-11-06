@@ -1021,7 +1021,7 @@ margin-bottom: 0;
 
 .future__info_display {
   width: 38%;
-  position: absolute;
+  position: relative;
   margin: 0;
   top: 203.5%;
   left: 59%;
@@ -1029,7 +1029,7 @@ margin-bottom: 0;
 
 .future__info_wifi {
   width: 38%;
-  position: absolute;
+  position: relative;
   margin: 0;
   top: 214.5%;
   left: 58.5%;
@@ -1037,7 +1037,7 @@ margin-bottom: 0;
 
 .future__info_bag {
   width: 38%;
-  position: absolute;
+  position: relative;
   margin: 0;
   top: 226%;
   left: 59%;
@@ -1148,7 +1148,7 @@ margin-bottom: 0;
 .safety-info__protection-title {
   color: #FFFFFF;
   width: 43%;
-  position: absolute;
+  position: relative;
   top: 329.5%;
   left: 48%;
   font-size: 32px;
@@ -1157,26 +1157,26 @@ margin-bottom: 0;
 .front-stars {
   color: #FFFFFF;
   width: 42%;
-  position: absolute;
+  position: relative;
   top: 341%;
-  left: 55%;
+  left: 28%;
 }
 
 .side-stars {
   color: #FFFFFF;
   width: 42%;
-  position: absolute;
+  position: relative;
   top: 345.8%;
-  left: 55%;
+  left: 28%;
 }
 
 .rack-stars {
   color: #FFFFFF;
   width: 42%;
-  position: absolute;
+  position: relative;
   font-size: 17px;
   top: 348.4%;
-  left: 48%;
+  left: 25%;
   margin-top: 17px;
   margin-bottom: 1px;
 }
@@ -1188,17 +1188,17 @@ margin-bottom: 0;
 .driver-stars {
   color: #FFFFFF;
   width: 42%;
-  position: absolute;
+  position: relative;
   top: 355.2%;
-  left: 55%;
+  left: 28%;
 }
 
 .passenger-stars {
   color: #FFFFFF;
   width: 42%;
-  position: absolute;
+  position: relative;
   top: 360%;
-  left: 55%;
+  left: 28%;
 }
 
 .safety-info__more {
