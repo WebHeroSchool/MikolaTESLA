@@ -778,11 +778,12 @@ margin-bottom: 0;
 }
 
 .safety {
+  height: 100px;
   background-size: 106%;
   padding-top: 78.4%;
   padding-right: 0;
   background-position-x: 0%;
-  background-position-y: 9%;
+  background-position-y: -5%;
 }
 
 .safety-info {
@@ -810,7 +811,7 @@ margin-bottom: 0;
   width: 96%;
   height: 36%;
   left: -2px;
-  top: 162%;
+  top: -282.2%;
 }
 
 .img-more {
@@ -819,7 +820,7 @@ margin-bottom: 0;
   width: 96%;
   height: 186px;
   left: -1px;
-  top: 168.8%;
+  top: -282.2%;
 }
 
 .img-more__Car-crash {
@@ -828,7 +829,7 @@ margin-bottom: 0;
   width: 25%;
   height: 27%;
   left: 57%;
-  top: 67.5%;
+  top: 68.5%;
 }
 
 .img-more__Protection-1 {
@@ -877,7 +878,7 @@ margin-bottom: 0;
     width: 166px;
     height: 51px;
     background-size: cover;
-    margin-right: 34.5%;
+    margin-right: 24.5%;
   }
 
   .menu-shop__mobile {
@@ -920,11 +921,11 @@ margin-bottom: 0;
     font-style: normal;
     line-height: 18px;
     margin-left: -3px;
-    margin-bottom: 11%;
+    margin-bottom: 1%;
   }
 
   .main__img {
-    top: -110px;
+    top: -32px;
     width: 92%;
     height: 327px;
     margin-left: 4%;
@@ -932,9 +933,7 @@ margin-bottom: 0;
   }
 
   .info-tesla {
-    padding-top: 2.5%;
     position: relative;
-    top: -98px;
     width: 100%;
     display: inline-block;
     margin-bottom: 8%;
@@ -983,25 +982,26 @@ margin-bottom: 0;
   }
 
   .main__arrow {
-    margin-left: 367px;
+    margin-left: 48%;
   }
 
   .future__logo-models {
-    left: 57.3%;
-    top: -480px;
+    left: 55.3%;
+    top: -92%;
   }
 
   .future {
+    height: 550px;
     padding-left: 0;
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-top: 69%;
+    padding-top: 68.5%;
     background-position-x: 0px;
-    background-position-y: 3.3%;
+    background-position-y: 8.3%;
     margin-bottom: 0;
   }
   .future__info {
-    top: -86px;
+    height: 77.8%;
     padding-bottom: 6.1%;
   }
   .future__info_title{
@@ -1023,7 +1023,7 @@ margin-bottom: 0;
   width: 38%;
   position: relative;
   margin: 0;
-  top: 203.5%;
+  top: -65.5%;
   left: 59%;
 }
 
@@ -1031,7 +1031,7 @@ margin-bottom: 0;
   width: 38%;
   position: relative;
   margin: 0;
-  top: 214.5%;
+  top: -61.5%;
   left: 58.5%;
 }
 
@@ -1039,11 +1039,13 @@ margin-bottom: 0;
   width: 38%;
   position: relative;
   margin: 0;
-  top: 226%;
+  top: -57%;
   left: 59%;
 }
 
 .future__info_more {
+  position: relative;
+  top: -42%;
   padding-left: 22%;
   font-size: 17px;
 }
@@ -1063,6 +1065,8 @@ margin-bottom: 0;
 }
 
 .future__info_order {
+  position: relative;
+  top: -42%;
   width: 28%;
   height: 51px;
   font-size: 17px;
@@ -1075,6 +1079,8 @@ margin-bottom: 0;
  }
 
   .safety {
+    height: 500px;
+    position: relative;
     background-size: 77%;
     background-position-x: 96px;
     background-position-y: 69px;
@@ -1083,11 +1089,14 @@ margin-bottom: 0;
   }
 
   .safety-info {
+    width: 100%;
+    height: 75%;
+    top: -86.6%;
     padding-bottom: 62px;
   }
 
   .safety-info__title {
-    width: 42%;
+    width: 55%;
     padding-top: 1.9%;
     font-size: 32px;
     padding-left: 4.5%;
@@ -1116,7 +1125,7 @@ margin-bottom: 0;
     width: 98%;
     height: 440px;
     left: -2%;
-    top: 271%;
+    top: -85%;
   }
 
   .img-more__Car-crash {
@@ -1147,9 +1156,9 @@ margin-bottom: 0;
 
 .safety-info__protection-title {
   color: #FFFFFF;
-  width: 43%;
+  width: 42%;
   position: relative;
-  top: 329.5%;
+  top: -83%;
   left: 48%;
   font-size: 32px;
 }
@@ -1158,50 +1167,68 @@ margin-bottom: 0;
   color: #FFFFFF;
   width: 42%;
   position: relative;
-  top: 341%;
+  top: -84%;
   left: 28%;
+}
+
+.front-stars__first {
+  margin-left: 5%;
 }
 
 .side-stars {
   color: #FFFFFF;
   width: 42%;
   position: relative;
-  top: 345.8%;
+  top: -84%;
   left: 28%;
+}
+
+.side-stars__first {
+  margin-left: 5%;
 }
 
 .rack-stars {
   color: #FFFFFF;
-  width: 42%;
+  width: 43%;
   position: relative;
   font-size: 17px;
-  top: 348.4%;
-  left: 25%;
+  top: -84%;
+  left: 48%;
   margin-top: 17px;
   margin-bottom: 1px;
 }
 
 .rack-stars__first {
-  margin-left: 6.8%;
+  margin-left: 2.8%;
 }
 
 .driver-stars {
   color: #FFFFFF;
   width: 42%;
   position: relative;
-  top: 355.2%;
+  top: -84%;
   left: 28%;
+}
+
+.driver-stars__first {
+  margin-left: 5%;
 }
 
 .passenger-stars {
   color: #FFFFFF;
   width: 42%;
   position: relative;
-  top: 360%;
+  top: -84%;
   left: 28%;
 }
 
+.passenger-stars__first {
+  margin-left: 5%;
+}
+
 .safety-info__more {
+  position: relative;
+  top: -66%;
   padding-left: 176px;
   font-size: 16px;
 }
@@ -1221,6 +1248,8 @@ margin-bottom: 0;
 }
 
 .safety-info__order {
+  position: relative;
+  top: -66%;
   width: 216px;
   height: 51px;
   font-size: 17px;
