@@ -524,11 +524,11 @@ background-position-y: 75px;
   background-repeat: no-repeat;
 }
 
-.safety__img {
+/*.safety__img {
   position: relative;
   width: 1049px;
   height: 540px;
-}
+}*/
 
 .img-more {
   background-size: contain;
@@ -745,15 +745,16 @@ margin-bottom: 0;
   padding-left: 0;
   background-size: 135%;
   background-repeat: no-repeat;
-  padding-top: 103%;
+  padding-top: 85%;
   background-position-y: -2%;
   background-position-x: 31%;
   margin-bottom: 0;
 }
 
 .future__info {
+  top: 0;
   padding-top: 0;
-  padding-bottom: 40px;
+  padding-bottom: 0;
 }
 
 .future__info_title{
@@ -764,11 +765,12 @@ margin-bottom: 0;
 }
 
 .future__info_description {
+  padding-bottom: 10.5%;
   color: #FFFFFF;
-  width: 92%;
+  width: 86%;
   padding-left: 7%;
   margin-bottom: 0;
-  margin-top: 3%;
+  margin-top: 4%;
 }
 
 .future__info_display, .future__info_wifi, .future__info_bag, .future__info_more, .future__info_order,
@@ -780,16 +782,16 @@ margin-bottom: 0;
 .safety {
   height: 100px;
   background-size: 106%;
-  padding-top: 78.4%;
+  padding-top: 88.4%;
   padding-right: 0;
   background-position-x: 0%;
-  background-position-y: -5%;
+  background-position-y: 13%;
 }
 
 .safety-info {
-  top: -250px;
+  top: -223%;
   padding-top: 0;
-  padding-bottom: 5%;
+  padding-bottom: 4.5%;
 }
 
 .safety-info__title {
@@ -807,20 +809,20 @@ margin-bottom: 0;
   font-size: 18px;
 }
 
-.safety__img {
+/*.safety__img {
   width: 96%;
   height: 36%;
   left: -2px;
   top: -282.2%;
-}
+}*/
 
 .img-more {
+  left: -0.5%;
   position: relative;
   top: -282px;
   width: 96%;
   height: 186px;
-  left: -1px;
-  top: -282.2%;
+  top: -255.2%;
 }
 
 .img-more__Car-crash {
@@ -883,7 +885,7 @@ margin-bottom: 0;
 
   .menu-shop__mobile {
     width: 35px;
-    left: 468%;
+    left: 599%;
     top: -2px;
   }
 
@@ -986,8 +988,8 @@ margin-bottom: 0;
   }
 
   .future__logo-models {
-    left: 55.3%;
-    top: -92%;
+    left: 57.3%;
+    top: -83%;
   }
 
   .future {
@@ -997,12 +999,12 @@ margin-bottom: 0;
     background-repeat: no-repeat;
     padding-top: 68.5%;
     background-position-x: 0px;
-    background-position-y: 8.3%;
+    background-position-y: 7.3%;
     margin-bottom: 0;
   }
   .future__info {
     height: 77.8%;
-    padding-bottom: 6.1%;
+    padding-bottom: 1.1%;
   }
   .future__info_title{
     font-size: 32px;
@@ -1023,7 +1025,7 @@ margin-bottom: 0;
   width: 38%;
   position: relative;
   margin: 0;
-  top: -65.5%;
+  top: -76.5%;
   left: 59%;
 }
 
@@ -1031,7 +1033,7 @@ margin-bottom: 0;
   width: 38%;
   position: relative;
   margin: 0;
-  top: -61.5%;
+  top: -71.5%;
   left: 58.5%;
 }
 
@@ -1039,13 +1041,13 @@ margin-bottom: 0;
   width: 38%;
   position: relative;
   margin: 0;
-  top: -57%;
+  top: -67%;
   left: 59%;
 }
 
 .future__info_more {
   position: relative;
-  top: -42%;
+  top: -49%;
   padding-left: 22%;
   font-size: 17px;
 }
@@ -1066,7 +1068,7 @@ margin-bottom: 0;
 
 .future__info_order {
   position: relative;
-  top: -42%;
+  top: -49%;
   width: 28%;
   height: 51px;
   font-size: 17px;
@@ -1082,22 +1084,23 @@ margin-bottom: 0;
     height: 500px;
     position: relative;
     background-size: 77%;
-    background-position-x: 96px;
-    background-position-y: 69px;
+    background-position-x: 54%;
+    background-position-y: 3%;
     padding-top: 70.1%;
     padding-right: 0;
   }
 
   .safety-info {
+    padding-top: 0;
     width: 100%;
     height: 75%;
-    top: -86.6%;
+    top: -96.6%;
     padding-bottom: 62px;
   }
 
   .safety-info__title {
     width: 55%;
-    padding-top: 1.9%;
+    padding-top: 7.9%;
     font-size: 32px;
     padding-left: 4.5%;
     margin: 0;
@@ -1114,26 +1117,26 @@ margin-bottom: 0;
     margin-right: 0;
   }
 
-  .safety__img {
+  /*.safety__img {
     width: 98%;
     height: 400px;
     left: -2%;
     top: 271%;
-  }
+  }*/
 
   .img-more {
     width: 98%;
     height: 440px;
     left: -2%;
-    top: -85%;
+    top: -95%;
   }
 
   .img-more__Car-crash {
     background-repeat: no-repeat;
     background-image: url(img/Car-crashIpad.svg);
     width: 26%;
-    left: 56.9%;
-    top: 61.5%;
+    left: 56.7%;
+    top: 60.5%;
   }
 
   .img-more__Protection-1 {
@@ -1167,24 +1170,24 @@ margin-bottom: 0;
   color: #FFFFFF;
   width: 42%;
   position: relative;
-  top: -84%;
-  left: 28%;
+  top: -82%;
+  left: 26%;
 }
 
 .front-stars__first {
-  margin-left: 5%;
+  margin-left: 17%;
 }
 
 .side-stars {
   color: #FFFFFF;
   width: 42%;
   position: relative;
-  top: -84%;
-  left: 28%;
+  top: -82%;
+  left: 26%;
 }
 
 .side-stars__first {
-  margin-left: 5%;
+  margin-left: 24%;
 }
 
 .rack-stars {
@@ -1193,42 +1196,43 @@ margin-bottom: 0;
   position: relative;
   font-size: 17px;
   top: -84%;
-  left: 48%;
+  left: 47.9%;
   margin-top: 17px;
   margin-bottom: 1px;
 }
 
 .rack-stars__first {
-  margin-left: 2.8%;
+  margin-left: 6.8%;
 }
 
 .driver-stars {
   color: #FFFFFF;
   width: 42%;
   position: relative;
-  top: -84%;
-  left: 28%;
+  top: -83%;
+  left: 26%;
 }
 
 .driver-stars__first {
-  margin-left: 5%;
+  margin-left: 13%;
 }
 
 .passenger-stars {
   color: #FFFFFF;
   width: 42%;
   position: relative;
-  top: -84%;
-  left: 28%;
+  top: -83%;
+  left: 26%;
 }
 
 .passenger-stars__first {
-  margin-left: 5%;
+  margin-left: 11%;
 }
 
 .safety-info__more {
+  margin-right: 3%;
   position: relative;
-  top: -66%;
+  top: -65%;
   padding-left: 176px;
   font-size: 16px;
 }
@@ -1249,7 +1253,7 @@ margin-bottom: 0;
 
 .safety-info__order {
   position: relative;
-  top: -66%;
+  top: -65%;
   width: 216px;
   height: 51px;
   font-size: 17px;
@@ -1287,7 +1291,7 @@ margin-bottom: 0;
 }
 
 .future__info_more::after {
-  left: -27%;
+  left: -33%;
 }
 
 .future__info_more {
