@@ -257,8 +257,396 @@ margin-right: 260px;
    width: 20%;
    margin-right: 1%;
  }
+}
 
+.main {
+  background-repeat: no-repeat;
+  background-image: url(img/teslatxt.svg);
+  width: 100%;
+}
 
+.main__title {
+  width: 240px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/ModelS12.svg);
+  margin: auto;
+}
 
+.main__welcome {
+  width: 15%;
+  font-size: 15px;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-weight: 500;
+  margin: auto;
+}
 
+.main__picture {
+  margin: auto;
+  width: 970px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/tesla_car.svg);
+}
+
+.info {
+  margin-left: 33%;
+  display: inline-block;
+}
+
+.info__spkm_speed {
+  display: inline-block;
+  width: 155px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/2,7.svg);
+}
+
+.info__spkm_km {
+  display: inline-block;
+  width: 155px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/632.svg);
+}
+
+.info__more_test {
+  position: relative;
+  top: -10px;
+  width: 120px;
+  height: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/test_drive.svg);
+}
+
+.info__more_order {
+  position: relative;
+  top: -12px;
+  padding-top: 9px;
+  color: #E51937;
+  text-decoration: none;
+  display: inline-block;
+  width: 160px;
+  height: 40px;
+  border: 2px solid #E51937;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 13px;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+}
+
+.arrow {
+  width: 28px;
+  height: 14px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/Vector.svg);
+  margin: auto;
+}
+
+@media (max-width: 375px) {
+
+  .main {
+    background-size: 114%;
+    background-position-y: 27.5%;
+    background-position-x: -19px;
+  }
+
+.main__title {
+  margin-left: 24%;
+  position: relative;
+  top: 34px;
+  width: 199px;
+  height: 39px;
+}
+
+.main__picture {
+  margin-bottom: 30%;
+  position: relative;
+  top: 93px;
+  height: 168px;
+  width: 94%;
+}
+
+.main__welcome {
+  position: relative;
+  width: 58%;
+  top: 42px;
+  font-size: 11px;
+  margin-left: 29.5%;
+}
+
+.info {
+  margin-bottom: 15%;
+  width: 100%;
+  position: relative;
+  margin-left: 0;
+}
+
+.info__spkm_speed {
+  width: 131px;
+  height: 55px;
+  margin-left: 10%;
+}
+
+.info__spkm_km  {
+  margin-left: 9%;
+  width: 117px;
+  height: 55px;
+}
+
+.info__more_test {
+  margin-left: 8.2%;
+  top: 40px;
+  width: 129px;
+  height: 32px;
+}
+
+.info__more_order {
+  padding-top: 7px;
+  margin-left: 4.2%;
+  top: 25px;
+  font-size: 18px;
+  background: #E51937;
+  color: #FFFFFF;
+}
+
+.arrow {
+  width: 34px;
+  height: 20px;
+  position: relative;
+  margin-left: 45.8%;
+}
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+
+  .header {
+    margin-bottom: 13%;
+  }
+
+ .main {
+   background-size: 108%;
+   background-position-x: 16%;
+   background-position-y: 14%;
+ }
+
+  .main__title {
+    width: 350px;
+    Height: 100px;
+    margin-left: 15%;
+  }
+  .main__welcome {
+    width: 75%;
+    font-size: 15px;
+    margin-left: 34.5%;
+    position: relative;
+    top: -28px;
+    margin-bottom: 8%;
+  }
+
+.main__picture {
+  width: 99%;
+  margin-bottom: 4%;
+}
+
+.info {
+  margin-bottom: 3%;
+  margin-left: 0;
+  width: 100%;
+}
+
+.info__spkm {
+  margin-bottom: 9%;
+}
+
+ .info__spkm_speed {
+   background-image: url(img/2,7Ipad.svg);
+   margin-left: 4.5%;
+   width: 220.7px;
+   height: 81.26px;
+}
+
+.info__spkm_km {
+  background-image: url(img/632Ipad.svg);
+  margin-left: 1%;
+  width: 200.64px;
+  height: 83.12px;
+}
+
+.info__more_test {
+  background-image: url(img/TestdriveIpad.svg);
+  width: 168px;
+  height: 52px;
+  margin-left: 5.5%;
+  top: -6px;
+}
+
+.info__more_order {
+  margin-left: 3.4%;
+  width: 224px;
+  top: -37px;
+  height: 57px;
+  font-size: 23px;
+  background: #E51937;
+  color: #FFFFFF;
+}
+
+.arrow {
+  width: 32px;
+  height: 20px;
+}
+}
+
+@media (min-width: 1440px) {
+
+ .header {
+   margin-bottom: 5.4%;
+ }
+
+.main {
+background-position-y: -7%;
+}
+
+  .main__title {
+    margin-bottom: 0.8%;
+    margin-left: 37.8%;
+    width: 357px;
+    height: 70px;
+  }
+
+ .main__welcome {
+   margin-bottom: 2%;
+   margin-left: 41.7%;
+   width: 20%;
+   font-size: 17px;
+ }
+
+.main__picture {
+  width: 1041px;
+  margin-bottom: 1.6%;
+}
+
+.info__spkm, .info__more {
+  display: inline-block;
+  width: 47%;
+}
+
+.info {
+  margin-bottom: 0.8%;
+  width: 60%;
+  margin-left: 22%;
+}
+
+.info__spkm_speed {
+  top: -11px;
+  position: relative;
+}
+
+.info__spkm_km {
+  margin-left: 18.5%;
+  width: 157px;
+  height: 65px;
+}
+
+.info__more_test {
+  top: -8px;
+  margin-left: 17%;
+  width: 129px;
+  height: 40px;
+}
+
+.info__more_order {
+  margin-left: 7.5%;
+  top: -32px;
+  font-size: 14px;
+}
+
+.arrow {
+  width: 30px;
+  height: 20px;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1439px) {
+
+  .header {
+    margin-bottom: 13%;
+  }
+
+ .main {
+   background-size: 108%;
+   background-position-x: 16%;
+   background-position-y: 14%;
+ }
+
+  .main__title {
+    width: 360px;
+    Height: 110px;
+    margin-left: 27%;
+  }
+  .main__welcome {
+    width: 34%;
+    font-size: 17px;
+    margin-left: 34.5%;
+    position: relative;
+    top: -28px;
+    margin-bottom: 8%;
+  }
+
+.main__picture {
+  width: 704px;
+  height: 328px;
+  margin-bottom: 4%;
+}
+
+.info {
+  margin-bottom: 3%;
+  margin-left: 0;
+  width: 100%;
+}
+
+.info__spkm {
+  margin-bottom: 9%;
+}
+
+ .info__spkm_speed {
+   margin-left: 18.5%;
+   width: 220.7px;
+   height: 81.26px;
+}
+
+.info__spkm_km {
+  margin-left: 8%;
+  width: 200.64px;
+  height: 83.12px;
+}
+
+.info__more_test {
+  width: 168px;
+  height: 52px;
+  margin-left: 22.5%;
+  top: -6px;
+}
+
+.info__more_order {
+  margin-left: 3.4%;
+  width: 224px;
+  top: -37px;
+  height: 57px;
+  font-size: 23px;
+  background: #E51937;
+  color: #FFFFFF;
+}
+
+.arrow {
+  width: 32px;
+  height: 20px;
+}
 }
