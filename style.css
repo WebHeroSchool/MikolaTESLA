@@ -777,7 +777,7 @@ background-position-y: -7%;
   top: 2px;
   text-align: center;
   width: 155px;
-  height: 37px;
+  height: 26px;
   display: inline-block;
   text-decoration: none;
   font-size: 14px;
@@ -788,5 +788,131 @@ background-position-y: -7%;
 }
 
 .more {
-  padding-bottom: 12%;
+  padding-bottom: 15%;
+}
+
+@media (max-width: 375px) {
+
+ .future__title, .options, .more {
+   display: none;
+ }
+
+.future {
+  background-position: top;
+  background-size: 134%;
+  background-position-x: 31%;
+  background-position-y: 0;
+  padding-left: 0;
+  padding-top: 101%;
+  width: 100%;
+}
+
+.drive {
+  padding-bottom: 10.8%;
+  width: 85%;
+  margin-bottom: 0;
+}
+
+.drive__title {
+  padding-top: 4%;
+  font-size: 33px;
+}
+
+.drive__text {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+
+  .future {
+    background-image: url(img/backIpad.svg);
+    background-size: 100%;
+    background-position-y: 9.8%;
+    padding-left: 0;
+    width: 100%;
+    padding-top: 74.5%;
+  }
+
+  .drive, .options {
+    display: inline-block;
+    width: 49%;
+    margin: 0;
+ }
+
+ .future__title {
+   top: -485px;
+   left: 57%;
+ }
+
+.info-models {
+  top: -100px;
+}
+
+.drive__title {
+  padding-top: 0;
+  position: relative;
+  left: -2.5%;
+  top: 18px;
+  margin-bottom: 11%;
+}
+
+.drive__text {
+  width: 84%;
+  position: relative;
+  left: 9%;
+}
+
+.options__display {
+  position: relative;
+  left: 19.5%;
+  top: 20px;
+}
+
+.options__wifi {
+  position: relative;
+  left: 18.5%;
+  top: 5px;
+}
+
+.options__bag {
+  position: relative;
+  left: 19.5%;
+  top: -4px;
+}
+
+.more {
+  padding-top: 7%;
+  padding-bottom: 6.8%;
+}
+
+.more__info {
+  font-size: 18px;
+  left: 23%;
+  top: 4px;
+}
+
+.more__info::before {
+  font-size: 19px;
+  font-weight: 900;
+  left: -2.5%;
+}
+
+.more__info::after {
+  left: -50%;
+  top: 8px;
+  width: 27px;
+  height: 27px;
+}
+
+.more__order {
+  width: 210px;
+  height: 39px;
+  font-size: 19px;
+  margin-left: 0;
+  top: -1px;
+  left: 1%;
+}
+
 }
