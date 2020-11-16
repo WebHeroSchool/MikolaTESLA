@@ -914,5 +914,117 @@ background-position-y: -7%;
   top: -1px;
   left: 1%;
 }
+}
 
+@media (min-width: 1440px) {
+
+}
+
+/* section safeety*/
+
+.safety {
+  width: 30%;
+  padding-right: 70%;
+  background-repeat: no-repeat;
+  background-image: url(omg/ModelS.svg);
+}
+
+.info-safety {
+  width: 100%;
+  background: #E51937;
+}
+
+.description {
+  width: 85%;
+  margin: auto;
+}
+
+.description__title {
+  color: #ffffff;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.description__text {
+  color: #ffffff;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.protection__title {
+  background-image: url(img/Оценказащиты.svg);
+  background-repeat: no-repeat;
+  width: 265px;
+  height: 40px;
+}
+
+.protection__front_title, .protection__side_title, .protection__rack_title, .protection__driver_title, .protection__passangeer_title  {
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 17px;
+  color: #fff;
+}
+
+.protection__front, .protection__side, .protection__rack, .protection__driver, .protection__passangeer {
+  display: inline-flex;
+  width: 100%;
+}
+
+.protection__front_star1, .protection__front_star2, .protection__front_star3, .protection__front_star4, .protection__front_star5 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.protection__side_star1, .protection__side_star2, .protection__side_star3, .protection__side_star4, .protection__side_star5 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.protection__rack_star1, .protection__rack_star2, .protection__rack_star3, .protection__rack_star4, .protection__rack_star5 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.protection__driver_star1, .protection__driver_star2, .protection__driver_star3, .protection__driver_star4, .protection__driver_star5 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.protection__passangeer_star1, .protection__passangeer_star2, .protection__passangeer_star3, .protection__passangeer_star4, .protection__passangeer_star5 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.info-safety__result {
+  width: 280px;
+  height: 90px;
+  background-image: url(img/five_stars.svg);
+  background-repeat: no-repeat;
+}
+
+.safety__img {
+  top: -500px;
+  left: 77%;
+  position: relative;
+  width: 218%;
+  height: 540px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/carframe.svg);
 }
