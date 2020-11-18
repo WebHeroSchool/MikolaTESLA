@@ -700,6 +700,7 @@ background-position-y: -7%;
 }
 
 .drive__text {
+  text-align: justify;
   width: 91%;
   font-size: 16px;
   color: #ffffff;
@@ -952,6 +953,7 @@ background-position-y: -7%;
 }
 
 .description__text {
+  text-align: justify;
   color: #ffffff;
   font-family: "montserratregular", arial, helvetica, sans-serif;
   font-size: 16px;
@@ -966,66 +968,190 @@ background-position-y: -7%;
   background-repeat: no-repeat;
   width: 265px;
   height: 40px;
-  margin-bottom: 3.3%;
+  margin-bottom: 3%;
 }
 
-.protection__front_title, .protection__side_title, .protection__rack_title, .protection__driver_title, .protection__passangeer_title  {
-  font-family: "montserratregular", arial, helvetica, sans-serif;
-  font-size: 18px;
-  color: #fff;
-}
-
-.protection__front, .protection__side, .protection__rack, .protection__driver, .protection__passangeer {
+.protection__front {
+  margin-bottom: 1.8%;
   display: inline-flex;
   width: 100%;
   margin-left: 13%;
 }
 
-.protection__front_star1, .protection__front_star2, .protection__front_star3, .protection__front_star4, .protection__front_star5 {
-  width: 25px;
-  height: 25px;
-  background-image: url(img/Star.svg);
-  background-repeat: no-repeat;
-  display: inline-block;
+.protection__front_title {
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 4px;
 }
 
-.protection__side_star1, .protection__side_star2, .protection__side_star3, .protection__side_star4, .protection__side_star5 {
+
+.protection__front_star1 {
   width: 25px;
   height: 25px;
   background-image: url(img/Star.svg);
   background-repeat: no-repeat;
   display: inline-block;
+  margin-left: 14%;
+  margin-right: 2px;
 }
 
-.protection__rack_star1, .protection__rack_star2, .protection__rack_star3, .protection__rack_star4, .protection__rack_star5 {
+.protection__front_star2, .protection__front_star3, .protection__front_star4, .protection__front_star5 {
   width: 25px;
   height: 25px;
   background-image: url(img/Star.svg);
   background-repeat: no-repeat;
   display: inline-block;
+  margin: 2px;
 }
 
-.protection__driver_star1, .protection__driver_star2, .protection__driver_star3, .protection__driver_star4, .protection__driver_star5 {
-  width: 25px;
-  height: 25px;
-  background-image: url(img/Star.svg);
-  background-repeat: no-repeat;
-  display: inline-block;
+.protection__side {
+  margin-bottom: 1.8%;
+  display: inline-flex;
+  width: 100%;
+  margin-left: 13%;
 }
 
-.protection__passangeer_star1, .protection__passangeer_star2, .protection__passangeer_star3, .protection__passangeer_star4, .protection__passangeer_star5 {
+.protection__side_title {
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 4px;
+}
+
+.protection__side_star1 {
   width: 25px;
   height: 25px;
   background-image: url(img/Star.svg);
   background-repeat: no-repeat;
   display: inline-block;
+  margin-left: 20%;
+  margin-right: 2px;
+}
+
+.protection__side_star2, .protection__side_star3, .protection__side_star4, .protection__side_star5 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 2px;
+}
+
+.protection__rack {
+  margin-bottom: 1.8%;
+  display: inline-flex;
+  width: 100%;
+  margin-left: 13%;
+}
+
+.protection__rack_title {
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 4px;
+}
+
+.protection__rack_star1 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 4.7%;
+  margin-right: 2px;
+}
+
+.protection__rack_star2, .protection__rack_star3, .protection__rack_star4, .protection__rack_star5 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 2px;
+}
+
+.protection__driver {
+  margin-bottom: 1.8%;
+  display: inline-flex;
+  width: 100%;
+  margin-left: 13%;
+}
+
+.protection__driver_title {
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 4px;
+}
+
+.protection__driver_star1 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 12%;
+  margin-right: 2px;
+}
+
+.protection__driver_star2, .protection__driver_star3, .protection__driver_star4, .protection__driver_star5 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 2px;
+}
+
+.protection__passangeer {
+  margin-bottom: 1.8%;
+  display: inline-flex;
+  width: 100%;
+  margin-left: 13%;
+}
+
+.protection__passangeer_title {
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 4px;
+}
+
+.protection__passangeer_star1 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 2px;
+}
+
+.protection__passangeer_star2, .protection__passangeer_star3, .protection__passangeer_star4, .protection__passangeer_star5 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 2px;
+}
+
+.protection {
+  margin-bottom: 20%;
 }
 
 .info-safety__result {
+  margin-left: 15%;
+  margin-bottom: 12%;
   width: 280px;
   height: 90px;
   background-image: url(img/five_stars.svg);
   background-repeat: no-repeat;
+}
+
+.more-safety {
+  padding-bottom: 13.5%;
 }
 
 .more-safety__info {
@@ -1081,11 +1207,11 @@ background-position-y: -7%;
 
 
 .safety__img {
-  top: -500px;
-  left: 77%;
+  top: -862px;
+  left: 78%;
   position: relative;
-  width: 218%;
-  height: 540px;
+  width: 237%;
+  height: 600px;
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url(img/Carframegroup.svg);
