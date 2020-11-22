@@ -1048,6 +1048,11 @@ background-position-y: -7%;
   margin-left: 13%;
 }
 
+.litle {
+  margin-left: 6%;
+  font-size: 10px;
+}
+
 .protection__rack_title {
   font-family: "montserratregular", arial, helvetica, sans-serif;
   font-size: 18px;
@@ -1061,7 +1066,7 @@ background-position-y: -7%;
   background-image: url(img/Star.svg);
   background-repeat: no-repeat;
   display: inline-block;
-  margin-left: 4.7%;
+  margin-left: 9.7%;
   margin-right: 2px;
 }
 
