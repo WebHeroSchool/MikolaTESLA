@@ -1260,6 +1260,10 @@ background-position-y: -7%;
 
 @media (max-width: 375px) {
 
+  .wrapper {
+    height: 1860px;
+  }
+
   .protection, .info-safety__result, .more-safety {
     display: none;
   }
@@ -1272,6 +1276,7 @@ background-position-y: -7%;
   background-position-x: 0%;
   background-position-y: 0%;
   padding-right: 0;
+  height: 248px;
 }
 
 .safety__img {
@@ -1279,6 +1284,7 @@ background-position-y: -7%;
   top: -629px;
   left: -1%;
   width: 97%;
+  height: 252px;
 }
 
 .description__title {
