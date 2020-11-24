@@ -431,6 +431,10 @@ margin-right: 260px;
     margin-bottom: 13%;
   }
 
+.wrapper {
+  height: 3072px;
+}
+
  .main {
    background-size: 108%;
    background-position-x: 16%;
@@ -444,7 +448,7 @@ margin-right: 260px;
     margin-bottom: 1.2%;
   }
   .main__welcome {
-    width: 75%;
+    width: 35%;
     font-size: 17px;
     margin-left: 34.5%;
     position: relative;
@@ -1318,6 +1322,7 @@ background-position-y: -7%;
   width: 100%;
   padding-right: 0;
   padding-top: 57%;
+  height: 725px;
 }
 
 .info-safety {
@@ -1362,6 +1367,7 @@ background-position-y: -7%;
 }
 
 .protection__front {
+  width: 85%;
   position: relative;
   top: 5px;
 }
@@ -1371,6 +1377,7 @@ background-position-y: -7%;
 }
 
 .protection__side {
+  width: 85%;
   position: relative;
   top: 4px;
 }
@@ -1380,6 +1387,7 @@ background-position-y: -7%;
 }
 
 .protection__rack  {
+  width: 85%;
   position: relative;
   top: 5px;
 }
@@ -1394,6 +1402,7 @@ background-position-y: -7%;
 }
 
 .protection__driver {
+  width: 85%;
   position: relative;
   top: 8px;
 }
@@ -1403,6 +1412,7 @@ background-position-y: -7%;
 }
 
 .protection__passangeer {
+  width: 85%;
   position: relative;
   top: 9px;
 }
@@ -1444,6 +1454,12 @@ background-position-y: -7%;
   font-size: 18px;
   padding-top: 15px;
 }
+}
 
+@media (min-width: 1440px) {
+
+  .safety {
+    height: 763px;
+  }
 
 }
