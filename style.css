@@ -412,7 +412,7 @@ margin-right: 260px;
   padding-top: 7px;
   margin-left: 4.2%;
   top: 25px;
-  font-size: 18px;
+  font-size: 15px;
   background: #E51937;
   color: #FFFFFF;
 }
@@ -704,7 +704,6 @@ background-position-y: -7%;
 }
 
 .drive__text {
-  text-align: justify;
   width: 91%;
   font-size: 16px;
   color: #ffffff;
@@ -859,8 +858,9 @@ background-position-y: -7%;
   padding-top: 0;
   position: relative;
   margin-left: 9%;
-  top: 18px;
-  margin-bottom: 11%;
+  top: 15px;
+  margin-bottom: 9%;
+  font-size: 33px;
 }
 
 .drive__text {
@@ -895,7 +895,6 @@ background-position-y: -7%;
 .more__info {
   font-size: 18px;
   margin-left: 1%;
-  top: 4px;
   width: 35%;
 }
 
@@ -914,11 +913,12 @@ background-position-y: -7%;
 
 .more__order {
   width: 217px;
-  height: 39px;
+  height: 35px;
   font-size: 19px;
   margin-left: 0;
   top: -1px;
   left: 1%;
+  padding-top: 15px;
 }
 }
 
@@ -1322,7 +1322,7 @@ background-position-y: -7%;
   width: 100%;
   padding-right: 0;
   padding-top: 57%;
-  height: 725px;
+  height: 516px;
 }
 
 .info-safety {
@@ -1358,7 +1358,8 @@ background-position-y: -7%;
 
 .description__title {
   margin-left: 9%;
-  padding-top: 7%;
+  padding-top: 5%;
+  font-size: 32px;
 }
 
 .description__text {
@@ -1369,11 +1370,11 @@ background-position-y: -7%;
 .protection__front {
   width: 85%;
   position: relative;
-  top: 5px;
+  top: 2px;
 }
 
 .protection__front_star1 {
-  margin-left: 17%;
+  margin-left: 20%;
 }
 
 .protection__side {
@@ -1383,7 +1384,7 @@ background-position-y: -7%;
 }
 
 .protection__side_star1 {
-  margin-left: 24%;
+  margin-left: 28%;
 }
 
 .protection__rack  {
@@ -1393,32 +1394,36 @@ background-position-y: -7%;
 }
 
 .protection__rack_star1 {
-  margin-left: 9%;
+  margin-left: 12%;
 }
 
 .litle {
-  font-size: 12px;
+  font-size: 11px;
   margin-left: 6%;
 }
 
 .protection__driver {
   width: 85%;
   position: relative;
-  top: 8px;
+  top: 5px;
 }
 
 .protection__driver_star1 {
-  margin-left: 14.2%;
+  margin-left: 15%;
+}
+
+.protection__driver_title {
+  font-size: 19px;
 }
 
 .protection__passangeer {
   width: 85%;
   position: relative;
-  top: 9px;
+  top: 7px;
 }
 
 .protection__passangeer_star1 {
-  margin-left: 12.5%;
+  margin-left: 14.5%;
 }
 
 .more-safety {
@@ -1440,7 +1445,7 @@ background-position-y: -7%;
 }
 
 .more-safety__info {
-  font-size: 16px;
+  font-size: 18px;
   margin-left: 9.5%;
   width: 25%;
   top: -8px;
@@ -1461,5 +1466,70 @@ background-position-y: -7%;
   .safety {
     height: 763px;
   }
+
+.drive__title {
+  padding-top: 14%;
+  font-size: 33px;
+}
+
+.options__wifi {
+  margin-left: -1%;
+}
+
+.description__title {
+  font-size: 32px;
+  padding-top: 11%;
+}
+
+.description__text {
+  margin-top: 3%;
+}
+
+.description {
+  margin-bottom: 14%;
+}
+
+.protection__front_title {
+  padding-top: 8px;
+}
+
+.protection__front_star1, .protection__side_star1, .protection__rack_star1, .protection__driver_star1, .protection__passangeer_star1 {
+  position: relative;
+  top: 2px;
+}
+
+.protection__side_title {
+  padding-top: 6px;
+}
+
+.protection__rack_title {
+  padding-top: 6px;
+}
+
+.litle {
+  font-size: 11px;
+}
+
+.protection__rack_star1 {
+  margin-left: 8.3%;
+}
+
+.protection__driver_title {
+  padding-top: 6px;
+}
+
+.protection__passangeer_title {
+  padding-top: 6px;
+}
+
+.protection {
+  margin-bottom: 21%;
+}
+
+.safety__img {
+  width: 238%;
+  top: -113.5%;
+}
+
 
 }
