@@ -119,13 +119,11 @@ margin-right: 260px;
    width: 37.5%;
    margin-left: 0;
    margin-right: 51%;
-   margin-top: 13%;
    background-size: contain;
  }
 
 .menu-mobile {
   top: 21px;
-  margin-top: 13%;
 }
 
 .menu-mobile::before {
