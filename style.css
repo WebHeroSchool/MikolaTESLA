@@ -1280,30 +1280,35 @@ background-position-y: -7%;
   background-position-x: 0%;
   background-position-y: 0%;
   padding-right: 0;
-  height: 248px;
+  height: 253px;
 }
 
 .safety__img {
   background-image: url(img/Group18mobile.svg);
-  top: -629px;
-  left: -1%;
+  top: -250%;
+  left: -0.35%;
   width: 97%;
   height: 252px;
 }
 
 .description__title {
-  padding-top: 6%;
+  font-size: 32px;
+  text-align: justify;
+  width: 84%;
+  padding-top: 5%;
   margin-left: 8%;
 }
 
 .description__text {
+  margin-top: 3%;
   margin-left: 8%;
   width: 83%;
 }
 
 .info-safety {
-  padding-bottom: 4%;
-  top: -89px;
+  height: 100%;
+  padding-bottom: 13%;
+  top: -93px;
 }
 }
 
