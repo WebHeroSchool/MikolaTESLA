@@ -407,7 +407,7 @@ margin-right: 260px;
 }
 
 .info__more_order {
-  padding-top: 7px;
+  padding-top: 10px;
   margin-left: 4.2%;
   top: 25px;
   font-size: 15px;
@@ -428,10 +428,6 @@ margin-right: 260px;
   .header {
     margin-bottom: 13%;
   }
-
-.wrapper {
-  height: 3072px;
-}
 
  .main {
    background-size: 108%;
@@ -659,27 +655,34 @@ background-position-y: -7%;
 .future {
   background-repeat: no-repeat;
   background-image: url(img/tesla_inside.svg);
-  background-position-y: 48%;
-  padding-left: 69.4%;
-  width: 30.6%;
+  background-position-y: 102%;
+  width: 100%;
+  display: inline-block;
 }
 
 .future__title {
-  top: 111px;
+  margin-bottom: 67%;
   position: relative;
-  left: -207%;
+  left: 8.6%;
   width: 278px;
   height: 86px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(img/ModelSfut.svg);
+  background-image: url(img/ModelSfu.svg);
+}
+
+.future-block {
+  position: relative;
+  display: inline-block;
+  width: 69%;
 }
 
 .info-models {
+  margin-top: 2.2%;
+  display: inline-block;
   position: relative;
-  top: -95px;
   background: #E51937;
-  width: 100%;
+  width: 30.7%;
 }
 
 .drive, .options {
@@ -692,7 +695,6 @@ background-position-y: -7%;
 }
 
 .drive__title {
-  padding-top: 16%;
   margin-bottom: 0;
   text-align: left;
   color: #ffffff;
@@ -709,7 +711,7 @@ background-position-y: -7%;
 }
 
 .options {
-  margin-bottom: 38%;
+  margin-bottom: 41%;
 }
 
 .options__display {
@@ -749,27 +751,16 @@ background-position-y: -7%;
   font-family: "montserratregular", arial, helvetica, sans-serif;
 }
 
-.more__icon::before {
-  left: 39%;
-  width: 5%;
-  position: relative;
-  display: inline-block;
-  content: "i";
-  font-size: 13px;
-  color: #ffffff;
-  font-family: "montserratregular", arial, helvetica, sans-serif;
-}
-
 .more__icon {
+  background-image: url(img/GroupI.svg);
   position: relative;
-  top: 1%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 6px;
   display: inline-block;
   content: "";
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  color: #ffffff;
-  border: solid 2px;
+  width: 23px;
+  height: 23px;
   left: 11%;
 }
 
@@ -790,32 +781,41 @@ background-position-y: -7%;
 }
 
 .more {
-  padding-bottom: 15%;
+  padding-bottom: 13%;
 }
 
 @media (max-width: 375px) {
 
- .future__title, .options, .more {
+ .future__title, .options, .more, .future-block {
    display: none;
  }
 
 .future {
+  padding-top: 86.3%;
   background-position: top;
   background-size: 134%;
   background-position-x: 31%;
   background-position-y: 0;
   padding-left: 0;
-  padding-top: 101%;
+  width: 100%;
+}
+
+.info-models {
+  margin-top: 0;
   width: 100%;
 }
 
 .drive {
+  padding-top: 2%;
   padding-bottom: 10.8%;
   width: 85%;
   margin-bottom: 0;
 }
 
 .drive__title {
+  line-height: 34px;
+  font-weight: 700;
+  margin-top: 0;
   padding-top: 4%;
   font-size: 33px;
 }
@@ -831,10 +831,9 @@ background-position-y: -7%;
   .future {
     background-image: url(img/backIpad.svg);
     background-size: 100%;
-    background-position-y: 9.8%;
+    background-position-y: 10.8%;
     padding-left: 0;
     width: 100%;
-    padding-top: 74.5%;
   }
 
   .drive, .options {
@@ -844,12 +843,19 @@ background-position-y: -7%;
  }
 
  .future__title {
-   top: -488px;
-   left: 57.3%;
+   left: -6.7%;
+   margin-top: 27%;
+   margin-bottom: 0;
  }
 
+.future-block {
+  margin-bottom: 48.2%;
+  width: 40%;
+  left: 60%;
+}
+
 .info-models {
-  top: -100px;
+  width: 100%;
 }
 
 .drive__title {
@@ -927,18 +933,23 @@ background-position-y: -7%;
 /* section safeety*/
 
 .safety {
-  width: 30.6%;
-  padding-right: 69.4%;
+  display: inline-block;
+  width: 100%;
   background-repeat: no-repeat;
-  background-image: url(img/ModelS.svg);
-  background-position-x: 100%;
-  background-position-y: 0.4%;
+  background-image:
+  url(img/Carframegroup.svg),
+  url(img/ModelS.svg);
+  background-size: 73%, 55%;
+  background-position-y: 57%, 19%;
+  background-position-x: 88%, 100%;
 }
 
+
 .info-safety {
-  width: 100%;
+  z-index: -1;
+  display: inline-block;
+  width: 30%;
   position: relative;
-  top: -136px;
   background: #E51937;
 }
 
@@ -948,6 +959,7 @@ background-position-y: -7%;
 }
 
 .description__title {
+  margin-top: 0;
   color: #ffffff;
   font-family: "montserratregular", arial, helvetica, sans-serif;
   font-size: 30px;
@@ -1170,33 +1182,23 @@ background-position-y: -7%;
   margin-left: 9%;
   display: inline-block;
   text-decoration: none;
-  font-size: 12px;
-  color: #ffffff;
-  font-family: "montserratregular", arial, helvetica, sans-serif;
-}
-
-.more-safety__icon::after {
-  left: 36%;
-  width: 5%;
-  position: relative;
-  display: inline-block;
-  content: "i";
-  font-size: 13px;
+  font-size: 15px;
   color: #ffffff;
   font-family: "montserratregular", arial, helvetica, sans-serif;
 }
 
 .more-safety__icon {
+  background-image: url(img/GroupI.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
   position: relative;
   display: inline-block;
   content: "";
-  width: 20px;
-  height: 20px;
+  width: 23px;
+  height: 23px;
   border-radius: 50%;
-  color: #ffffff;
-  border: solid 2px;
   left: 8.5%;
-  top: 1%;
+  top: 5px;
 }
 
 .more-safety__order {
@@ -1216,18 +1218,18 @@ background-position-y: -7%;
 }
 
 
-.safety__img {
-  top: -862px;
-  left: 78%;
+/*.safety__img {
+  top: -58px;
+  left: -9.3%;
   position: relative;
-  width: 237%;
-  height: 600px;
+  width: 106%;
+  height: 593px;
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url(img/Carframegroup.svg);
-}
+}*/
 
-.safety__img_front {
+/*.safety__img_front {
   position: relative;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1258,36 +1260,41 @@ background-position-y: -7%;
   background-image: url(img/Carcrash.svg);
   left: 57%;
   top: -23%;
-}
+}*/
 
 @media (max-width: 375px) {
 
-  .wrapper {
-    height: 1860px;
-  }
 
   .protection, .info-safety__result, .more-safety {
     display: none;
   }
 
 .safety {position: relative;
-  top: -47px;
   width: 100%;
   padding-top: 78.5%;
-  background-size: 107%;
-  background-position-x: 0%;
-  background-position-y: 0%;
+  background-position-y: 14.5%, 9%;
   padding-right: 0;
-  height: 253px;
+  background-size: 107%, 55%;
+  background-position-x: 2%, 9%;
+  background-size: 96%, 107%;
+  background-image:
+  url(img/Group18mobile.svg),
+  url(img/ModelS.svg);
 }
 
-.safety__img {
+/*.safety__img {
   background-image: url(img/Group18mobile.svg);
-  top: -250%;
+  top: 0px;
   left: -0.35%;
-  width: 97%;
+  width: 140%;
   height: 252px;
 }
+
+.test {
+  left: 0;
+  position: absolute;
+  top: 59px;
+}*/
 
 .description__title {
   font-size: 32px;
@@ -1304,9 +1311,8 @@ background-position-y: -7%;
 }
 
 .info-safety {
-  height: 100%;
-  padding-bottom: 13%;
-  top: -93px;
+  width: 100%;
+  padding-bottom: 4%;
 }
 }
 
@@ -1318,33 +1324,31 @@ background-position-y: -7%;
 
 .safety {
   position: relative;
-  top: -29px;
-  background-size: 77%;
-  background-position-x: 55%;
-  background-position-y: 0;
+  background-position-y: 13%, 8%;
+  background-position-x: -3%, 53%;
+  background-size: 96%, 77%;
+  background-image:
+  url(img/CargroupIpad.svg),
+  url(img/ModelS.svg);
   width: 100%;
   padding-right: 0;
-  padding-top: 57%;
-  height: 516px;
+  padding-top: 70%;
 }
 
-.info-safety {
-  top: 30px;
-}
-
-.safety__img {
+/*.safety__img {
   background-image: url(img/CargroupIpad.svg);
   top: -919px;
   left: 0%;
   width: 96%;
-}
+}*/
 
 .info-safety {
+  width: 100%;
   display: inline-block;
-  top: 30px;
 }
 
 .description {
+  margin-top: 2%;
   display: inline-block;
   width: 49%;
   margin-bottom: 0;
@@ -1355,13 +1359,15 @@ background-position-y: -7%;
   display: inline-block;
   width: 49%;
   position: relative;
-  top: 12px;
+  margin-bottom: 0;
+}
+
+.protection__title {
   margin-bottom: 0;
 }
 
 .description__title {
   margin-left: 9%;
-  padding-top: 5%;
   font-size: 32px;
 }
 
@@ -1373,11 +1379,10 @@ background-position-y: -7%;
 .protection__front {
   width: 85%;
   position: relative;
-  top: 2px;
 }
 
 .protection__front_star1 {
-  margin-left: 20%;
+  margin-left: 6%;
 }
 
 .protection__side {
@@ -1387,7 +1392,7 @@ background-position-y: -7%;
 }
 
 .protection__side_star1 {
-  margin-left: 28%;
+  margin-left: 8%;
 }
 
 .protection__rack  {
@@ -1412,7 +1417,7 @@ background-position-y: -7%;
 }
 
 .protection__driver_star1 {
-  margin-left: 15%;
+  margin-left: 3%;
 }
 
 .protection__driver_title {
@@ -1426,7 +1431,7 @@ background-position-y: -7%;
 }
 
 .protection__passangeer_star1 {
-  margin-left: 14.5%;
+  margin-left: 4.5%;
 }
 
 .more-safety {
@@ -1466,12 +1471,7 @@ background-position-y: -7%;
 
 @media (min-width: 1440px) {
 
-  .safety {
-    height: 763px;
-  }
-
 .drive__title {
-  padding-top: 14%;
   font-size: 33px;
 }
 
@@ -1527,11 +1527,6 @@ background-position-y: -7%;
 
 .protection {
   margin-bottom: 21%;
-}
-
-.safety__img {
-  width: 238%;
-  top: -113.5%;
 }
 
 
