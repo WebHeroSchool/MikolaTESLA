@@ -2,1201 +2,1539 @@ body {
   margin: 0;
 }
 
-.wrapper {
-  width: 100%;
-}
-
 .header {
-  margin-top: 25px;
-  margin-bottom: 157px;
   display: flex;
-  justify-content: start;
   align-content: center;
+  width: 100%;
+  padding-top: 25px;
 }
 
 .logo {
-  margin-left: 40px;
-  width: 166px;
-  height: 51px;
-  background-image: url(img/Logo.svg);
-  margin-right: 261px;
+display: block;
+width: 165px;
+height: 50px;
+background-image: url(img/Logo.svg);
+background-repeat: no-repeat;
+margin-left: 42px;
+margin-right: 260px;
+}
+
+.menu-models, .shop {
+  padding-top: 17px;
+  display: block;
 }
 
 .menu-models {
-  display: flex;
-  justify-content: space-between;
-  vertical-align: middle;
+  margin-right: 225px;
 }
 
-.menu-models__item1 {
-  margin-right: 68px;
+.menu-models__item_models, .menu-models__item_modelx, .menu-models__item_model3, .menu-models__item_roadster, .menu-models__item_energy, .shop__item_buy, .shop__item_enter {
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  text-decoration: none;
+  color: #000000;
+  position: relative;
 }
 
-.menu-models__item2 {
-  margin-right: 23px;
+.menu-models__item_models {
+  margin-right: 65px;
 }
 
-.menu-models__item3 {
+.menu-models__item_modelx {
+  margin-right: 27px;
+}
+
+.menu-models__item_model3 {
   margin-right: 44px;
 }
 
-.menu-models__item4 {
-  margin-right: 47px;
+.menu-models__item_roadster {
+  margin-right: 46px;
 }
 
-.menu-models__item5 {
-  margin-right: 223px;
-}
-
-
-.menu-models__item {
-  font-family: "montserratregular", arial, helvetica, sans-serif ;
-  font-weight: 600;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 18px;
-  padding-top: 18px;
+.shop__item {
+  display: block;
   text-decoration: none;
-  color: #000;
 }
 
-.menu-models__item_active::after{
-  display: block;
+.shop__item_buy {
+  margin-right: 35px;
+}
+
+.shop {
+  margin-right: 33px;
+}
+
+.menu-mobile {
   position: relative;
-  content: "";
-  width: 100%;
-  height: 2px;
-  background-color: #E51937;
-}
-
-.menu-models__item_active {
-  color: #E51937;
-}
-
-.menu-models__item:hover::after {
+  top: 24px;
   display: block;
-  position: relative;
-  content: "";
-  width: 100%;
-  height: 2px;
-  background-color: #E51937;
-}
-
-.menu-models__item:hover {
-  color: #E51937;
-}
-
-.menu-shop {
-  display: flex;
-  justify-content: space-between;
-}
-
-.menu-shop__item {
-  font-family: "montserratregular", arial, helvetica, sans-serif ;
-  font-weight: 600;
-  font-size: 15px;
-  font-style: normal;
-  line-height: 18px;
-  margin-right: 36px;
-  padding-top: 20px;
-  text-decoration: none;
-  color: #000;
-}
-
-.menu-shop__item:hover::after {
-  display: block;
-  position: relative;
-  content: "";
-  width: 100%;
-  height: 2px;
-  background-color: #E51937;
-}
-
-.menu-shop__item:hover {
-  color: #E51937;
-}
-
-.menu-shop__mobile {
-  margin-right: 20px;
-  margin-top: 26px;
-  position: relative;
-  display: block;
-  content: "";
   width: 24px;
   height: 3px;
-  background-color: #E51937;
-  cursor: pointer;
-}
+  background: #E51937;}
 
-.menu-shop__mobile::after {
+.menu-mobile::after {
+  content: "";
   position: relative;
   display: block;
-  content: "";
   width: 24px;
   height: 3px;
-  background-color: #E51937;
-  transform: translateY(4px);
+  background: #E51937;
+  transform: translateY(6px);
 }
 
-.menu-shop__mobile::before {
+.menu-mobile::before {
   position: relative;
-  display: block;
   content: "";
+  display: block;
   width: 24px;
   height: 3px;
-  background-color: #E51937;
-    transform: translateY(-7px);
+  background: #E51937;
+  transform: translateY(-8px);
 }
 
-.main {
-  width: 100%;
-  height: 565px;
-  background-image: url(img/teslatxt.svg);
-  background-position: top, center;
-  background-repeat: no-repeat;
-  margin-bottom: 102px;
-  background-position-x: 0px;
-  background-position-y: -99px;
-}
-
-.main__title {
-  position: absolute;
-  left: 543px;
-  top: 133px;
-  width: 370px;
-  height: 110px;
-  display: block;
-  background-image: url(img/ModelS12.svg);
-  background-repeat: no-repeat;
-}
-
-.main__text {
-  font-family: "montserratregular", arial, helvetica, sans-serif ;
-  font-weight: 500;
-  font-size: 17px;
-  font-style: normal;
-  line-height: 18px;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 26px;
-}
-
-.main__img {
-  position: relative;
-  width: 970px;
-  height: 450px;
-  margin-left: 14%;
-  margin-bottom: 23px;
-}
-
-.info-tesla {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 34px;
-
-}
-
-.main__arrow {
-  padding: 10px;
-  display: block;
-  width: 28px;
-  height: 14px;
-  background-image: url(img/Vector.svg);
-  background-repeat: no-repeat;
-  margin-left: 703px;
-}
-
-/*.main__arrow::before {
-  position: relative;
-  content: "";
-  transform: rotate(90deg);
-  margin: auto;
-  width: 28px;
-  height: 2px;
-  display: block;
-  border-radius: 3px;
-  top: -14px;
-  left: 13px;
-  background-color: #E51937;
-}*/
-
-.info-tesla__speed {
-  margin-right: 5%;
-  display: inline-block;
-  width: 380px;
-  height: 58px;
-  background-image: url(img/2,7.svg);
-  background-repeat: no-repeat;
-  margin-right: 100px;
-}
-
-.info-tesla__km {
-  margin-right: 5%;
-  display: inline-block;
-  width: 380px;
-  height: 58px;
-  background-image: url(img/632.svg);
-  background-repeat: no-repeat;
-}
-
-.info-tesla__button {
-  display: block;
-  width: 160px;
-  height: 40px;
-  border: 2px solid #E51937;
-  text-align: center;
-  text-decoration: none;
-  font-family: "montserratregular", arial, helvetica, sans-serif ;
-  font-weight: 700;
-  font-size: 13px;
-  font-style: normal;
-  line-height: 36px;
+.menu-models__item_models:hover, .menu-models__item_modelx:hover, .menu-models__item_model3:hover, .menu-models__item_roadster:hover, .menu-models__item_energy:hover, .shop__item_buy:hover, .shop__item_enter:hover {
   color: #E51937;
-  margin-right: 317px;
-  margin-top: 10px;
 }
 
-.info-tesla__test {
-  background-image: url(img/test_drive.svg);
-  background-repeat: no-repeat;
-  position: relative;
+.menu-models__item_active::after {
+  left: 0;
   display: block;
-  width: 130px;
-  height: 22px;
   content: "";
-  margin-right: 32px;
-  margin-top: 20px;
-}
-
-.future {
-background-image: url(img/tesla_inside.svg);
-background-repeat: no-repeat;
-padding-left: 1000px;
-margin: 0;
-background-position-y: 57px;
-/*margin-bottom: 120px;*/
-}
-
-.future__logo-models {
-  display: block;
   position: absolute;
-  width: 288px;
-  height: 86px;
-  background-image: url(img/ModelSfut.svg);
-  background-repeat: no-repeat;
-  left: 86px;
-  margin-top: 80px;
-}
-
-.future__info {
-  padding-top: 55px;
-  margin: 0;
   background-color: #E51937;
-  padding-bottom: 60px;
-}
-
-.future__info_title {
-  color: #FFFFFF;
-  margin-top: 0;
-  width: 81%;
-  font-family: "montserratregular", arial, helvetica, sans-serif ;
-  font-weight: 600;
-  font-size: 33px;
-  font-style: normal;
-  line-height: 31px;
-  padding-left: 52px;
-  margin-bottom: -4px;
-}
-
-.future__info_description {
-  color: #FFFFFF;
-  font-family: "montserratregular", arial, helvetica, sans-serif ;
-  font-weight: 500;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 18px;
-  width: 78%;
-  padding-left: 52px;
-  margin-bottom: 60px;
-}
-
-.future__info_display {
-  width: 187px;
-  height: 65px;
-  background-image: url(img/display.svg);
-  background-repeat: no-repeat;
-  width: 80%;
-  margin-left: 52px;
-  margin-bottom: 35px;
-}
-
-.future__info_wifi {
-  width: 269px;
-  height: 71px;
-  background-image: url(img/wifi.svg);
-  background-repeat: no-repeat;
-  width: 80%;
-  margin-left: 48px;
-  margin-bottom: 25px;
-}
-
-.future__info_bag {
-  width: 202px;
-  height: 71px;
-  background-image: url(img/bag.svg);
-  background-repeat: no-repeat;
-  width: 80%;
-  margin-left: 52px;
-  margin-bottom: 172px;
-}
-
-.future__info_more {
-  margin-bottom: 63px;
-  color: #FFFFFF;
-  margin: auto;
-  padding-left: 55px;
-  margin-right: 21px;
-  font-family: "montserratregular", arial, helvetica, sans-serif ;
-  font-weight: 700;
-  font-size: 11px;
-  font-style: normal;
-  line-height: 35px;
-}
-
-.future__info_more::before {
-  position: relative;
-  display: inline-block;
-  content: "";
-  width: 19px;
-  height: 19px;
-  border: 2px solid #FFFFFF;
-  border-radius: 50%;
-  left: -7px;
-  top: 7px;
-}
-
-.future__info_more::after {
-  text-align: center;
-  position: relative;
-  display: inline-block;
-  content: "i";
-  border-radius: 50%;
-  left: -148px;
-  top: 2px;
-  font-size: 18px;
-}
-
-.future__info_order {
-  display: inline-block;
-  width: 160px;
-  height:  40px;
-  border: 2px solid #FFFFFF;
-  text-align: center;
-  color: #FFFFFF;
-  margin: auto;
-  font-family: "montserratregular", arial, helvetica, sans-serif ;
-  font-weight: 700;
-  font-size: 13px;
-  font-style: normal;
-  line-height: 35px;
-}
-
-.safety {
-  background-image: url(img/ModelS.svg);
-  background-repeat: no-repeat;
-  padding-right: 1000px;
-  margin: 0;
-  background-position-x: 647px;
-  background-position-y: 141px;
-}
-
-.safety-info {
-  margin: 0;
-  padding-top: 51px;
-  padding-bottom: 62px;
-  background-color: #E51937;
-}
-
-.safety-info__title {
-  color: #FFFFFF;
-  margin-top: 0;
-  font-family: "montserratregular", arial, helvetica, sans-serif ;
-  font-weight: 600;
-  font-size: 31px;
-  font-style: normal;
-  line-height: 36px;
-  width: 73%;
-  margin: auto;
-  margin-bottom: 12px;
-}
-
-.safety-info__description {
-  color: #FFFFFF;
-  font-family: "montserratregular", arial, helvetica, sans-serif ;
-  font-weight: 500;
-  font-size: 17px;
-  font-style: normal;
-  line-height: 18px;
-  width: 75%;
-  margin: auto;
-  margin-bottom: 57px;
-}
-
-.safety-info__protection-title {
-  font-family: "montserratregular", arial, helvetica, sans-serif ;
-  font-weight: 600;
-  font-size: 33px;
-  font-style: normal;
-  line-height: 36px;
-  width: 61%;
-  margin-left: 57px;
-  margin-bottom: 28px;
-}
- .front-stars, .side-stars, .info__protection-side-rack, .driver-stars, .passenger-stars {
-  position: relative;
-  display: block;
-  margin: auto;
-  width: 75%;
-}
-
-.front-stars {
-  margin-bottom: 8px;
-}
-
-.rack-stars {
- margin-left: 55px;
- margin-top: 9px;
- margin-bottom: 7px;
- font-size: 13px;
-}
-
-.driver-stars {
-  margin-bottom: 8px;
-}
-
-.front-stars__first {
-  margin-left: 54px;
-}
-
-.side-stars__first {
-  margin-left: 78px;
-}
-
-.rack-stars__first {
-  margin-left: 52px;
-}
-
-.driver-stars__first {
-  margin-left: 42px;
-}
-
-.fiveth__one {
-  margin-left: 34px;
-}
-
-.passenger-stars__first {
-  margin-left: 36px;
-}
-
-.stars {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  background-image: url(img/Star.svg);
-  background-repeat: no-repeat;
-}
-
-.safety-info__result {
-  display: block;
-  margin: auto;
-  width: 309px;
-  height: 92px;
-  background-image: url(img/five_stars.svg);
-  margin-bottom: 50px;
-  margin-top: 94px;
-  background-repeat: no-repeat;
-}
-
-.safety__img {
-  position: absolute;
-  width: 1049px;
-  height: 540px;
-  top: 2023px;
-  left: 345px;
-}
-
-.img-more {
-  position: absolute;
-  width: 1049px;
-  height: 540px;
-  top: 2015px;
-  left: 345px;
-}
-
-.img-more__Car-crash {
-  left: 598px;
-  top: 218px;
-  position: relative;
-  width: 250px;
-  height: 128px;
-}
-
-.img-more__Protection-1 {
-  left: 10px;
-  top: 4px;
-  position: relative;
-  width: 193px;
-  height: 285px;
-}
-
-.img-more__Protection-2 {
-  left: 92px;
-  top: -192px;
-  position: relative;
-  width: 189px;
-  height: 137px;
-}
-
-.safety-info__more {
-  margin-bottom: 63px;
-  color: #FFFFFF;
-  margin: auto;
-  padding-left: 48px;
-  margin-right: 23px;
-  font-family: "montserratregular", arial, helvetica, sans-serif ;
-  font-weight: 700;
-  font-size: 10px;
-  font-style: normal;
-  line-height: 35px;
-}
-
-.safety-info__more::before {
-  position: relative;
-  display: inline-block;
-  content: "";
-  width: 19px;
-  height: 19px;
-  border: 2px solid #FFFFFF;
-  border-radius: 50%;
-  left: -11px;
-  top: 6px;
-}
-
-.safety-info__more::after {
-  text-align: center;
-  position: relative;
-  display: inline-block;
-  content: "i";
-  border-radius: 50%;
-  left: -140px;
-  top: 2px;
-  font-size: 18px;
-}
-
-.safety-info__order {
-  display: inline-block;
-  width: 160px;
-  height:  40px;
-  border: 2px solid #FFFFFF;
-  text-align: center;
-  color: #FFFFFF;
-  margin: auto;
-  font-family: "montserratregular", arial, helvetica, sans-serif ;
-  font-weight: 700;
-  font-size: 13px;
-  font-style: normal;
-  line-height: 35px;
+  width: 100%;
+  height: 2px;
 }
 
 @media (max-width: 375px) {
 
-.wrapper {
-  width: 100%;
+  .menu-models, .shop {
+    display: none;
+  }
+
+ .logo {
+   width: 37.5%;
+   margin-left: 0;
+   margin-right: 51%;
+   margin-top: 13%;
+   background-size: contain;
+ }
+
+.menu-mobile {
+  top: 21px;
+  margin-top: 13%;
 }
 
-.header {
-  margin-top: 75px;
-  margin-bottom: 95px;
+.menu-mobile::before {
+  transform: translateY(-7px)
 }
 
-.menu-models, .menu-shop__item {
-  display: none;
+.menu-mobile::after {
+  transform: translateY(4px)
 }
-.logo {
-  margin-right: 51%;
-  margin-left: 1px;
-  width: 140px;
-  height: 32px;
-  background-size: cover;
 }
 
-.menu-shop__mobile {
-  top: -6px;
+@media (min-width: 376px) and (max-width: 768px) {
+
+  .menu-models, .shop {
+    display: none;
+  }
+
+  .header {
+  padding-top: 3.1%;
+  }
+
+  .logo {
+    width: 22%;
+    margin-left: 2.1%;
+    margin-right: 67%;
+    background-size: contain;
+  }
+
+ .menu-mobile {
+  width: 5%;
+ }
+
+ .menu-mobile::before {
+  width: auto;
+  transform: translateY(-10px)
+ }
+
+ .menu-mobile::after {
+  width: auto;
+  transform: translateY(7px)
+ }
 }
 
+@media (min-width: 1440px) {
+  .logo {
+    background-size: contain;
+    margin-right: 17.4%;
+    width: 12%;
+    margin-left: 3%;
+  }
+
+ .menu-models {
+   margin-right: 14.4%;
+   width: 35%;
+ }
+
+ .menu-models__item_models {
+   margin-right: 12%;
+   font-size: 16px;
+ }
+
+ .menu-models__item_modelx {
+   font-size: 16px;
+   margin-right: 5%;
+ }
+
+ .menu-models__item_model3 {
+   font-size: 16px;
+   margin-right: 7.5%;
+ }
+
+ .menu-models__item_roadster {
+   font-size: 16px;
+   margin-right: 8.5%;
+ }
+
+ .menu-models__item_energy {
+   font-size: 16px;
+ }
+
+ .menu-models__item_active::after {
+  top: 133%;
+ }
+
+ .shop {
+   margin-right: 2.2%;
+   width: 10.1%;
+ }
+
+ .shop__item_buy {
+   margin-right: 18%;
+   font-size: 16px;
+ }
+
+ .shop__item_enter {
+   font-size: 16px;
+ }
+
+ .menu-mobile::after {
+  transform: translateY(135%)
+ }
+
+ .menu-mobile::before {
+  transform: translateY(-229%)
+ }
+}
+
+@media (min-width: 769px) and (max-width: 1439px) {
+  .logo {
+    background-size: contain;
+    margin-right: 10%;
+    width: 12%;
+    margin-left: 3%;
+  }
+
+ .menu-models__item_models, .menu-models__item_modelx, .menu-models__item_model3, .menu-models__item_roadster, .menu-models__item_energy, .shop__item_buy, .shop__item_enter {
+   font-size: 15px;
+   margin-right: 4%;
+ }
+
+ .menu-models {
+   padding-top: 1%;
+   width: 50%;
+   margin-right: 1%;
+ }
+
+ .shop {
+   padding-top: 1%;
+   width: 20%;
+   margin-right: 1%;
+ }
+}
+/*секция main*/
 .main {
-width: 100%;
-height: 439px;
-background-image: url(img/teslatxt.svg);
-background-repeat: no-repeat;
-background-size: 115%;
-background-position-x: -20px;
-background-position-y: 23px;
-margin-bottom: 0;
-}
-
-.info-tesla {
+  background-repeat: no-repeat;
+  background-image: url(img/teslatxt.svg);
   width: 100%;
 }
 
 .main__title {
-  margin: 0;
-  position: absolute;
-  left: 24%;
-  top: 19.8%;
-  width: 201px;
-  height: 61px;
-  display: block;
-  background-size: contain;
-}
-
-.main__text {
-  font-family: "montserratregular", arial, helvetica, sans-serif ;
-  font-weight: 500;
-  font-size: 11px;
-  font-style: normal;
-  line-height: 18px;
-  margin-left: -3px;
-  margin-bottom: 12.5%; }
-
-.main__img {
-  width: 357px;
-  height: 166px;
-  margin-left: 3%;
-  margin-bottom: 20px;
-}
-
-.info-tesla {
-  display: inline-block;
-  margin-bottom: 28px;
-}
-
-.info-tesla__speed {
-  margin-right: 0px;
-  margin-left: 10.4%;
-  margin-bottom: 4%;
-  width: 35%;
-  height: 50px;
-  background-size: contain;
-}
-
-.info-tesla__km {
-  margin-right: 0px;
-  margin-left: 8.5%;
-  margin-bottom: 3%;
-  width: 32%;
-  height: 55px;
-  background-size: contain;
-}
-.info-tesla__test {
+  width: 240px;
+  height: 20px;
   background-repeat: no-repeat;
-  background-image: url(img/Testdrive-mobile.svg);
-  top: 37px;
-  margin-top: -8px;
-  margin-left: 8.5%;
+  background-size: contain;
+  background-image: url(img/ModelS12.svg);
+  margin: auto;
 }
 
-.info-tesla__button {
-  color: #ffffff;
-  background-color: #E51937;
+.main__welcome {
+  width: 15%;
+  font-size: 15px;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-weight: 500;
+  margin: auto;
+}
+
+.main__picture {
+  margin: auto;
+  width: 970px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/tesla_car.svg);
+}
+
+.info {
+  margin-left: 33%;
+  display: inline-block;
+}
+
+.info__spkm_speed {
+  display: inline-block;
+  width: 155px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/2,7.svg);
+}
+
+.info__spkm_km {
+  display: inline-block;
+  width: 155px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/632.svg);
+}
+
+.info__more_test {
+  position: relative;
+  top: -10px;
+  width: 120px;
+  height: 25px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/test_drive.svg);
+}
+
+.info__more_order {
+  position: relative;
+  top: -12px;
+  padding-top: 9px;
+  color: #E51937;
+  text-decoration: none;
+  display: inline-block;
+  width: 160px;
+  height: 40px;
+  border: 2px solid #E51937;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 13px;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+}
+
+.arrow {
+  width: 28px;
+  height: 14px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/Vector.svg);
+  margin: auto;
+}
+
+@media (max-width: 375px) {
+
+  .main {
+    background-size: 114%;
+    background-position-y: 27.5%;
+    background-position-x: -19px;
+  }
+
+.main__title {
+  margin-left: 24%;
+  position: relative;
+  top: 34px;
+  width: 199px;
+  height: 39px;
+}
+
+.main__picture {
+  margin-bottom: 30%;
+  position: relative;
+  top: 93px;
+  height: 168px;
+  width: 94%;
+}
+
+.main__welcome {
+  position: relative;
+  width: 58%;
+  top: 42px;
+  font-size: 11px;
+  margin-left: 29.5%;
+}
+
+.info {
+  margin-bottom: 15%;
+  width: 100%;
+  position: relative;
+  margin-left: 0;
+}
+
+.info__spkm_speed {
+  width: 131px;
+  height: 55px;
+  margin-left: 10%;
+}
+
+.info__spkm_km  {
+  margin-left: 9%;
+  width: 117px;
+  height: 55px;
+}
+
+.info__more_test {
+  margin-left: 8.2%;
+  top: 40px;
+  width: 129px;
+  height: 32px;
+}
+
+.info__more_order {
+  padding-top: 7px;
+  margin-left: 4.2%;
+  top: 25px;
+  font-size: 15px;
+  background: #E51937;
+  color: #FFFFFF;
+}
+
+.arrow {
+  width: 34px;
+  height: 20px;
+  position: relative;
+  margin-left: 45.8%;
+}
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+
+  .header {
+    margin-bottom: 13%;
+  }
+
+.wrapper {
+  height: 3072px;
+}
+
+ .main {
+   background-size: 108%;
+   background-position-x: 16%;
+   background-position-y: 14%;
+ }
+
+  .main__title {
+    width: 360px;
+    Height: 100px;
+    margin-left: 27%;
+    margin-bottom: 1.2%;
+  }
+  .main__welcome {
+    width: 35%;
+    font-size: 17px;
+    margin-left: 34.5%;
+    position: relative;
+    top: -28px;
+    margin-bottom: 8%;
+  }
+
+.main__picture {
+  height: 329px;
+  width: 92%;
+  margin-bottom: 4%;
+}
+
+.info {
+  margin-bottom: 3.2%;
+  margin-left: 0;
+  width: 100%;
+}
+
+.info__spkm {
+  margin-bottom: 9%;
+}
+
+ .info__spkm_speed {
+   background-image: url(img/2,7Ipad.svg);
+   margin-left: 18.5%;
+   width: 220.7px;
+   height: 81.26px;
+}
+
+.info__spkm_km {
+  background-image: url(img/632Ipad.svg);
+  margin-left: 8%;
+  width: 200.64px;
+  height: 83.12px;
+}
+
+.info__more_test {
+  background-image: url(img/TestdriveIpad.svg);
+  width: 168px;
+  height: 52px;
+  margin-left: 22.5%;
+  top: -6px;
+}
+
+.info__more_order {
+  padding-top: 16px;
+  margin-left: 3.4%;
+  width: 224px;
+  top: -37px;
+  height: 57px;
+  font-size: 18px;
+  background: #E51937;
+  color: #FFFFFF;
+}
+
+.arrow {
+  width: 32px;
+  height: 20px;
+}
+}
+
+@media (min-width: 1440px) {
+
+ .header {
+   margin-bottom: 5.4%;
+ }
+
+.main {
+background-position-y: -7%;
+}
+
+  .main__title {
+    margin-bottom: 0.8%;
+    margin-left: 37.8%;
+    width: 357px;
+    height: 70px;
+  }
+
+ .main__welcome {
+   margin-bottom: 2%;
+   margin-left: 41.7%;
+   width: 20%;
+   font-size: 17px;
+ }
+
+.main__picture {
+  width: 1041px;
+  margin-bottom: 1.6%;
+}
+
+.info__spkm, .info__more {
+  display: inline-block;
+  width: 47%;
+}
+
+.info {
+  margin-bottom: 0.8%;
+  width: 60%;
+  margin-left: 22%;
+}
+
+.info__spkm_speed {
+  top: -11px;
+  position: relative;
+}
+
+.info__spkm_km {
+  margin-left: 18.5%;
+  width: 157px;
+  height: 65px;
+}
+
+.info__more_test {
+  top: -8px;
+  margin-left: 17%;
+  width: 129px;
+  height: 40px;
+}
+
+.info__more_order {
+  margin-left: 7.5%;
+  top: -32px;
   font-size: 14px;
-  margin-top: 1%;
-  margin-left: 47%;
 }
 
-.main__arrow {
-  margin-left: 172px;
+.arrow {
+  width: 30px;
+  height: 20px;
+}
 }
 
-.future__logo-models {
-  display: none;
+@media (min-width: 769px) and (max-width: 1439px) {
+
+  .header {
+    margin-bottom: 13%;
+  }
+
+ .main {
+   background-size: 108%;
+   background-position-x: 16%;
+   background-position-y: 14%;
+ }
+
+  .main__title {
+    width: 360px;
+    Height: 110px;
+    margin-left: 27%;
+  }
+  .main__welcome {
+    width: 34%;
+    font-size: 17px;
+    margin-left: 34.5%;
+    position: relative;
+    top: -28px;
+    margin-bottom: 8%;
+  }
+
+.main__picture {
+  width: 704px;
+  height: 328px;
+  margin-bottom: 4%;
 }
+
+.info {
+  margin-bottom: 3%;
+  margin-left: 0;
+  width: 100%;
+}
+
+.info__spkm {
+  margin-bottom: 9%;
+}
+
+ .info__spkm_speed {
+   margin-left: 18.5%;
+   width: 220.7px;
+   height: 81.26px;
+}
+
+.info__spkm_km {
+  margin-left: 8%;
+  width: 200.64px;
+  height: 83.12px;
+}
+
+.info__more_test {
+  width: 168px;
+  height: 52px;
+  margin-left: 22.5%;
+  top: -6px;
+}
+
+.info__more_order {
+  margin-left: 3.4%;
+  width: 224px;
+  top: -37px;
+  height: 57px;
+  font-size: 23px;
+  background: #E51937;
+  color: #FFFFFF;
+}
+
+.arrow {
+  width: 32px;
+  height: 20px;
+}
+}
+/*Секция future*/
+.future {
+  background-repeat: no-repeat;
+  background-image: url(img/tesla_inside.svg);
+  background-position-y: 48%;
+  padding-left: 69.4%;
+  width: 30.6%;
+}
+
+.future__title {
+  top: 111px;
+  position: relative;
+  left: -207%;
+  width: 278px;
+  height: 86px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/ModelSfut.svg);
+}
+
+.info-models {
+  position: relative;
+  top: -95px;
+  background: #E51937;
+  width: 100%;
+}
+
+.drive, .options {
+  width: 76%;
+  margin: auto;
+}
+
+.drive {
+  margin-bottom: 58px;
+}
+
+.drive__title {
+  padding-top: 16%;
+  margin-bottom: 0;
+  text-align: left;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+}
+
+.drive__text {
+  width: 91%;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+}
+
+.options {
+  margin-bottom: 38%;
+}
+
+.options__display {
+  margin-bottom: 10%;
+  width: 187px;
+  height: 65px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/display.svg);
+}
+
+.options__wifi {
+  margin-bottom: 8%;
+  width: 269px;
+  height: 71px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/wifi.svg);
+}
+
+.options__bag {
+  width: 202px;
+  height: 71px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/bag.svg);
+}
+
+.more__info {
+  position: relative;
+  left: 11%;
+  width: 44%;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffffff;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+}
+
+.more__icon::before {
+  left: 39%;
+  width: 5%;
+  position: relative;
+  display: inline-block;
+  content: "i";
+  font-size: 13px;
+  color: #ffffff;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+}
+
+.more__icon {
+  position: relative;
+  top: 1%;
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #ffffff;
+  border: solid 2px;
+  left: 11%;
+}
+
+.more__order {
+  padding-top: 11px;
+  position: relative;
+  top: 2px;
+  text-align: center;
+  width: 155px;
+  height: 26px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  border: solid 2px;
+  margin-left: 3%;
+}
+
+.more {
+  padding-bottom: 15%;
+}
+
+@media (max-width: 375px) {
+
+ .future__title, .options, .more {
+   display: none;
+ }
 
 .future {
-  padding-left: 0;
-  background-size: 135%;
-  background-repeat: no-repeat;
-  padding-top: 85%;
-  background-position-y: -2%;
+  background-position: top;
+  background-size: 134%;
   background-position-x: 31%;
+  background-position-y: 0;
+  padding-left: 0;
+  padding-top: 101%;
+  width: 100%;
+}
+
+.drive {
+  padding-bottom: 10.8%;
+  width: 85%;
   margin-bottom: 0;
 }
 
-.future__info {
+.drive__title {
+  padding-top: 4%;
+  font-size: 33px;
+}
+
+.drive__text {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+
+  .future {
+    background-image: url(img/backIpad.svg);
+    background-size: 100%;
+    background-position-y: 9.8%;
+    padding-left: 0;
+    width: 100%;
+    padding-top: 74.5%;
+  }
+
+  .drive, .options {
+    display: inline-block;
+    width: 49%;
+    margin: 0;
+ }
+
+ .future__title {
+   top: -488px;
+   left: 57.3%;
+ }
+
+.info-models {
+  top: -100px;
+}
+
+.drive__title {
   padding-top: 0;
-  padding-bottom: 40px;
+  position: relative;
+  margin-left: 9%;
+  top: 15px;
+  margin-bottom: 9%;
+  font-size: 33px;
 }
 
-.future__info_title{
-  color: #FFFFFF;
-  width: 92%;
-  padding-left: 7%;
-  padding-top: 5.7%;
+.drive__text {
+  width: 84%;
+  position: relative;
+  margin-left: 9%;
 }
 
-.future__info_description {
-  color: #FFFFFF;
-  width: 92%;
-  padding-left: 7%;
+.options__display {
+  position: relative;
+  left: 19.5%;
+  top: 24px;
+}
+
+.options__wifi {
+  position: relative;
+  left: 18.5%;
+  top: 7px;
+}
+
+.options__bag {
+  position: relative;
+  left: 19.5%;
+  top: -2px;
+}
+
+.more {
+  padding-top: 7%;
+  padding-bottom: 6.8%;
+}
+
+.more__info {
+  font-size: 18px;
+  margin-left: 1%;
+  width: 35%;
+}
+
+.more__icon::before {
+  font-size: 19px;
+  font-weight: 900;
+  left: 40%;
+}
+
+.more__icon {
+  margin-left: 9%;
+  top: 5px;
+  width: 27px;
+  height: 27px;
+}
+
+.more__order {
+  width: 217px;
+  height: 35px;
+  font-size: 19px;
+  margin-left: 0;
+  top: -1px;
+  left: 1%;
+  padding-top: 15px;
+}
+}
+
+@media (min-width: 1440px) {
+
+}
+
+/* section safeety*/
+
+.safety {
+  width: 30.6%;
+  padding-right: 69.4%;
+  background-repeat: no-repeat;
+  background-image: url(img/ModelS.svg);
+  background-position-x: 100%;
+  background-position-y: 0.4%;
+}
+
+.info-safety {
+  width: 100%;
+  position: relative;
+  top: -136px;
+  background: #E51937;
+}
+
+.description {
+  width: 100%;
+  margin-bottom: 15%;
+}
+
+.description__title {
+  color: #ffffff;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 12%;
+  margin-left: 13%;
   margin-bottom: 0;
 }
 
-.future__info_display, .future__info_wifi, .future__info_bag, .future__info_more, .future__info_order,
-.safety-info__protection-title, .front-stars, .side-stars, .rack-stars,
-.driver-stars, .passenger-stars, .safety-info__result, .safety-info__more, .safety-info__order {
+.description__text {
+  text-align: justify;
+  color: #ffffff;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 13%;
+  width: 69%;
+}
+
+.protection__title {
+  margin-left: 13%;
+  background-image: url(img/Оценказащиты.svg);
+  background-repeat: no-repeat;
+  width: 265px;
+  height: 40px;
+  margin-bottom: 3%;
+}
+
+.protection__front {
+  margin-bottom: 1.8%;
+  display: inline-flex;
+  width: 100%;
+  margin-left: 13%;
+}
+
+.protection__front_title {
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 4px;
+}
+
+
+.protection__front_star1 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 14%;
+  margin-right: 2px;
+}
+
+.protection__front_star2, .protection__front_star3, .protection__front_star4, .protection__front_star5 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 2px;
+}
+
+.protection__side {
+  margin-bottom: 1.8%;
+  display: inline-flex;
+  width: 100%;
+  margin-left: 13%;
+}
+
+.protection__side_title {
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 4px;
+}
+
+.protection__side_star1 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 20%;
+  margin-right: 2px;
+}
+
+.protection__side_star2, .protection__side_star3, .protection__side_star4, .protection__side_star5 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 2px;
+}
+
+.protection__rack {
+  margin-bottom: 1.8%;
+  display: inline-flex;
+  width: 100%;
+  margin-left: 13%;
+}
+
+.litle {
+  margin-left: 6%;
+  font-size: 10px;
+}
+
+.protection__rack_title {
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 4px;
+}
+
+.protection__rack_star1 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 9.7%;
+  margin-right: 2px;
+}
+
+.protection__rack_star2, .protection__rack_star3, .protection__rack_star4, .protection__rack_star5 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 2px;
+}
+
+.protection__driver {
+  margin-bottom: 1.8%;
+  display: inline-flex;
+  width: 100%;
+  margin-left: 13%;
+}
+
+.protection__driver_title {
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 4px;
+}
+
+.protection__driver_star1 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 12%;
+  margin-right: 2px;
+}
+
+.protection__driver_star2, .protection__driver_star3, .protection__driver_star4, .protection__driver_star5 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 2px;
+}
+
+.protection__passangeer {
+  margin-bottom: 1.8%;
+  display: inline-flex;
+  width: 100%;
+  margin-left: 13%;
+}
+
+.protection__passangeer_title {
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 4px;
+}
+
+.protection__passangeer_star1 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 2px;
+}
+
+.protection__passangeer_star2, .protection__passangeer_star3, .protection__passangeer_star4, .protection__passangeer_star5 {
+  width: 25px;
+  height: 25px;
+  background-image: url(img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 2px;
+}
+
+.protection {
+  margin-bottom: 20%;
+}
+
+.info-safety__result {
+  margin-left: 15%;
+  margin-bottom: 12%;
+  width: 280px;
+  height: 90px;
+  background-image: url(img/five_stars.svg);
+  background-repeat: no-repeat;
+}
+
+.more-safety {
+  padding-bottom: 13.5%;
+}
+
+.more-safety__info {
+  position: relative;
+  width: 32%;
+  margin-left: 9%;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+}
+
+.more-safety__icon::after {
+  left: 36%;
+  width: 5%;
+  position: relative;
+  display: inline-block;
+  content: "i";
+  font-size: 13px;
+  color: #ffffff;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+}
+
+.more-safety__icon {
+  position: relative;
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #ffffff;
+  border: solid 2px;
+  left: 8.5%;
+  top: 1%;
+}
+
+.more-safety__order {
+  padding-top: 11px;
+  position: relative;
+  top: 2px;
+  text-align: center;
+  width: 155px;
+  height: 26px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "montserratregular", arial, helvetica, sans-serif;
+  border: solid 2px;
+  margin-left: 3%;
+}
+
+
+.safety__img {
+  top: -862px;
+  left: 78%;
+  position: relative;
+  width: 237%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(img/Carframegroup.svg);
+}
+
+.safety__img_front {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  background-image: url(img/Protection1.svg);
+  left: 25%;
+  top: 2%;
+}
+
+.safety__img_side {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  background-image: url(img/Protection2.svg);
+  left: 52%;
+  top: -52%;
+}
+
+.safety__img_crash {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  background-image: url(img/Carcrash.svg);
+  left: 57%;
+  top: -23%;
+}
+
+@media (max-width: 375px) {
+
+  .wrapper {
+    height: 1860px;
+  }
+
+  .protection, .info-safety__result, .more-safety {
+    display: none;
+  }
+
+.safety {position: relative;
+  top: -47px;
+  width: 100%;
+  padding-top: 78.5%;
+  background-size: 107%;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  padding-right: 0;
+  height: 253px;
+}
+
+.safety__img {
+  background-image: url(img/Group18mobile.svg);
+  top: -250%;
+  left: -0.35%;
+  width: 97%;
+  height: 252px;
+}
+
+.description__title {
+  font-size: 32px;
+  text-align: justify;
+  width: 84%;
+  padding-top: 5%;
+  margin-left: 8%;
+}
+
+.description__text {
+  margin-top: 3%;
+  margin-left: 8%;
+  width: 83%;
+}
+
+.info-safety {
+  height: 100%;
+  padding-bottom: 13%;
+  top: -93px;
+}
+}
+
+@media (min-width: 376px) and (max-width: 768px) {
+
+.info-safety__result {
   display: none;
 }
 
 .safety {
-  background-size: 106%;
-  padding-top: 78.4%;
+  position: relative;
+  top: -29px;
+  background-size: 77%;
+  background-position-x: 55%;
+  background-position-y: 0;
+  width: 100%;
   padding-right: 0;
-  background-position-x: 0%;
-  background-position-y: 9%;
+  padding-top: 57%;
+  height: 516px;
 }
 
-.safety-info {
-  padding-top: 0;
-  padding-bottom: 5%;
-}
-
-.safety-info__title {
-  color: #FFFFFF;
-  font-size: 32px;
-  width: 92%;
-  padding-left: 8%;
-  padding-top: 5%;
-}
-
-.safety-info__description {
-  color: #FFFFFF;
-  width: 92%;
-  padding-left: 8%;
-  font-size: 18px;
+.info-safety {
+  top: 30px;
 }
 
 .safety__img {
+  background-image: url(img/CargroupIpad.svg);
+  top: -919px;
+  left: 0%;
   width: 96%;
-  height: 36%;
-  left: -2px;
-  top: 162%;
 }
 
-.img-more {
-  width: 96%;
-  height: 186px;
-  left: -1px;
-  top: 168.8%;
+.info-safety {
+  display: inline-block;
+  top: 30px;
 }
 
-.img-more__Car-crash {
-  background-repeat: no-repeat;
-  background-image: url(img/Crach-mobile.svg);
-  width: 25%;
-  height: 27%;
-  left: 57%;
-  top: 67.5%;
-}
-
-.img-more__Protection-1 {
-  background-image: url(img/Front-mobile.svg);
-  background-repeat: no-repeat;
-  width: 19%;
-  height: 53%;
-  left: 24.9%;
-  top: -28%;
-}
-
-.img-more__Protection-2 {
-  background-image: url(img/side-mobile.svg);
-  background-repeat: no-repeat;
-  width: 18%;
-  height: 27%;
-  left: 51.6%;
-  top: -90%;
-}
-}
-
-@media (max-width: 768px) and (min-width: 376px) {
-
-  .wrapper {
-    width: 100%;
-  }
-
-  .header {
-    margin-top: 3%;
-    margin-bottom: 24%;
-  }
-
-.menu-shop__mobile::before {
-  transform: translateY(-9px);
-}
-
-.menu-shop__mobile::after {
-  transform: translateY(7px);
-}
-
-  .menu-models, .menu-shop__item {
-    display: none;
-  }
-  .logo {
-    margin-left: 2%;
-    width: 166px;
-    height: 51px;
-    background-size: cover;
-    margin-right: 34.5%;
-  }
-
-  .menu-shop__mobile {
-    width: 35px;
-    left: 468%;
-    top: -2px;
-  }
-
-  .menu-shop__mobile::after, .menu-shop__mobile::before {
-    width: 35px;
-  }
-
-  .main {
-  width: 100%;
-  height: 100%;
-  background-image: url(img/teslatxt.svg);
-  background-repeat: no-repeat;
-  background-size: 109%;
-  background-position-x: 15%;
-  background-position-y: -1%;
+.description {
+  display: inline-block;
+  width: 49%;
   margin-bottom: 0;
-  }
-
-  .main__title {
-    margin: 0;
-    position: absolute;
-    left: 27%;
-    top: 22%;
-    width: 360px;
-    height: 110px;
-    display: block;
-    background-size: contain;
-  }
-
-  .main__text {
-    font-family: "montserratregular", arial, helvetica, sans-serif ;
-    font-weight: 500;
-    font-size: 17px;
-    font-style: normal;
-    line-height: 18px;
-    margin-left: -3px;
-    margin-bottom: 11%;
-  }
-
-  .main__img {
-    width: 698px;
-    height: 327px;
-    margin-left: 5%;
-    margin-bottom: 4.3%;
-  }
-
-  .info-tesla {
-    width: 100%;
-    display: inline-block;
-    margin-bottom: 8%;
-  }
-
-  .info-tesla__speed {
-    background-image: url(img/2,7Ipad.svg);
-    margin-left: 18%;
-    margin-bottom: 1%;
-    width: 30%;
-    height: 100px;
-    background-size: contain;
-    margin-right: 7%;
-  }
-
-  .info-tesla__km {
-    background-image: url(img/632Ipad.svg);
-    margin-left: 0px;
-    margin-bottom: 11px;
-    width: 27%;
-    height: 100px;
-    background-size: contain;}
-
-  .info-tesla__test {
-    display: inline-block;
-    background-image: url(img/Testdrive-mobile.svg);
-    width: 20%;
-    height: 40px;
-    background-size: contain;
-    top: 20px;
-    margin-right: 5%;
-    margin-top: -3%;
-    margin-left: 23%;
-  }
-
-  .info-tesla__button {
-    color: #ffffff;
-    background-color: #E51937;
-    margin-top: 3%;
-    display: inline-block;
-    width: 28%;
-    height: 52px;
-    margin-right: 0;
-    font-size: 17px;
-    line-height: 57px;
-  }
-
-  .main__arrow {
-    margin-left: 367px;
-  }
-
-  .future__logo-models {
-    left: 57.3%;
-    top: 126%;
-  }
-
-  .future {
-    padding-left: 0;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding-top: 71.5%;
-    background-position-x: 0px;
-    background-position-y: 8.3%;
-    margin-bottom: 0;
-  }
-  .future__info {
-    padding-bottom: 6.1%;
-  }
-  .future__info_title{
-    font-size: 32px;
-    width: 43%;
-    padding-left: 5%;
-    padding-top: 0.5%;
-  }
-
-  .future__info_description {
-    width: 43%;
-    padding-left: 4.5%;
-    padding-top: 1.5%;
-    margin-bottom: 9.2%;
-    font-size: 17px;
-  }
-
-.future__info_display {
-  width: 38%;
-  position: absolute;
-  margin: 0;
-  top: 203.5%;
-  left: 59%;
 }
 
-.future__info_wifi {
-  width: 38%;
-  position: absolute;
-  margin: 0;
-  top: 214.5%;
-  left: 58.5%;
+.protection {
+  left: -1%;
+  display: inline-block;
+  width: 49%;
+  position: relative;
+  top: 12px;
+  margin-bottom: 0;
 }
 
-.future__info_bag {
-  width: 38%;
-  position: absolute;
-  margin: 0;
-  top: 226%;
-  left: 59%;
-}
-
-.future__info_more {
-  padding-left: 22%;
-  font-size: 17px;
-}
-
-.future__info_more::after {
-  width: 23px;
-  height: 23px;
-  left: -24.7%;
-  top: 1px;
-}
-
-.future__info_more::before {
-  width: 25px;
-  height: 25px;
-  left: -2%;
-  top: 10px;
-}
-
-.future__info_order {
-  width: 28%;
-  height: 51px;
-  font-size: 17px;
-  vertical-align: middle;
-  line-height: 44px;
-}
-
- .safety-info__result {
-   display: none;
- }
-
-  .safety {
-    background-size: 77%;
-    background-position-x: 96px;
-    background-position-y: 69px;
-    padding-top: 70.1%;
-    padding-right: 0;
-  }
-
-  .safety-info {
-    padding-bottom: 62px;
-  }
-
-  .safety-info__title {
-    width: 42%;
-    padding-top: 1.9%;
-    font-size: 32px;
-    padding-left: 4.5%;
-    margin: 0;
-  }
-
-  .safety-info__description {
-    width: 42%;
-    padding-left: 4.5%;
-    padding-top: 1.5%;
-    padding-bottom: 9%;
-    font-size: 17px;
-    margin-bottom: 3%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .safety__img {
-    width: 98%;
-    height: 400px;
-    left: -2%;
-    top: 271%;
-  }
-
-  .img-more {
-    width: 98%;
-    height: 440px;
-    left: -2%;
-    top: 271%;
-  }
-
-  .img-more__Car-crash {
-    background-repeat: no-repeat;
-    background-image: url(img/Car-crashIpad.svg);
-    width: 26%;
-    left: 56.9%;
-    top: 61.5%;
-  }
-
-  .img-more__Protection-1 {
-    background-repeat: no-repeat;
-    background-image: url(img/Protection1IPAD.svg);
-    width: 19%;
-    height: 203px;
-    left: 25%;
-    top: -27.8%;
-  }
-
-  .img-more__Protection-2 {
-    background-image: url(img/Protection-2Ipad.svg);
-    background-repeat: no-repeat;
-    width: 17%;
-    height: 98px;
-    left: 51.7%;
-    top: -82%;
-  }
-
-.safety-info__protection-title {
-  color: #FFFFFF;
-  width: 43%;
-  position: absolute;
-  top: 329.5%;
-  left: 48%;
+.description__title {
+  margin-left: 9%;
+  padding-top: 5%;
   font-size: 32px;
 }
 
-.front-stars {
-  color: #FFFFFF;
-  width: 42%;
-  position: absolute;
-  top: 341%;
-  left: 55%;
+.description__text {
+  margin-left: 9%;
+  width: 82%;
 }
 
-.side-stars {
-  color: #FFFFFF;
-  width: 42%;
-  position: absolute;
-  top: 345.8%;
-  left: 55%;
+.protection__front {
+  width: 85%;
+  position: relative;
+  top: 2px;
 }
 
-.rack-stars {
-  color: #FFFFFF;
-  width: 42%;
-  position: absolute;
-  font-size: 17px;
-  top: 348.4%;
-  left: 48%;
-  margin-top: 17px;
-  margin-bottom: 1px;
+.protection__front_star1 {
+  margin-left: 20%;
 }
 
-.rack-stars__first {
-  margin-left: 6.8%;
+.protection__side {
+  width: 85%;
+  position: relative;
+  top: 4px;
 }
 
-.driver-stars {
-  color: #FFFFFF;
-  width: 42%;
-  position: absolute;
-  top: 355.2%;
-  left: 55%;
+.protection__side_star1 {
+  margin-left: 28%;
 }
 
-.passenger-stars {
-  color: #FFFFFF;
-  width: 42%;
-  position: absolute;
-  top: 360%;
-  left: 55%;
+.protection__rack  {
+  width: 85%;
+  position: relative;
+  top: 5px;
 }
 
-.safety-info__more {
-  padding-left: 176px;
-  font-size: 16px;
+.protection__rack_star1 {
+  margin-left: 12%;
 }
 
-.safety-info__more::after {
-  width: 23px;
-  height: 23px;
-  left: -188px;
-  top: 1px;
+.litle {
+  font-size: 11px;
+  margin-left: 6%;
 }
 
-.safety-info__more::before {
-  width: 25px;
-  height: 25px;
-  left: -20px;
-  top: 10px;
+.protection__driver {
+  width: 85%;
+  position: relative;
+  top: 5px;
 }
 
-.safety-info__order {
+.protection__driver_star1 {
+  margin-left: 15%;
+}
+
+.protection__driver_title {
+  font-size: 19px;
+}
+
+.protection__passangeer {
+  width: 85%;
+  position: relative;
+  top: 7px;
+}
+
+.protection__passangeer_star1 {
+  margin-left: 14.5%;
+}
+
+.more-safety {
+  padding-bottom: 7.2%;
+  margin-top: 11%;
+}
+
+.more-safety__icon {
+  margin-left: 11.6%;
+  width: 27px;
+  height: 27px;
+  top: -5px;
+}
+
+.more-safety__icon::after {
+  left: 37%;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.more-safety__info {
+  font-size: 18px;
+  margin-left: 9.5%;
+  width: 25%;
+  top: -8px;
+}
+
+.more-safety__order {
+  margin-left: 0;
   width: 216px;
-  height: 51px;
-  font-size: 17px;
-  vertical-align: middle;
-  line-height: 50px;
+  height: 35px;
+  top: -8px;
+  font-size: 18px;
+  padding-top: 15px;
 }
+}
+
+@media (min-width: 1440px) {
+
+  .safety {
+    height: 763px;
+  }
+
+.drive__title {
+  padding-top: 14%;
+  font-size: 33px;
+}
+
+.options__wifi {
+  margin-left: -1%;
+}
+
+.description__title {
+  font-size: 32px;
+  padding-top: 11%;
+}
+
+.description__text {
+  margin-top: 3%;
+}
+
+.description {
+  margin-bottom: 14%;
+}
+
+.protection__front_title {
+  padding-top: 8px;
+}
+
+.protection__front_star1, .protection__side_star1, .protection__rack_star1, .protection__driver_star1, .protection__passangeer_star1 {
+  position: relative;
+  top: 2px;
+}
+
+.protection__side_title {
+  padding-top: 6px;
+}
+
+.protection__rack_title {
+  padding-top: 6px;
+}
+
+.litle {
+  font-size: 11px;
+}
+
+.protection__rack_star1 {
+  margin-left: 8.3%;
+}
+
+.protection__driver_title {
+  padding-top: 6px;
+}
+
+.protection__passangeer_title {
+  padding-top: 6px;
+}
+
+.protection {
+  margin-bottom: 21%;
+}
+
+.safety__img {
+  width: 238%;
+  top: -113.5%;
+}
+
 
 }
