@@ -813,14 +813,19 @@ background-position-y: -7%;
 }
 
 .drive__title {
+  letter-spacing: 1px;
   line-height: 34px;
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 0;
   padding-top: 4%;
-  font-size: 33px;
+  font-size: 31px;
 }
 
 .drive__text {
+  width: 100%;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  line-height: 18px;
   margin-bottom: 0;
   margin-top: 10px;
 }
@@ -849,26 +854,36 @@ background-position-y: -7%;
  }
 
 .future-block {
-  margin-bottom: 48.2%;
+  margin-bottom: 50%;
   width: 40%;
   left: 60%;
 }
 
 .info-models {
+  padding-top: 5%;
   width: 100%;
+  margin-top: 0;
+}
+
+.drive {
+  padding-top: 3%;
 }
 
 .drive__title {
+  margin-top: 0;
   padding-top: 0;
   position: relative;
   margin-left: 9%;
-  top: 15px;
-  margin-bottom: 9%;
-  font-size: 33px;
+  margin-bottom: 5%;
+  font-size: 32px;
+  letter-spacing: 0.6px;
 }
 
 .drive__text {
-  width: 84%;
+  line-height: 18px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  width: 90%;
   position: relative;
   margin-left: 9%;
 }
@@ -876,19 +891,21 @@ background-position-y: -7%;
 .options__display {
   position: relative;
   left: 19.5%;
-  top: 24px;
+  padding-top: 5%;
+  margin-bottom: 0;
 }
 
 .options__wifi {
   position: relative;
+  margin-bottom: 0;
+  padding-top: 6%;
   left: 18.5%;
-  top: 7px;
 }
 
 .options__bag {
+  padding-bottom: 1%;
   position: relative;
   left: 19.5%;
-  top: -2px;
 }
 
 .more {
@@ -927,6 +944,34 @@ background-position-y: -7%;
 }
 
 @media (min-width: 1440px) {
+
+.future {
+  background-position-y: 107%;
+}
+
+.drive__title {
+  margin-top: 15%;
+}
+
+.drive__text {
+  margin-top: 3.5%;
+  letter-spacing: 1px;
+  line-height: 18px;
+  font-size: 15px;
+  width: 96%;
+}
+
+.more__icon {
+  top: calc(23px - 18px);
+}
+
+.options {
+  margin-bottom: 39%;
+}
+
+.future__title {
+  margin-bottom: 66%;
+}
 
 }
 
@@ -970,7 +1015,6 @@ background-position-y: -7%;
 }
 
 .description__text {
-  text-align: justify;
   color: #ffffff;
   font-family: "montserratregular", arial, helvetica, sans-serif;
   font-size: 16px;
@@ -1305,9 +1349,12 @@ background-position-y: -7%;
 }
 
 .description__text {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 1.1px;
   margin-top: 3%;
   margin-left: 8%;
-  width: 83%;
+  width: 91%;
 }
 
 .info-safety {
@@ -1481,11 +1528,15 @@ background-position-y: -7%;
 
 .description__title {
   font-size: 32px;
-  padding-top: 11%;
+  padding-top: 13%;
 }
 
 .description__text {
   margin-top: 3%;
+  letter-spacing: 1.6px;
+  line-height: 18px;
+  font-size: 14px;
+  width: 73%;
 }
 
 .description {
