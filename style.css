@@ -1410,17 +1410,22 @@ background-position-y: -7%;
 }
 
 .protection__title {
+  width: 70%;
   margin-bottom: 0;
 }
 
 .description__title {
+  padding-top: 13%;
   margin-left: 9%;
   font-size: 32px;
 }
 
 .description__text {
+  letter-spacing: 1.7px;
+  font-size: 14px;
   margin-left: 9%;
-  width: 82%;
+  width: 90%;
+  line-height: 18px;
 }
 
 .protection__front {
@@ -1435,7 +1440,6 @@ background-position-y: -7%;
 .protection__side {
   width: 85%;
   position: relative;
-  top: 4px;
 }
 
 .protection__side_star1 {
@@ -1445,7 +1449,6 @@ background-position-y: -7%;
 .protection__rack  {
   width: 85%;
   position: relative;
-  top: 5px;
 }
 
 .protection__rack_star1 {
@@ -1460,7 +1463,6 @@ background-position-y: -7%;
 .protection__driver {
   width: 85%;
   position: relative;
-  top: 5px;
 }
 
 .protection__driver_star1 {
@@ -1474,7 +1476,6 @@ background-position-y: -7%;
 .protection__passangeer {
   width: 85%;
   position: relative;
-  top: 7px;
 }
 
 .protection__passangeer_star1 {
