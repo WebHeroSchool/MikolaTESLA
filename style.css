@@ -655,7 +655,7 @@ background-position-y: -7%;
 .future {
   background-repeat: no-repeat;
   background-image: url(img/tesla_inside.svg);
-  background-position-y: 102%;
+  background-position-y: 99%;
   width: 100%;
   display: inline-block;
 }
@@ -781,7 +781,7 @@ background-position-y: -7%;
 }
 
 .more {
-  padding-bottom: 13%;
+  padding-bottom: 14.1%;
 }
 
 @media (max-width: 375px) {
@@ -949,7 +949,7 @@ background-position-y: -7%;
 @media (min-width: 1440px) {
 
 .future {
-  background-position-y: 107%;
+  background-position-y: 100%;
 }
 
 .drive__title {
@@ -988,7 +988,7 @@ background-position-y: -7%;
   url(img/Carframegroup.svg),
   url(img/ModelS.svg);
   background-size: 73%, 55%;
-  background-position-y: 57%, 19%;
+  background-position-y: 56%, 19%;
   background-position-x: 88%, 100%;
 }
 
@@ -996,7 +996,7 @@ background-position-y: -7%;
 .info-safety {
   z-index: -1;
   display: inline-block;
-  width: 30%;
+  width: 30.5%;
   position: relative;
   background: #E51937;
 }
@@ -1550,7 +1550,7 @@ background-position-y: -7%;
 
 .description__title {
   font-size: 32px;
-  padding-top: 13%;
+  padding-top: 12%;
 }
 
 .description__text {
@@ -1566,12 +1566,14 @@ background-position-y: -7%;
 }
 
 .protection__front {
-  margin-top: 1%;
+  margin-top: 0%;
 }
 
 .protection__front_title {
   letter-spacing: 2px;
+  padding-top: 1.6%;
   font-size: 16px;
+  margin-right: 13%;
 }
 
 .protection__front_star1, .protection__side_star1, .protection__rack_star1, .protection__driver_star1, .protection__passangeer_star1 {
@@ -1580,7 +1582,7 @@ background-position-y: -7%;
 }
 
 .protection__side_title {
-  padding-top: 1%;
+  padding-top: 1.5%;
   font-size: 17px;
   letter-spacing: 1px;
 }
@@ -1589,18 +1591,18 @@ background-position-y: -7%;
   padding-top: 1.5%;
   font-size: 17px;
   letter-spacing: 1px;
-  margin-right: 6.3%;
+  margin-right: 8.3%;
 }
 
 .litle {
-  font-size: 11px;
+  font-size: 9px;
 }
 
 .protection__rack_star1 {
 }
 
 .protection__driver_title {
-  padding-top: 1%;
+  padding-top: 1.5%;
   font-size: 16px;
   letter-spacing: 2px;
   margin-right: 11%;
@@ -1616,5 +1618,9 @@ background-position-y: -7%;
   margin-bottom: 21%;
 }
 
+.more-safety__order {
+  top: 0;
+  padding-top: 2%;
+}
 
 }
