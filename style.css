@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  max-width: 2000px;
+  margin: 0 auto;
 }
 
 .header {
@@ -320,7 +321,7 @@ margin-right: 260px;
   display: inline-block;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(img/test_drive.svg);
+  background-image: url(img/Testdrive-mobile.svg);
 }
 
 .info__more_order {
@@ -360,7 +361,7 @@ margin-right: 260px;
   margin-left: 24%;
   position: relative;
   top: 34px;
-  width: 199px;
+  width: 53%;
   height: 39px;
 }
 
@@ -377,7 +378,7 @@ margin-right: 260px;
   width: 58%;
   top: 42px;
   font-size: 11px;
-  margin-left: 29.5%;
+  text-align: center;
 }
 
 .info {
@@ -388,29 +389,31 @@ margin-right: 260px;
 }
 
 .info__spkm_speed {
-  width: 131px;
+  width: 35.5%;
   height: 55px;
   margin-left: 10%;
 }
 
 .info__spkm_km  {
   margin-left: 9%;
-  width: 117px;
+  width: 31%;
   height: 55px;
 }
 
 .info__more_test {
-  margin-left: 8.2%;
+  margin-left: 8.9%;
   top: 40px;
-  width: 129px;
+  width: 33%;
   height: 32px;
 }
 
 .info__more_order {
-  padding-top: 10px;
+  width: 44%;
+  padding-top: 2px;
   margin-left: 4.2%;
-  top: 25px;
-  font-size: 15px;
+  top: 24px;
+  font-size: 13px;
+  letter-spacing: 1px;
   background: #E51937;
   color: #FFFFFF;
 }
@@ -436,28 +439,28 @@ margin-right: 260px;
  }
 
   .main__title {
-    width: 360px;
+    width: 46.6%;
     Height: 100px;
     margin-left: 27%;
     margin-bottom: 1.2%;
   }
   .main__welcome {
-    width: 35%;
+    text-align: center;
+    width: 65%;
     font-size: 17px;
-    margin-left: 34.5%;
     position: relative;
-    top: -28px;
-    margin-bottom: 8%;
+    margin-top: -3.2%;
+    margin-bottom: 11.2%;
   }
 
 .main__picture {
   height: 329px;
-  width: 92%;
+  width: 91%;
   margin-bottom: 4%;
 }
 
 .info {
-  margin-bottom: 3.2%;
+  margin-bottom: 2.5%;
   margin-left: 0;
   width: 100%;
 }
@@ -469,32 +472,33 @@ margin-right: 260px;
  .info__spkm_speed {
    background-image: url(img/2,7Ipad.svg);
    margin-left: 18.5%;
-   width: 220.7px;
+   width: 29%;
    height: 81.26px;
 }
 
 .info__spkm_km {
   background-image: url(img/632Ipad.svg);
-  margin-left: 8%;
-  width: 200.64px;
-  height: 83.12px;
+  margin-left: 7.5%;
+  width: 26%;
+  height: 85.12px;
 }
 
 .info__more_test {
   background-image: url(img/TestdriveIpad.svg);
-  width: 168px;
+  width: 21.5%;
   height: 52px;
   margin-left: 22.5%;
-  top: -6px;
+  margin-top: 0.5%;
 }
 
 .info__more_order {
-  padding-top: 16px;
-  margin-left: 3.4%;
-  width: 224px;
-  top: -37px;
+  letter-spacing: 1px;
+  padding-top: 0%;
+  margin-left: 3.7%;
+  width: 29%;
+  top: -40px;
   height: 57px;
-  font-size: 18px;
+  font-size: 17px;
   background: #E51937;
   color: #FFFFFF;
 }
@@ -512,19 +516,20 @@ margin-right: 260px;
  }
 
 .main {
-background-position-y: -7%;
+  background-position-x: center;
+  background-position-y: -7%;
 }
 
   .main__title {
     margin-bottom: 0.8%;
     margin-left: 37.8%;
-    width: 357px;
+    width: 25%;
     height: 70px;
   }
 
  .main__welcome {
+   text-align: center;
    margin-bottom: 2%;
-   margin-left: 41.7%;
    width: 20%;
    font-size: 17px;
  }
@@ -557,6 +562,7 @@ background-position-y: -7%;
 }
 
 .info__more_test {
+  background-image: url(img/test_drive.svg);
   top: -8px;
   margin-left: 17%;
   width: 129px;
@@ -564,6 +570,7 @@ background-position-y: -7%;
 }
 
 .info__more_order {
+  padding-top: 0;
   margin-left: 7.5%;
   top: -32px;
   font-size: 14px;
@@ -590,12 +597,12 @@ background-position-y: -7%;
   .main__title {
     width: 360px;
     Height: 110px;
-    margin-left: 27%;
+    margin: auto;
   }
   .main__welcome {
+    text-align: center;
     width: 34%;
     font-size: 17px;
-    margin-left: 34.5%;
     position: relative;
     top: -28px;
     margin-bottom: 8%;
@@ -619,18 +626,18 @@ background-position-y: -7%;
 
  .info__spkm_speed {
    margin-left: 18.5%;
-   width: 220.7px;
+   width: 29%;
    height: 81.26px;
 }
 
 .info__spkm_km {
   margin-left: 8%;
-  width: 200.64px;
+  width: 26%;
   height: 83.12px;
 }
 
 .info__more_test {
-  width: 168px;
+  width: 21.5%;
   height: 52px;
   margin-left: 22.5%;
   top: -6px;
@@ -638,7 +645,7 @@ background-position-y: -7%;
 
 .info__more_order {
   margin-left: 3.4%;
-  width: 224px;
+  width: 29%;
   top: -37px;
   height: 57px;
   font-size: 23px;
@@ -652,6 +659,7 @@ background-position-y: -7%;
 }
 }
 /*Секция future*/
+
 .future {
   background-repeat: no-repeat;
   background-image: url(img/tesla_inside.svg);
@@ -979,6 +987,10 @@ background-position-y: -7%;
 }
 
 /* section safeety*/
+
+
+/*  delete
+
 
 .safety {
   display: inline-block;
@@ -1309,6 +1321,10 @@ background-position-y: -7%;
   top: -23%;
 }*/
 
+
+/*  delete
+
+
 @media (max-width: 375px) {
 
 
@@ -1342,6 +1358,10 @@ background-position-y: -7%;
   position: absolute;
   top: 59px;
 }*/
+
+
+/*  delete
+
 
 .description__title {
   font-size: 32px;
@@ -1391,6 +1411,10 @@ background-position-y: -7%;
   left: 0%;
   width: 96%;
 }*/
+
+
+/*  delete
+
 
 .info-safety {
   width: 100%;
