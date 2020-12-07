@@ -822,7 +822,7 @@ margin-right: 260px;
 
 .drive__title {
   letter-spacing: 1px;
-  line-height: 34px;
+  line-height: 33px;
   font-weight: 600;
   margin-top: 0;
   padding-top: 4%;
@@ -856,6 +856,7 @@ margin-right: 260px;
  }
 
  .future__title {
+   width: 90.5%;
    left: -6.7%;
    margin-top: 27%;
    margin-bottom: 0;
@@ -897,6 +898,7 @@ margin-right: 260px;
 }
 
 .options__display {
+  width: 50%;
   position: relative;
   left: 19.5%;
   padding-top: 6%;
@@ -904,6 +906,7 @@ margin-right: 260px;
 }
 
 .options__wifi {
+  width: 71%;
   position: relative;
   margin-bottom: 0;
   padding-top: 5%;
@@ -911,6 +914,7 @@ margin-right: 260px;
 }
 
 .options__bag {
+  width: 54%;
   padding-bottom: 1%;
   position: relative;
   left: 19.5%;
@@ -926,7 +930,7 @@ margin-right: 260px;
   letter-spacing: 2px;
   vertical-align: super;
   margin-left: 1%;
-  width: 35%;
+  width: 24%;
 }
 
 .more__icon::before {
@@ -938,18 +942,20 @@ margin-right: 260px;
 .more__icon {
   margin-left: 9%;
   margin-top: 1%;
-  width: 32px;
+  width: 4.5%;
   height: 32px;
 }
 
 .more__order {
-  width: 217px;
-  height: 35px;
-  font-size: 17px;
-  margin-left: 0;
+  background: #E51937;
+  top: 0;
+  width: 29%;
+  height: 54px;
+  font-size: 15px;
+  margin-left: 10.4%;
   left: 1.4%;
-  padding-top: 2%;
-  letter-spacing: 1px;
+  padding-top: 0;
+  letter-spacing: 2px;
   vertical-align: super;
 }
 }
