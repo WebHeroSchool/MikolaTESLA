@@ -1,5 +1,5 @@
 body {
-  max-width: 2000px;
+  max-width: 1800px;
   margin: 0 auto;
 }
 
@@ -686,11 +686,10 @@ margin-right: 260px;
 }
 
 .info-models {
-  margin-top: 2.2%;
   display: inline-block;
   position: relative;
   background: #E51937;
-  width: 30.7%;
+  width: 31%;
 }
 
 .drive, .options {
@@ -848,6 +847,7 @@ margin-right: 260px;
     background-position-y: 10.8%;
     padding-left: 0;
     width: 100%;
+    flex-direction: column;
   }
 
   .drive, .options {
@@ -855,6 +855,10 @@ margin-right: 260px;
     width: 49%;
     margin: 0;
  }
+
+.info-safety {
+  padding-bottom: 0%;
+}
 
  .future__title {
    width: 90.5%;
@@ -864,13 +868,13 @@ margin-right: 260px;
  }
 
 .future-block {
-  margin-bottom: 50%;
+  margin-bottom: 51%;
   width: 40%;
   left: 56.5%;
 }
 
 .info-models {
-  padding-top: 5%;
+  padding-top: 4.5%;
   width: 100%;
   margin-top: 0;
 }
@@ -904,6 +908,14 @@ margin-right: 260px;
   left: 19.5%;
   padding-top: 6%;
   margin-bottom: 0;
+}
+
+.protection__front {
+  margin-top: -40%;
+}
+
+.protection__driver {
+  margin-top: -10.5%;
 }
 
 .options__wifi {
@@ -969,7 +981,7 @@ margin-right: 260px;
   }
 
 .info-models {
-  width: 30.45%;
+  width: 31%;
 }
 
 .drive__title {
@@ -1010,8 +1022,6 @@ margin-right: 260px;
 
 }
 
-
-
 @media (min-width: 1440px) {
 
 .future {
@@ -1019,11 +1029,22 @@ margin-right: 260px;
 }
 
 .drive__title {
-  margin-top: 15%;
+  margin-top: 15.6%;
+  letter-spacing: 2px;
+  font-size: 29px;
+}
+
+.info-models {
+  width: 30.5%;
+  margin-top: 2.2%;
+}
+
+.future-block {
+  width: 69.5%;
 }
 
 .drive__text {
-  margin-top: 3.5%;
+  margin-top: 5%;
   letter-spacing: 1px;
   line-height: 18px;
   font-size: 15px;
@@ -1032,6 +1053,7 @@ margin-right: 260px;
 
 .more__icon {
   top: calc(23px - 18px);
+  width: 6%;
 }
 
 .options {
@@ -1039,17 +1061,37 @@ margin-right: 260px;
 }
 
 .future__title {
-  margin-bottom: 66%;
+  margin-bottom: 50%;
+  margin-top: 11%;
 }
 
+.options__display {
+  width: 56%;
+}
+
+.options__wifi {
+  width: 85%;
+  margin-left: -2%;
+  }
+
+.options__bag {
+  width: 60%;
+}
+
+.more__order {
+  padding-top: 3px;
+  width: 36%;
+  margin-left: 2%;
+  height: 38px;
+}
+
+.more {
+  padding-bottom: 15.1%;
+}
 
 }
 
 /* section safeety*/
-
-
-/*  delete
-
 
 .safety {
   display: inline-block;
@@ -1101,9 +1143,14 @@ margin-right: 260px;
   margin-left: 13%;
   background-image: url(img/Оценказащиты.svg);
   background-repeat: no-repeat;
+  background-size: contain;
   width: 265px;
   height: 40px;
   margin-bottom: 3%;
+}
+
+.star {
+  background-size: contain;
 }
 
 .protection__front {
@@ -1381,9 +1428,6 @@ margin-right: 260px;
 }*/
 
 
-/*  delete
-
-
 @media (max-width: 375px) {
 
 
@@ -1419,9 +1463,6 @@ margin-right: 260px;
 }*/
 
 
-/*  delete
-
-
 .description__title {
   font-size: 32px;
   text-align: justify;
@@ -1453,7 +1494,7 @@ margin-right: 260px;
 
 .safety {
   position: relative;
-  background-position-y: 9.8%, 6.5%;
+  background-position-y: 12.8%, 6.5%;
   background-position-x: -3%, 53%;
   background-size: 96%, 77%;
   background-image:
@@ -1464,6 +1505,10 @@ margin-right: 260px;
   padding-top: 70%;
 }
 
+
+.star {
+  width: 8%;
+}
 /*.safety__img {
   background-image: url(img/CargroupIpad.svg);
   top: -919px;
@@ -1472,12 +1517,9 @@ margin-right: 260px;
 }*/
 
 
-/*  delete
-
 
 .info-safety {
   width: 100%;
-  padding-bottom: 27%;
 }
 
 .description {
@@ -1497,7 +1539,7 @@ margin-right: 260px;
 
 .protection__title {
   width: 70%;
-  margin-bottom: 43%;
+  margin-bottom: 44%;
 }
 
 .description__title {
@@ -1517,7 +1559,7 @@ margin-right: 260px;
 .protection__front {
   width: 85%;
   position: absolute;
-  margin-top: -39%
+  margin-top: -40%
 }
 
 .protection__front_star1 {
@@ -1531,7 +1573,7 @@ margin-right: 260px;
 }
 
 .protection__side_title {
-  padding-top: 2.5%;
+  padding-top: 1.5%;
 }
 
 .protection__side_star1 {
@@ -1562,7 +1604,7 @@ margin-right: 260px;
 .protection__driver {
   width: 85%;
   position: absolute;
-  margin-top: -10%;
+  margin-top: -10.5%;
 }
 
 .protection__driver_star1 {
@@ -1594,7 +1636,7 @@ margin-right: 260px;
 
 .more-safety__icon {
   margin-left: 11.6%;
-  width: 32px;
+  width: 5%;
   height: 32px;
 }
 
@@ -1606,14 +1648,14 @@ margin-right: 260px;
 
 .more-safety__info {
   font-size: 18px;
-  margin-left: 9.5%;
+  margin-left: 8.5%;
   width: 25%;
   vertical-align: super;
 }
 
 .more-safety__order {
   margin-left: 0;
-  width: 216px;
+  width: 28%;
   height: 35px;
   top: -8px;
   font-size: 18px;
