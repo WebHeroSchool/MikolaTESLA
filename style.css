@@ -665,13 +665,13 @@ margin-right: 260px;
   background-image: url(img/tesla_inside.svg);
   background-position-y: 99%;
   width: 100%;
-  display: inline-block;
+  display: flex;
 }
 
 .future__title {
   margin-bottom: 67%;
   position: relative;
-  left: 8.6%;
+  margin-left: 8.6%;
   width: 278px;
   height: 86px;
   background-repeat: no-repeat;
@@ -773,6 +773,7 @@ margin-right: 260px;
 }
 
 .more__order {
+  background: #E51937;
   padding-top: 11px;
   position: relative;
   top: 2px;
@@ -865,7 +866,7 @@ margin-right: 260px;
 .future-block {
   margin-bottom: 50%;
   width: 40%;
-  left: 60%;
+  left: 56.5%;
 }
 
 .info-models {
@@ -960,6 +961,57 @@ margin-right: 260px;
 }
 }
 
+@media (min-width: 769px) and (max-width: 1439px) {
+
+  .future__title {
+    margin-bottom: 97%;
+    width: 28%;
+  }
+
+.info-models {
+  width: 30.45%;
+}
+
+.drive__title {
+  font-size: 18px;
+}
+
+.drive__text {
+  font-size: 10px;
+}
+
+.options__display {
+  width: 90%;
+}
+
+.options__wifi {
+  width: 104%;
+}
+
+.options__bag {
+  width: 96%;
+}
+
+.more__info {
+  font-size: 9px;
+  vertical-align: super;
+}
+
+.more__order {
+  padding-top: 4px;
+  top: -5px;
+  width: 29%;
+  font-size: 11px;
+}
+
+.more__icon {
+  width: 7%;
+}
+
+}
+
+
+
 @media (min-width: 1440px) {
 
 .future {
@@ -989,6 +1041,7 @@ margin-right: 260px;
 .future__title {
   margin-bottom: 66%;
 }
+
 
 }
 
