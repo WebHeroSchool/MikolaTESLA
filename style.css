@@ -1562,6 +1562,13 @@ margin-right: 260px;
   margin-top: -40%
 }
 
+.protection__front_title {
+  background-image: url(img/Спереди.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #E51937;
+}
+
 .protection__front_star1 {
   margin-left: 6%;
 }
