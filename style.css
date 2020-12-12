@@ -99,7 +99,7 @@ body {
   display: block;
   width: 24px;
   height: 3px;
-  background: #E51937;
+  background: #e51937;
   transform: translateY(-8px);
 }
 
@@ -123,22 +123,22 @@ body {
   }
 
   .logo {
-   width: 37.5%;
-   margin-left: 0;
-   margin-right: 51%;
-   background-size: contain;
+    width: 37.5%;
+    margin-left: 0;
+    margin-right: 51%;
+    background-size: contain;
   }
 
-.menu-mobile {
-  top: 21px;
-}
+  .menu-mobile {
+    top: 21px;
+  }
 
 .menu-mobile::before {
-  transform: translateY(-7px)
+  transform: translateY(-7px);
 }
 
 .menu-mobile::after {
-  transform: translateY(4px)
+  transform: translateY(4px);
 }
 }
 
