@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  max-width: 1800px;
+  margin: 0 auto;
 }
 
 .header {
@@ -256,7 +257,7 @@ margin-right: 260px;
    margin-right: 1%;
  }
 }
-/*секция main*/
+
 .main {
   background-repeat: no-repeat;
   background-image: url(img/teslatxt.svg);
@@ -320,7 +321,7 @@ margin-right: 260px;
   display: inline-block;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(img/test_drive.svg);
+  background-image: url(img/Testdrive-mobile.svg);
 }
 
 .info__more_order {
@@ -360,7 +361,7 @@ margin-right: 260px;
   margin-left: 24%;
   position: relative;
   top: 34px;
-  width: 199px;
+  width: 53%;
   height: 39px;
 }
 
@@ -377,7 +378,7 @@ margin-right: 260px;
   width: 58%;
   top: 42px;
   font-size: 11px;
-  margin-left: 29.5%;
+  text-align: center;
 }
 
 .info {
@@ -388,29 +389,31 @@ margin-right: 260px;
 }
 
 .info__spkm_speed {
-  width: 131px;
+  width: 35.5%;
   height: 55px;
   margin-left: 10%;
 }
 
 .info__spkm_km  {
   margin-left: 9%;
-  width: 117px;
+  width: 31%;
   height: 55px;
 }
 
 .info__more_test {
-  margin-left: 8.2%;
+  margin-left: 8.9%;
   top: 40px;
-  width: 129px;
+  width: 33%;
   height: 32px;
 }
 
 .info__more_order {
-  padding-top: 10px;
+  width: 44%;
+  padding-top: 2px;
   margin-left: 4.2%;
-  top: 25px;
-  font-size: 15px;
+  top: 24px;
+  font-size: 13px;
+  letter-spacing: 1px;
   background: #E51937;
   color: #FFFFFF;
 }
@@ -436,28 +439,28 @@ margin-right: 260px;
  }
 
   .main__title {
-    width: 360px;
+    width: 46.6%;
     Height: 100px;
     margin-left: 27%;
     margin-bottom: 1.2%;
   }
   .main__welcome {
-    width: 35%;
+    text-align: center;
+    width: 65%;
     font-size: 17px;
-    margin-left: 34.5%;
     position: relative;
-    top: -28px;
-    margin-bottom: 8%;
+    margin-top: -3.2%;
+    margin-bottom: 11.2%;
   }
 
 .main__picture {
   height: 329px;
-  width: 92%;
+  width: 91%;
   margin-bottom: 4%;
 }
 
 .info {
-  margin-bottom: 3.2%;
+  margin-bottom: 2.5%;
   margin-left: 0;
   width: 100%;
 }
@@ -469,32 +472,33 @@ margin-right: 260px;
  .info__spkm_speed {
    background-image: url(img/2,7Ipad.svg);
    margin-left: 18.5%;
-   width: 220.7px;
+   width: 29%;
    height: 81.26px;
 }
 
 .info__spkm_km {
   background-image: url(img/632Ipad.svg);
-  margin-left: 8%;
-  width: 200.64px;
-  height: 83.12px;
+  margin-left: 7.5%;
+  width: 26%;
+  height: 85.12px;
 }
 
 .info__more_test {
   background-image: url(img/TestdriveIpad.svg);
-  width: 168px;
+  width: 21.5%;
   height: 52px;
   margin-left: 22.5%;
-  top: -6px;
+  margin-top: 0.5%;
 }
 
 .info__more_order {
-  padding-top: 16px;
-  margin-left: 3.4%;
-  width: 224px;
-  top: -37px;
+  letter-spacing: 1px;
+  padding-top: 0%;
+  margin-left: 3.7%;
+  width: 29%;
+  top: -40px;
   height: 57px;
-  font-size: 18px;
+  font-size: 17px;
   background: #E51937;
   color: #FFFFFF;
 }
@@ -512,19 +516,20 @@ margin-right: 260px;
  }
 
 .main {
-background-position-y: -7%;
+  background-position-x: center;
+  background-position-y: -7%;
 }
 
   .main__title {
     margin-bottom: 0.8%;
     margin-left: 37.8%;
-    width: 357px;
+    width: 25%;
     height: 70px;
   }
 
  .main__welcome {
+   text-align: center;
    margin-bottom: 2%;
-   margin-left: 41.7%;
    width: 20%;
    font-size: 17px;
  }
@@ -557,6 +562,7 @@ background-position-y: -7%;
 }
 
 .info__more_test {
+  background-image: url(img/test_drive.svg);
   top: -8px;
   margin-left: 17%;
   width: 129px;
@@ -564,6 +570,7 @@ background-position-y: -7%;
 }
 
 .info__more_order {
+  padding-top: 0;
   margin-left: 7.5%;
   top: -32px;
   font-size: 14px;
@@ -590,12 +597,12 @@ background-position-y: -7%;
   .main__title {
     width: 360px;
     Height: 110px;
-    margin-left: 27%;
+    margin: auto;
   }
   .main__welcome {
+    text-align: center;
     width: 34%;
     font-size: 17px;
-    margin-left: 34.5%;
     position: relative;
     top: -28px;
     margin-bottom: 8%;
@@ -619,18 +626,18 @@ background-position-y: -7%;
 
  .info__spkm_speed {
    margin-left: 18.5%;
-   width: 220.7px;
+   width: 29%;
    height: 81.26px;
 }
 
 .info__spkm_km {
   margin-left: 8%;
-  width: 200.64px;
+  width: 26%;
   height: 83.12px;
 }
 
 .info__more_test {
-  width: 168px;
+  width: 21.5%;
   height: 52px;
   margin-left: 22.5%;
   top: -6px;
@@ -638,7 +645,7 @@ background-position-y: -7%;
 
 .info__more_order {
   margin-left: 3.4%;
-  width: 224px;
+  width: 29%;
   top: -37px;
   height: 57px;
   font-size: 23px;
@@ -651,19 +658,19 @@ background-position-y: -7%;
   height: 20px;
 }
 }
-/*Секция future*/
+
 .future {
   background-repeat: no-repeat;
   background-image: url(img/tesla_inside.svg);
-  background-position-y: 102%;
+  background-position-y: 99%;
   width: 100%;
-  display: inline-block;
+  display: flex;
 }
 
 .future__title {
   margin-bottom: 67%;
   position: relative;
-  left: 8.6%;
+  margin-left: 8.6%;
   width: 278px;
   height: 86px;
   background-repeat: no-repeat;
@@ -678,11 +685,10 @@ background-position-y: -7%;
 }
 
 .info-models {
-  margin-top: 2.2%;
   display: inline-block;
   position: relative;
   background: #E51937;
-  width: 30.7%;
+  width: 31%;
 }
 
 .drive, .options {
@@ -765,6 +771,7 @@ background-position-y: -7%;
 }
 
 .more__order {
+  background: #E51937;
   padding-top: 11px;
   position: relative;
   top: 2px;
@@ -781,7 +788,7 @@ background-position-y: -7%;
 }
 
 .more {
-  padding-bottom: 13%;
+  padding-bottom: 14.1%;
 }
 
 @media (max-width: 375px) {
@@ -813,14 +820,19 @@ background-position-y: -7%;
 }
 
 .drive__title {
-  line-height: 34px;
-  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 33px;
+  font-weight: 600;
   margin-top: 0;
   padding-top: 4%;
-  font-size: 33px;
+  font-size: 31px;
 }
 
 .drive__text {
+  width: 100%;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  line-height: 18px;
   margin-bottom: 0;
   margin-top: 10px;
 }
@@ -834,6 +846,7 @@ background-position-y: -7%;
     background-position-y: 10.8%;
     padding-left: 0;
     width: 100%;
+    flex-direction: column;
   }
 
   .drive, .options {
@@ -842,53 +855,81 @@ background-position-y: -7%;
     margin: 0;
  }
 
+.info-safety {
+  padding-bottom: 0%;
+}
+
  .future__title {
+   width: 90.5%;
    left: -6.7%;
    margin-top: 27%;
    margin-bottom: 0;
  }
 
 .future-block {
-  margin-bottom: 48.2%;
+  margin-bottom: 51%;
   width: 40%;
-  left: 60%;
+  left: 56.5%;
 }
 
 .info-models {
+  padding-top: 4.5%;
   width: 100%;
+  margin-top: 0;
+}
+
+.drive {
+  padding-top: 3%;
 }
 
 .drive__title {
+  margin-top: 0;
   padding-top: 0;
   position: relative;
   margin-left: 9%;
-  top: 15px;
-  margin-bottom: 9%;
-  font-size: 33px;
+  margin-bottom: 5%;
+  font-size: 32px;
+  letter-spacing: 0.6px;
 }
 
 .drive__text {
-  width: 84%;
+  line-height: 18px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  width: 90%;
   position: relative;
   margin-left: 9%;
 }
 
 .options__display {
+  width: 50%;
   position: relative;
   left: 19.5%;
-  top: 24px;
+  padding-top: 6%;
+  margin-bottom: 0;
+}
+
+.protection__front {
+  margin-top: -40%;
+}
+
+.protection__driver {
+  margin-top: -10.5%;
 }
 
 .options__wifi {
+  width: 71%;
   position: relative;
+  margin-bottom: 0;
+  padding-top: 5%;
   left: 18.5%;
-  top: 7px;
 }
 
 .options__bag {
+  width: 54%;
+  padding-bottom: 1%;
   position: relative;
   left: 19.5%;
-  top: -2px;
 }
 
 .more {
@@ -897,9 +938,11 @@ background-position-y: -7%;
 }
 
 .more__info {
-  font-size: 18px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  vertical-align: super;
   margin-left: 1%;
-  width: 35%;
+  width: 24%;
 }
 
 .more__icon::before {
@@ -910,27 +953,142 @@ background-position-y: -7%;
 
 .more__icon {
   margin-left: 9%;
-  top: 5px;
-  width: 27px;
-  height: 27px;
+  margin-top: 1%;
+  width: 4.5%;
+  height: 32px;
 }
 
 .more__order {
-  width: 217px;
-  height: 35px;
-  font-size: 19px;
-  margin-left: 0;
-  top: -1px;
-  left: 1%;
-  padding-top: 15px;
+  background: #E51937;
+  top: 0;
+  width: 29%;
+  height: 54px;
+  font-size: 15px;
+  margin-left: 10.4%;
+  left: 1.4%;
+  padding-top: 0;
+  letter-spacing: 2px;
+  vertical-align: super;
 }
+}
+
+@media (min-width: 769px) and (max-width: 1439px) {
+
+  .future__title {
+    margin-bottom: 97%;
+    width: 28%;
+  }
+
+.info-models {
+  width: 31%;
+}
+
+.drive__title {
+  font-size: 18px;
+}
+
+.drive__text {
+  font-size: 10px;
+}
+
+.options__display {
+  width: 90%;
+}
+
+.options__wifi {
+  width: 104%;
+}
+
+.options__bag {
+  width: 96%;
+}
+
+.more__info {
+  font-size: 9px;
+  vertical-align: super;
+}
+
+.more__order {
+  padding-top: 4px;
+  top: -5px;
+  width: 29%;
+  font-size: 11px;
+}
+
+.more__icon {
+  width: 7%;
+}
+
 }
 
 @media (min-width: 1440px) {
 
+.future {
+  background-position-y: 100%;
 }
 
-/* section safeety*/
+.drive__title {
+  margin-top: 15.6%;
+  letter-spacing: 2px;
+  font-size: 29px;
+}
+
+.info-models {
+  width: 30.5%;
+  margin-top: 2.2%;
+}
+
+.future-block {
+  width: 69.5%;
+}
+
+.drive__text {
+  margin-top: 5%;
+  letter-spacing: 1px;
+  line-height: 18px;
+  font-size: 15px;
+  width: 96%;
+}
+
+.more__icon {
+  top: calc(23px - 18px);
+  width: 6%;
+}
+
+.options {
+  margin-bottom: 39%;
+}
+
+.future__title {
+  margin-bottom: 50%;
+  margin-top: 11%;
+}
+
+.options__display {
+  width: 56%;
+}
+
+.options__wifi {
+  width: 85%;
+  margin-left: -2%;
+  }
+
+.options__bag {
+  width: 60%;
+}
+
+.more__order {
+  padding-top: 3px;
+  width: 36%;
+  margin-left: 2%;
+  height: 38px;
+}
+
+.more {
+  padding-bottom: 15.1%;
+}
+}
+
 
 .safety {
   display: inline-block;
@@ -940,7 +1098,7 @@ background-position-y: -7%;
   url(img/Carframegroup.svg),
   url(img/ModelS.svg);
   background-size: 73%, 55%;
-  background-position-y: 57%, 19%;
+  background-position-y: 56%, 19%;
   background-position-x: 88%, 100%;
 }
 
@@ -948,7 +1106,7 @@ background-position-y: -7%;
 .info-safety {
   z-index: -1;
   display: inline-block;
-  width: 30%;
+  width: 30.5%;
   position: relative;
   background: #E51937;
 }
@@ -970,7 +1128,6 @@ background-position-y: -7%;
 }
 
 .description__text {
-  text-align: justify;
   color: #ffffff;
   font-family: "montserratregular", arial, helvetica, sans-serif;
   font-size: 16px;
@@ -983,24 +1140,29 @@ background-position-y: -7%;
   margin-left: 13%;
   background-image: url(img/Оценказащиты.svg);
   background-repeat: no-repeat;
+  background-size: contain;
   width: 265px;
   height: 40px;
   margin-bottom: 3%;
 }
 
+.star {
+  background-size: contain;
+}
+
 .protection__front {
   margin-bottom: 1.8%;
-  display: inline-flex;
+  display: flex;
   width: 100%;
-  margin-left: 13%;
+  margin-left: 12%;
 }
 
 .protection__front_title {
   font-family: "montserratregular", arial, helvetica, sans-serif;
   font-size: 18px;
   color: #fff;
-  padding-top: 4px;
   margin-right: 14%;
+  width: 21%;
 }
 
 
@@ -1009,8 +1171,7 @@ background-position-y: -7%;
   height: 25px;
   background-image: url(img/Star.svg);
   background-repeat: no-repeat;
-  display: inline-block;
-  margin-right: 2px;
+  margin-right: 1%;
 }
 
 .protection__front_star2, .protection__front_star3, .protection__front_star4, .protection__front_star5 {
@@ -1018,15 +1179,14 @@ background-position-y: -7%;
   height: 25px;
   background-image: url(img/Star.svg);
   background-repeat: no-repeat;
-  display: inline-block;
-  margin: 2px;
+  margin-right: 1%;
 }
 
 .protection__side {
   margin-bottom: 1.8%;
-  display: inline-flex;
+  display: flex;
   width: 100%;
-  margin-left: 13%;
+  margin-left: 12%;
 }
 
 .protection__side_title {
@@ -1035,6 +1195,7 @@ background-position-y: -7%;
   color: #fff;
   padding-top: 4px;
   margin-right: 20%;
+  width: 15%;
 }
 
 .protection__side_star1 {
@@ -1042,8 +1203,7 @@ background-position-y: -7%;
   height: 25px;
   background-image: url(img/Star.svg);
   background-repeat: no-repeat;
-  display: inline-block;
-  margin-right: 2px;
+  margin-right: 1%;
 }
 
 .protection__side_star2, .protection__side_star3, .protection__side_star4, .protection__side_star5 {
@@ -1051,15 +1211,14 @@ background-position-y: -7%;
   height: 25px;
   background-image: url(img/Star.svg);
   background-repeat: no-repeat;
-  display: inline-block;
-  margin: 2px;
+  margin-right: 1%;
 }
 
 .protection__rack {
   margin-bottom: 1.8%;
-  display: inline-flex;
+  display: flex;
   width: 100%;
-  margin-left: 13%;
+  margin-left: 12%;
 }
 
 .litle {
@@ -1071,8 +1230,7 @@ background-position-y: -7%;
   font-family: "montserratregular", arial, helvetica, sans-serif;
   font-size: 18px;
   color: #fff;
-  padding-top: 4px;
-  margin-right: -0.3%;
+  width: 26%;
 }
 
 .protection__rack_star1 {
@@ -1080,8 +1238,7 @@ background-position-y: -7%;
   height: 25px;
   background-image: url(img/Star.svg);
   background-repeat: no-repeat;
-  display: inline-block;
-  margin-right: 2px;
+  margin-right: 1%;
 }
 
 .protection__rack_star2, .protection__rack_star3, .protection__rack_star4, .protection__rack_star5 {
@@ -1089,23 +1246,22 @@ background-position-y: -7%;
   height: 25px;
   background-image: url(img/Star.svg);
   background-repeat: no-repeat;
-  display: inline-block;
-  margin: 2px;
+  margin-right: 1%;
 }
 
 .protection__driver {
   margin-bottom: 1.8%;
-  display: inline-flex;
+  display: flex;
   width: 100%;
-  margin-left: 13%;
+  margin-left: 12%;
 }
 
 .protection__driver_title {
   font-family: "montserratregular", arial, helvetica, sans-serif;
   font-size: 18px;
   color: #fff;
-  padding-top: 4px;
   margin-right: 12%;
+  width: 23%;
 }
 
 .protection__driver_star1 {
@@ -1113,8 +1269,7 @@ background-position-y: -7%;
   height: 25px;
   background-image: url(img/Star.svg);
   background-repeat: no-repeat;
-  display: inline-block;
-  margin-right: 2px;
+  margin-right: 1%;
 }
 
 .protection__driver_star2, .protection__driver_star3, .protection__driver_star4, .protection__driver_star5 {
@@ -1122,23 +1277,22 @@ background-position-y: -7%;
   height: 25px;
   background-image: url(img/Star.svg);
   background-repeat: no-repeat;
-  display: inline-block;
-  margin: 2px;
+  margin-right: 1%;
 }
 
 .protection__passangeer {
   margin-bottom: 1.8%;
-  display: inline-flex;
+  display: flex;
   width: 100%;
-  margin-left: 13%;
+  margin-left: 12%;
 }
 
 .protection__passangeer_title {
   font-family: "montserratregular", arial, helvetica, sans-serif;
   font-size: 18px;
   color: #fff;
-  padding-top: 4px;
   margin-right: 10%;
+  width: 25%;
 }
 
 .protection__passangeer_star1 {
@@ -1146,8 +1300,7 @@ background-position-y: -7%;
   height: 25px;
   background-image: url(img/Star.svg);
   background-repeat: no-repeat;
-  display: inline-block;
-  margin-right: 2px;
+  margin-right: 1%;
 }
 
 .protection__passangeer_star2, .protection__passangeer_star3, .protection__passangeer_star4, .protection__passangeer_star5 {
@@ -1155,8 +1308,7 @@ background-position-y: -7%;
   height: 25px;
   background-image: url(img/Star.svg);
   background-repeat: no-repeat;
-  display: inline-block;
-  margin: 2px;
+  margin-right: 1%;
 }
 
 .protection {
@@ -1217,29 +1369,6 @@ background-position-y: -7%;
   margin-left: 3%;
 }
 
-
-/*.safety__img {
-  top: -58px;
-  left: -9.3%;
-  position: relative;
-  width: 106%;
-  height: 593px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url(img/Carframegroup.svg);
-}*/
-
-/*.safety__img_front {
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 200px;
-  height: 200px;
-  background-image: url(img/Protection1.svg);
-  left: 25%;
-  top: 2%;
-}
-
 .safety__img_side {
   position: relative;
   background-repeat: no-repeat;
@@ -1260,10 +1389,10 @@ background-position-y: -7%;
   background-image: url(img/Carcrash.svg);
   left: 57%;
   top: -23%;
-}*/
+}
+
 
 @media (max-width: 375px) {
-
 
   .protection, .info-safety__result, .more-safety {
     display: none;
@@ -1282,20 +1411,6 @@ background-position-y: -7%;
   url(img/ModelS.svg);
 }
 
-/*.safety__img {
-  background-image: url(img/Group18mobile.svg);
-  top: 0px;
-  left: -0.35%;
-  width: 140%;
-  height: 252px;
-}
-
-.test {
-  left: 0;
-  position: absolute;
-  top: 59px;
-}*/
-
 .description__title {
   font-size: 32px;
   text-align: justify;
@@ -1305,9 +1420,12 @@ background-position-y: -7%;
 }
 
 .description__text {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 1.1px;
   margin-top: 3%;
   margin-left: 8%;
-  width: 83%;
+  width: 91%;
 }
 
 .info-safety {
@@ -1324,7 +1442,7 @@ background-position-y: -7%;
 
 .safety {
   position: relative;
-  background-position-y: 13%, 8%;
+  background-position-y: 12.8%, 6.5%;
   background-position-x: -3%, 53%;
   background-size: 96%, 77%;
   background-image:
@@ -1335,74 +1453,95 @@ background-position-y: -7%;
   padding-top: 70%;
 }
 
-/*.safety__img {
-  background-image: url(img/CargroupIpad.svg);
-  top: -919px;
-  left: 0%;
-  width: 96%;
-}*/
+.star {
+  width: 8%;
+}
 
 .info-safety {
   width: 100%;
-  display: inline-block;
 }
 
 .description {
   margin-top: 2%;
-  display: inline-block;
   width: 49%;
   margin-bottom: 0;
 }
 
 .protection {
-  left: -1%;
-  display: inline-block;
   width: 49%;
+  margin-top: 9%;
   position: relative;
   margin-bottom: 0;
 }
 
 .protection__title {
-  margin-bottom: 0;
+  width: 70%;
+  margin-bottom: 44%;
 }
 
 .description__title {
+  padding-top: 13%;
   margin-left: 9%;
   font-size: 32px;
 }
 
 .description__text {
+  letter-spacing: 1.7px;
+  font-size: 14px;
   margin-left: 9%;
-  width: 82%;
+  width: 90%;
+  line-height: 18px;
 }
 
 .protection__front {
+  display: flex;
   width: 85%;
-  position: relative;
+  position: absolute;
+  margin-top: -40%
+}
+
+.protection__front_title {
+  margin-top: 2%;
+  width: 28%;
+  margin-right: 19%;
 }
 
 .protection__front_star1 {
-  margin-left: 6%;
+  margin-right: 1%;
 }
 
 .protection__side {
   width: 85%;
-  position: relative;
-  top: 4px;
+  position: absolute;
+  margin-top: -30%;
+}
+
+.protection__side_title {
+  margin-top: 1.5%;
+  padding-top: 0;
+  margin-right: 28%;
+  width: 19%;
 }
 
 .protection__side_star1 {
-  margin-left: 8%;
+  margin-right: 1%;
 }
 
 .protection__rack  {
   width: 85%;
-  position: relative;
-  top: 5px;
+  position: absolute;
+  margin-top: -20%;
+}
+
+.protection__rack_title {
+  width: 35%;
+  padding-top: 0;
+  margin-top: 1.2%;
+  margin-right: 12%;
 }
 
 .protection__rack_star1 {
-  margin-left: 12%;
+  margin-right: 1%;
 }
 
 .litle {
@@ -1412,26 +1551,36 @@ background-position-y: -7%;
 
 .protection__driver {
   width: 85%;
-  position: relative;
-  top: 5px;
+  position: absolute;
+  margin-top: -10.5%;
 }
 
 .protection__driver_star1 {
-  margin-left: 3%;
 }
 
 .protection__driver_title {
-  font-size: 19px;
+  margin-right: 14.5%;
+  width: 33%;
+  margin-top: 1.5%;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .protection__passangeer {
   width: 85%;
-  position: relative;
-  top: 7px;
+  position: absolute;
+  margin-top: 0%;
+  letter-spacing: 1px;
 }
 
-.protection__passangeer_star1 {
-  margin-left: 4.5%;
+.protection__passangeer_title {
+  margin-top: 1%;
+  margin-right: 12.5%;
+  width: 35%;
+}
+
+.opa {
+  display: flex;
 }
 
 .more-safety {
@@ -1441,27 +1590,20 @@ background-position-y: -7%;
 
 .more-safety__icon {
   margin-left: 11.6%;
-  width: 27px;
-  height: 27px;
-  top: -5px;
-}
-
-.more-safety__icon::after {
-  left: 37%;
-  font-weight: 900;
-  font-size: 20px;
+  width: 5%;
+  height: 32px;
 }
 
 .more-safety__info {
   font-size: 18px;
-  margin-left: 9.5%;
+  margin-left: 8.5%;
   width: 25%;
-  top: -8px;
+  vertical-align: super;
 }
 
 .more-safety__order {
   margin-left: 0;
-  width: 216px;
+  width: 28%;
   height: 35px;
   top: -8px;
   font-size: 18px;
@@ -1469,10 +1611,175 @@ background-position-y: -7%;
 }
 }
 
+@media (min-width: 769px) and (max-width: 1439px) {
+
+  .description {
+    margin-top: 2%;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .protection {
+    width: 100%;
+    margin-top: 9%;
+    position: relative;
+    margin-bottom: 0;
+  }
+
+  .protection__title {
+    width: 70%;
+    margin-bottom: 44%;
+  }
+
+  .description__title {
+    padding-top: 13%;
+    margin-left: 9%;
+    font-size: 21px;
+  }
+
+  .description__text {
+    letter-spacing: 1.7px;
+    margin-left: 9%;
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .protection__front {
+    display: flex;
+    width: 85%;
+    position: absolute;
+    margin-top: -40%
+  }
+
+  .protection__front_title {
+    font-size: 16px;
+    margin-top: 2%;
+    width: 28%;
+    margin-right: 19%;
+  }
+
+  .protection__front_star1 {
+    margin-right: 1%;
+  }
+
+  .protection__side {
+    width: 85%;
+    position: absolute;
+    margin-top: -30%;
+  }
+
+  .protection__side_title {
+    font-size: 16px;
+    margin-top: 1.5%;
+    padding-top: 0;
+    margin-right: 28%;
+    width: 19%;
+  }
+
+  .protection__side_star1 {
+    margin-right: 1%;
+  }
+
+  .protection__rack  {
+    width: 85%;
+    position: absolute;
+    margin-top: -20%;
+  }
+
+  .protection__rack_title {
+    font-size: 16px;
+    width: 35%;
+    padding-top: 0;
+    margin-top: 1.2%;
+    margin-right: 12%;
+  }
+
+  .protection__rack_star1 {
+    margin-right: 1%;
+  }
+
+  .litle {
+    font-size: 8px;
+    margin-left: 5%;
+  }
+
+  .protection__driver {
+    width: 85%;
+    position: absolute;
+    margin-top: -10.5%;
+  }
+
+  .protection__driver_star1 {
+  }
+
+  .protection__driver_title {
+    font-size: 16px;
+    margin-right: 14.5%;
+    width: 33%;
+    margin-top: 1.5%;
+    letter-spacing: 1px;
+  }
+
+  .protection__passangeer {
+    width: 85%;
+    position: absolute;
+    margin-top: 0%;
+    letter-spacing: 1px;
+  }
+
+  .protection__passangeer_title {
+    font-size: 15px;
+    margin-top: 1%;
+    margin-right: 12.5%;
+    width: 35%;
+  }
+
+.info-safety__result {
+  margin-bottom: 0;
+  width: 75%;
+  background-size: contain;
+}
+
+  .opa {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14%;
+  }
+
+  .more-safety {
+    padding-bottom: 7.2%;
+  }
+
+  .more-safety__icon {
+    margin-left: 0%;
+    width: 8%;
+    height: 32px;
+  }
+
+
+  .more-safety__info {
+    top: -7px;
+    font-size: 12px;
+    margin-left: 8.5%;
+    width: 43%;
+    vertical-align: super;
+  }
+
+  .more-safety__order {
+    margin-left: 0;
+    width: 28%;
+    height: 35px;
+    top: -8px;
+    font-size: 13px;
+    padding-top: 15px;
+  }
+
+}
+
 @media (min-width: 1440px) {
 
 .drive__title {
-  font-size: 33px;
+  font-size: 30px;
 }
 
 .options__wifi {
@@ -1481,53 +1788,91 @@ background-position-y: -7%;
 
 .description__title {
   font-size: 32px;
-  padding-top: 11%;
+  padding-top: 12%;
 }
 
 .description__text {
   margin-top: 3%;
+  letter-spacing: 1.6px;
+  line-height: 18px;
+  font-size: 14px;
+  width: 73%;
 }
 
 .description {
   margin-bottom: 14%;
 }
 
+.protection__front {
+  margin-top: 0%;
+  margin-bottom: 2.5%;
+}
+
 .protection__front_title {
-  padding-top: 8px;
+  letter-spacing: 2px;
+  padding-top: 1.6%;
+  font-size: 16px;
+  margin-right: 14%;
 }
 
 .protection__front_star1, .protection__side_star1, .protection__rack_star1, .protection__driver_star1, .protection__passangeer_star1 {
   position: relative;
-  top: 2px;
+}
+
+.protection__side {
+  margin-bottom: 3%;
 }
 
 .protection__side_title {
-  padding-top: 6px;
+  padding-top: 1.5%;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+.protection__rack {
+  margin-bottom: 2.6%;
 }
 
 .protection__rack_title {
-  padding-top: 6px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin-right: 9.3%;
 }
 
 .litle {
-  font-size: 11px;
+  font-size: 9px;
 }
 
 .protection__rack_star1 {
-  margin-left: 8.3%;
 }
 
 .protection__driver_title {
-  padding-top: 6px;
+  padding-top: 1.5%;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-right: 12%;
 }
 
 .protection__passangeer_title {
-  padding-top: 6px;
+  padding-top: 1.5%;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+}
+
+.protection__driver {
+  margin-bottom: 2.8%;
+}
+
+.info-safety__result {
+  margin-top: 23%;
 }
 
 .protection {
   margin-bottom: 21%;
 }
 
-
+.more-safety__order {
+  top: 0;
+  padding-top: 2%;
+}
 }
