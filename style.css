@@ -362,80 +362,79 @@ body {
   }
 
 @media (max-width: 375px) {
-
   .main {
     background-size: 114%;
     background-position-y: 27.5%;
     background-position-x: -19px;
   }
 
-.main__title {
-  margin-left: 24%;
-  position: relative;
-  top: 34px;
-  width: 53%;
-  height: 39px;
-}
+  .main__title {
+    margin-left: 24%;
+    position: relative;
+    top: 34px;
+    width: 53%;
+    height: 39px;
+  }
 
-.main__picture {
-  margin-bottom: 30%;
-  position: relative;
-  top: 93px;
-  height: 168px;
-  width: 94%;
-}
+  .main__picture {
+    margin-bottom: 30%;
+    position: relative;
+    top: 93px;
+    height: 168px;
+    width: 94%;
+  }
 
-.main__welcome {
-  position: relative;
-  width: 58%;
-  top: 42px;
-  font-size: 11px;
-  text-align: center;
-}
+  .main__welcome {
+    position: relative;
+    width: 58%;
+    top: 42px;
+    font-size: 11px;
+    text-align: center;
+  }
 
-.info {
-  margin-bottom: 15%;
-  width: 100%;
-  position: relative;
-  margin-left: 0;
-}
+  .info {
+    margin-bottom: 15%;
+    width: 100%;
+    position: relative;
+    margin-left: 0;
+  }
 
-.info__spkm_speed {
-  width: 35.5%;
-  height: 55px;
-  margin-left: 10%;
-}
+  .info__spkm_speed {
+    width: 35.5%;
+    height: 55px;
+    margin-left: 10%;
+  }
 
-.info__spkm_km  {
-  margin-left: 9%;
-  width: 31%;
-  height: 55px;
-}
+  .info__spkm_km  {
+    margin-left: 9%;
+    width: 31%;
+    height: 55px;
+  }
 
-.info__more_test {
-  margin-left: 8.9%;
-  top: 40px;
-  width: 33%;
-  height: 32px;
-}
+  .info__more_test {
+    margin-left: 8.9%;
+    top: 40px;
+    width: 33%;
+    height: 32px;
+  }
 
-.info__more_order {
-  width: 44%;
-  padding-top: 2px;
-  margin-left: 4.2%;
-  top: 24px;
-  font-size: 13px;
-  letter-spacing: 1px;
-  background: #E51937;
-  color: #FFFFFF;
-}
+  .info__more_order {
+    width: 44%;
+    padding-top: 2px;
+    margin-left: 4.2%;
+    top: 24px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    background: #e51937;
+    color: #FFF;
+  }
 
-.arrow {
-  width: 34px;
-  height: 20px;
-  position: relative;
-  margin-left: 45.8%;
-}
+  .arrow {
+    width: 34px;
+    height: 20px;
+    position: relative;
+    margin-left: 45.8%;
+  }
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
