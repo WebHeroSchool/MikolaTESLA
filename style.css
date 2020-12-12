@@ -192,50 +192,50 @@ body {
     font-size: 16px;
   }
 
- .menu-models__item_modelx {
-   font-size: 16px;
-   margin-right: 5%;
- }
+  .menu-models__item_modelx {
+    font-size: 16px;
+    margin-right: 5%;
+  }
 
- .menu-models__item_model3 {
-   font-size: 16px;
-   margin-right: 7.5%;
- }
+  .menu-models__item_model3 {
+    font-size: 16px;
+    margin-right: 7.5%;
+  }
 
- .menu-models__item_roadster {
-   font-size: 16px;
-   margin-right: 8.5%;
- }
+  .menu-models__item_roadster {
+    font-size: 16px;
+    margin-right: 8.5%;
+  }
 
- .menu-models__item_energy {
-   font-size: 16px;
- }
+  .menu-models__item_energy {
+    font-size: 16px;
+  }
 
- .menu-models__item_active::after {
-  top: 133%;
- }
+  .menu-models__item_active::after {
+    top: 133%;
+  }
 
- .shop {
-   margin-right: 2.2%;
-   width: 10.1%;
- }
+  .shop {
+    margin-right: 2.2%;
+    width: 10.1%;
+  }
 
- .shop__item_buy {
-   margin-right: 18%;
-   font-size: 16px;
- }
+  .shop__item_buy {
+    margin-right: 18%;
+    font-size: 16px;
+  }
 
- .shop__item_enter {
-   font-size: 16px;
- }
+  .shop__item_enter {
+    font-size: 16px;
+  }
 
- .menu-mobile::after {
-  transform: translateY(135%)
- }
+  .menu-mobile::after {
+    transform: translateY(135%)
+  }
 
- .menu-mobile::before {
-  transform: translateY(-229%)
- }
+  .menu-mobile::before {
+    transform: translateY(-229%)
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1439px) {
