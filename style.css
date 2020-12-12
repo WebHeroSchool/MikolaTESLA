@@ -246,114 +246,120 @@ body {
     margin-left: 3%;
   }
 
- .menu-models__item_models, .menu-models__item_modelx, .menu-models__item_model3, .menu-models__item_roadster, .menu-models__item_energy, .shop__item_buy, .shop__item_enter {
-   font-size: 15px;
-   margin-right: 4%;
- }
+  .menu-models__item_models,
+  .menu-models__item_modelx,
+  .menu-models__item_model3,
+  .menu-models__item_roadster,
+  .menu-models__item_energy,
+  .shop__item_buy,
+  .shop__item_enter {
+    font-size: 15px;
+    margin-right: 4%;
+  }
 
- .menu-models {
-   padding-top: 1%;
-   width: 50%;
-   margin-right: 1%;
- }
+  .menu-models {
+    padding-top: 1%;
+    width: 50%;
+    margin-right: 1%;
+  }
 
- .shop {
-   padding-top: 1%;
-   width: 20%;
-   margin-right: 1%;
- }
+  .shop {
+    padding-top: 1%;
+    width: 20%;
+    margin-right: 1%;
+  }
 }
 
-.main {
-  background-repeat: no-repeat;
-  background-image: url(img/teslatxt.svg);
-  width: 100%;
-}
+  .main {
+    background-repeat: no-repeat;
+    background-image: url(img/teslatxt.svg);
+    width: 100%;
+  }
 
-.main__title {
-  width: 240px;
-  height: 20px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url(img/ModelS12.svg);
-  margin: auto;
-}
+  .main__title {
+    width: 240px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/ModelS12.svg);
+    margin: auto;
+  }
 
-.main__welcome {
-  width: 15%;
-  font-size: 15px;
-  font-family: "montserratregular", arial, helvetica, sans-serif;
-  font-weight: 500;
-  margin: auto;
-}
+  .main__welcome {
+    width: 15%;
+    font-size: 15px;
+    font-family: "montserratregular", arial, helvetica, sans-serif;
+    font-weight: 500;
+    margin: auto;
+  }
 
-.main__picture {
-  margin: auto;
-  width: 970px;
-  height: 450px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url(img/tesla_car.svg);
-}
+  .main__picture {
+    margin: auto;
+    width: 970px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/tesla_car.svg);
+  }
 
-.info {
-  margin-left: 33%;
-  display: inline-block;
-}
+  .info {
+    margin-left: 33%;
+    display: inline-block;
+  }
 
-.info__spkm_speed {
-  display: inline-block;
-  width: 155px;
-  height: 55px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url(img/2,7.svg);
-}
+  .info__spkm_speed {
+    display: inline-block;
+    width: 155px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/2,7.svg);
+  }
 
-.info__spkm_km {
-  display: inline-block;
-  width: 155px;
-  height: 55px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url(img/632.svg);
-}
+  .info__spkm_km {
+    display: inline-block;
+    width: 155px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/632.svg);
+  }
 
-.info__more_test {
-  position: relative;
-  top: -10px;
-  width: 120px;
-  height: 25px;
-  display: inline-block;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url(img/Testdrive-mobile.svg);
-}
+  .info__more_test {
+    position: relative;
+    top: -10px;
+    width: 120px;
+    height: 25px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/Testdrive-mobile.svg);
+  }
 
-.info__more_order {
-  position: relative;
-  top: -12px;
-  padding-top: 9px;
-  color: #E51937;
-  text-decoration: none;
-  display: inline-block;
-  width: 160px;
-  height: 40px;
-  border: 2px solid #E51937;
-  box-sizing: border-box;
-  text-align: center;
-  font-size: 13px;
-  font-family: "montserratregular", arial, helvetica, sans-serif;
-}
+  .info__more_order {
+    position: relative;
+    top: -12px;
+    padding-top: 9px;
+    color: #e51937;
+    text-decoration: none;
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    border: 2px solid #e51937;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 13px;
+    font-family: "montserratregular", arial, helvetica, sans-serif;
+  }
 
-.arrow {
-  width: 28px;
-  height: 14px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url(img/Vector.svg);
-  margin: auto;
-}
+  .arrow {
+    width: 28px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/Vector.svg);
+    margin: auto;
+  }
 
 @media (max-width: 375px) {
 
