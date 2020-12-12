@@ -29,7 +29,13 @@ body {
   margin-right: 225px;
 }
 
-.menu-models__item_models, .menu-models__item_modelx, .menu-models__item_model3, .menu-models__item_roadster, .menu-models__item_energy, .shop__item_buy, .shop__item_enter {
+.menu-models__item_models,
+.menu-models__item_modelx,
+.menu-models__item_model3,
+.menu-models__item_roadster,
+.menu-models__item_energy,
+.shop__item_buy,
+.shop__item_enter {
   font-family: "montserratregular", arial, helvetica, sans-serif;
   font-size: 15px;
   font-weight: 600;
