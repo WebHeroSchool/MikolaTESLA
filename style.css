@@ -74,7 +74,8 @@ body {
   display: block;
   width: 24px;
   height: 3px;
-  background: #E51937;}
+  background: #e51937;
+}
 
 .menu-mobile::after {
   content: "";
@@ -82,7 +83,7 @@ body {
   display: block;
   width: 24px;
   height: 3px;
-  background: #E51937;
+  background: #e51937;
   transform: translateY(6px);
 }
 
@@ -111,17 +112,16 @@ body {
 }
 
 @media (max-width: 375px) {
-
   .menu-models, .shop {
     display: none;
   }
 
- .logo {
+  .logo {
    width: 37.5%;
    margin-left: 0;
    margin-right: 51%;
    background-size: contain;
- }
+  }
 
 .menu-mobile {
   top: 21px;
