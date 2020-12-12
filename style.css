@@ -11,13 +11,13 @@ body {
 }
 
 .logo {
-display: block;
-width: 165px;
-height: 50px;
-background-image: url(img/Logo.svg);
-background-repeat: no-repeat;
-margin-left: 42px;
-margin-right: 260px;
+  display: block;
+  width: 165px;
+  height: 50px;
+  background-image: url(img/Logo.svg);
+  background-repeat: no-repeat;
+  margin-left: 42px;
+  margin-right: 260px;
 }
 
 .menu-models, .shop {
