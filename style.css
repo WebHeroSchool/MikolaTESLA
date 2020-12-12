@@ -133,13 +133,13 @@ body {
     top: 21px;
   }
 
-.menu-mobile::before {
-  transform: translateY(-7px);
-}
+  .menu-mobile::before {
+    transform: translateY(-7px);
+  }
 
-.menu-mobile::after {
-  transform: translateY(4px);
-}
+  .menu-mobile::after {
+    transform: translateY(4px);
+  }
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
@@ -159,13 +159,13 @@ body {
     background-size: contain;
   }
 
- .menu-mobile {
-  width: 5%;
- }
+  .menu-mobile {
+    width: 5%;
+  }
 
  .menu-mobile::before {
-  width: auto;
-  transform: translateY(-10px)
+   width: auto;
+   transform: translateY(-10px)
  }
 
  .menu-mobile::after {
