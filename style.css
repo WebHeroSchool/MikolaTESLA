@@ -1893,11 +1893,12 @@ body {
 }
 
 @media (min-width: 376px) and (max-width: 550px) {
-  .protection__passangeer_title {
-    font-size: 13px;
+  .protection__passangeer_title,
+  .protection__driver_title {
+    font-size: 12px;
   }
 
-  .protection__driver_title,
+
   .protection__rack_title,
   .protection__side_title,
   .protection__front_title {
@@ -1905,7 +1906,7 @@ body {
   }
 
   .litle {
-    font-size: 7px;
+    font-size: 6px;
   }
 
   .description__title {
