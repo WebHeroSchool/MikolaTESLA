@@ -1894,17 +1894,21 @@ body {
 
 @media (min-width: 376px) and (max-width: 550px) {
   .protection__passangeer_title {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .protection__driver_title,
   .protection__rack_title,
   .protection__side_title,
   .protection__front_title {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .litle {
-    font-size: 8px;
+    font-size: 7px;
+  }
+
+  .description__title {
+    font-size: 27px;
   }
 }
