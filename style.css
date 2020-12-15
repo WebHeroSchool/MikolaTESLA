@@ -985,6 +985,10 @@ body {
 
 @media (min-width: 769px) and (max-width: 1439px) {
 
+  .future {
+    background-position-y: 100.5%;
+  }
+
   .future__title {
     margin-bottom: 97%;
     width: 28%;
