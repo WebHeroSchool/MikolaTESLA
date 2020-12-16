@@ -241,7 +241,7 @@ body {
 @media (min-width: 769px) and (max-width: 1439px) {
   .logo {
     background-size: contain;
-    margin-right: 10%;
+    margin-right: 7%;
     width: 12%;
     margin-left: 3%;
   }
@@ -986,7 +986,7 @@ body {
 @media (min-width: 769px) and (max-width: 1439px) {
 
   .future {
-    background-position-y: 100.5%;
+    background-position-y: 100.1%;
   }
 
   .future__title {
@@ -1628,6 +1628,10 @@ body {
 
 @media (min-width: 769px) and (max-width: 1439px) {
 
+  .safety {
+    background-position-x: 94%, 100%;
+  }
+
   .description {
     margin-top: 2%;
     width: 100%;
@@ -1774,7 +1778,7 @@ body {
 
   .more-safety__info {
     top: -7px;
-    font-size: 12px;
+    font-size: 11px;
     margin-left: 8.5%;
     width: 43%;
     vertical-align: super;
@@ -1783,10 +1787,11 @@ body {
   .more-safety__order {
     margin-left: 0;
     width: 28%;
-    height: 35px;
-    top: -8px;
-    font-size: 13px;
-    padding-top: 15px;
+    height: 12px;
+    top: -11px;
+    font-size: 11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 
 }
@@ -1910,6 +1915,58 @@ body {
   }
 
   .description__title {
-    font-size: 27px;
+    font-size: 17px;
   }
+
+  .description__text {
+    font-size: 8px;
+    line-height: 11px;
+  }
+
+  .more-safety__info {
+    font-size: 11px;
+    top: -7px;
+  }
+
+  .more-safety__order {
+    font-size: 13px;
+    height: 14px;
+    top: -13px;
+    padding: 10px 0;
+  }
+
+  .drive__title {
+    font-size: 17px;
+  }
+
+  .drive__text{
+    font-size: 8px;
+    line-height: 15px;
+  }
+
+  .options__display {
+    height: 37px;
+  }
+
+  .options__wifi {
+    height: 41px;
+  }
+
+  .future-block {
+    margin-bottom: 43%;
+  }
+
+  .more__info {
+    font-size: 11px;
+    top: -7px;
+    width: 30%;
+  }
+
+  .more__order {
+    font-size: 13px;
+    height: 38px;
+    top: -6px;
+    padding: 10px 0;
+  }
+
 }
