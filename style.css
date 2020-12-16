@@ -1969,4 +1969,8 @@ body {
     padding: 10px 0;
   }
 
+  .more__icon {
+    margin-left: 8%;
+  }
+
 }
