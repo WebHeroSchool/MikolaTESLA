@@ -309,6 +309,7 @@ body {
   }
 
   .info__spkm_speed {
+    font-family: "montserratregular", arial, helvetica, sans-serif;
     margin-right: 8%;
     margin-left: 44%;
     padding-left: 9%;
@@ -324,20 +325,23 @@ body {
   .sec {
     margin: 7% 0 0 0;
     font-size: 37px;
-    font-family: "montserratr", arial, helvetica, sans-serif;
+    font-family: "montserratregular", arial, helvetica, sans-serif;
     font-weight: 600;
   }
 
  .sec__sec {
+   font-family: "montserrat", arial, helvetica, sans-serif;
    font-size: 20px;
  }
 
   .razgon {
+    font-family: "montserrat", arial, helvetica, sans-serif;
     font-size: 15px;
     margin: 0;
   }
 
   .info__spkm_km {
+    font-family: "montserrat", arial, helvetica, sans-serif;
     background-position-y: 184%;
     padding-left: 6.5%;
     position: relative;
