@@ -36,7 +36,7 @@ body {
 .menu-models__item_energy,
 .shop__item_buy,
 .shop__item_enter {
-  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 18px;
@@ -188,13 +188,13 @@ body {
   }
 
   .menu-models__item_models {
-    margin-right: 12%;
+    margin-right: 10%;
     font-size: 16px;
   }
 
   .menu-models__item_modelx {
     font-size: 16px;
-    margin-right: 5%;
+    margin-right: 4%;
   }
 
   .menu-models__item_model3 {
@@ -204,7 +204,7 @@ body {
 
   .menu-models__item_roadster {
     font-size: 16px;
-    margin-right: 8.5%;
+    margin-right: 6.5%;
   }
 
   .menu-models__item_energy {
@@ -216,8 +216,8 @@ body {
   }
 
   .shop {
-    margin-right: 2.2%;
-    width: 10.1%;
+    margin-right: 0.2%;
+    width: 12.1%;
   }
 
   .shop__item_buy {
@@ -288,7 +288,7 @@ body {
   .main__welcome {
     width: 15%;
     font-size: 15px;
-    font-family: "montserratregular", arial, helvetica, sans-serif;
+    font-family: "Montserrat", arial, helvetica, sans-serif;
     font-weight: 500;
     margin: auto;
   }
@@ -309,7 +309,7 @@ body {
   }
 
   .info__spkm_speed {
-    font-family: "montserratregular", arial, helvetica, sans-serif;
+    font-family: "Montserrat", arial, helvetica, sans-serif;
     margin-right: 8%;
     margin-left: 44%;
     padding-left: 9%;
@@ -325,23 +325,23 @@ body {
   .sec {
     margin: 7% 0 0 0;
     font-size: 37px;
-    font-family: "montserratregular", arial, helvetica, sans-serif;
+    font-family: "Montserrat", arial, helvetica, sans-serif;
     font-weight: 600;
   }
 
  .sec__sec {
-   font-family: "montserrat", arial, helvetica, sans-serif;
+   font-family: "Montserrat", arial, helvetica, sans-serif;
    font-size: 20px;
  }
 
   .razgon {
-    font-family: "montserrat", arial, helvetica, sans-serif;
+    font-family: "Montserrat", arial, helvetica, sans-serif;
     font-size: 15px;
     margin: 0;
   }
 
   .info__spkm_km {
-    font-family: "montserrat", arial, helvetica, sans-serif;
+    font-family: "Montserrat", arial, helvetica, sans-serif;
     background-position-y: 184%;
     padding-left: 6.5%;
     position: relative;
@@ -356,7 +356,7 @@ body {
   .km632 {
     margin: 7% 0 0 0;
     font-size: 37px;
-    font-family: "montserratr", arial, helvetica, sans-serif;
+    font-family: "Montserrat", arial, helvetica, sans-serif;
     font-weight: 600;
   }
 
@@ -383,7 +383,7 @@ body {
     background-repeat: no-repeat;
     background-size: 15%;
     padding-left: 4%;
-    font-family: "montserratr", arial, helvetica, sans-serif;
+    font-family: "Montserrat", arial, helvetica, sans-serif;
     background-image: url(img/rul.svg);
     background-position-y: 33%
   }
@@ -401,7 +401,7 @@ body {
     box-sizing: border-box;
     text-align: center;
     font-size: 13px;
-    font-family: "montserratregular", arial, helvetica, sans-serif;
+    font-family: "Montserrat", arial, helvetica, sans-serif;
   }
 
   .arrow {
@@ -592,7 +592,7 @@ body {
    text-align: center;
    margin-bottom: 2%;
    width: 20%;
-   font-size: 17px;
+   font-size: 15px;
  }
 
 .main__picture {
@@ -760,14 +760,14 @@ body {
   color: #ffffff;
   font-size: 30px;
   font-weight: 600;
-  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
 }
 
 .drive__text {
   width: 91%;
   font-size: 16px;
   color: #ffffff;
-  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
 }
 
 .options {
@@ -776,7 +776,7 @@ body {
 
 h1, h4 {
   color: #FFF;
-  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
 }
 
 .options__display {
@@ -868,7 +868,7 @@ h1, h4 {
   text-decoration: none;
   font-size: 15px;
   color: #ffffff;
-  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
 }
 
 .more__icon {
@@ -896,7 +896,7 @@ h1, h4 {
   text-decoration: none;
   font-size: 14px;
   color: #ffffff;
-  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
   border: solid 2px;
   margin-left: 3%;
 }
@@ -1237,7 +1237,7 @@ h1, h4 {
 .description__title {
   margin-top: 0;
   color: #ffffff;
-  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
   font-size: 30px;
   font-weight: 600;
   padding-top: 12%;
@@ -1247,7 +1247,7 @@ h1, h4 {
 
 .description__text {
   color: #ffffff;
-  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
   font-size: 16px;
   font-weight: 500;
   margin-left: 13%;
@@ -1276,7 +1276,7 @@ h1, h4 {
 }
 
 .protection__front_title {
-  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
   font-size: 18px;
   color: #fff;
   margin-right: 14%;
@@ -1308,7 +1308,7 @@ h1, h4 {
 }
 
 .protection__side_title {
-  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
   font-size: 18px;
   color: #fff;
   padding-top: 4px;
@@ -1345,7 +1345,7 @@ h1, h4 {
 }
 
 .protection__rack_title {
-  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
   font-size: 18px;
   color: #fff;
   width: 26%;
@@ -1375,7 +1375,7 @@ h1, h4 {
 }
 
 .protection__driver_title {
-  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
   font-size: 18px;
   color: #fff;
   margin-right: 12%;
@@ -1406,7 +1406,7 @@ h1, h4 {
 }
 
 .protection__passangeer_title {
-  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
   font-size: 18px;
   color: #fff;
   margin-right: 10%;
@@ -1464,7 +1464,7 @@ h1, h4 {
   text-decoration: none;
   font-size: 15px;
   color: #ffffff;
-  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
 }
 
 .more-safety__icon {
@@ -1492,7 +1492,7 @@ h1, h4 {
   text-decoration: none;
   font-size: 14px;
   color: #ffffff;
-  font-family: "montserratregular", arial, helvetica, sans-serif;
+  font-family: "Montserrat", arial, helvetica, sans-serif;
   border: solid 2px;
   margin-left: 3%;
 }
