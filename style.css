@@ -4,6 +4,10 @@ body {
   margin: 0 auto;
 }
 
+a, button {
+  cursor: pointer;
+}
+
 .header {
   display: flex;
   align-content: center;
