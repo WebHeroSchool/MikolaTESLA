@@ -812,7 +812,7 @@ a, button {
    padding-left: 20%;
    width: 38%;
    height: 81.26px;
-   background-size: 41%;
+   background-size: 32%;
    background-position-y: 44%;
 }
 
@@ -826,6 +826,7 @@ a, button {
   margin-left: 1%;
   width: 36%;
   height: 83.12px;
+  top: 0;
 }
 
 .km632 {
