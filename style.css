@@ -820,6 +820,10 @@ a, button {
   font-size: 33px;
 }
 
+.sec__sec {
+  font-size: 19px;
+}
+
 .info__spkm_km {
   background-position-y: 74%;
   padding-left: 12.5%;
