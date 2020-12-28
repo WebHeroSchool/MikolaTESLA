@@ -1711,11 +1711,12 @@ h1, h4 {
 }
 
 .info-safety__result {
+  font-family: "Montserrat", arial, helvetica, sans-serif;
   font-weight: 600;
   font-size: 52px;
   color: #fff;
   padding-left: 20%;
-  margin-left: 15%;
+  margin: auto;
   margin-bottom: 12%;
   width: 280px;
   height: 90px;
@@ -2187,11 +2188,12 @@ h1, h4 {
   margin-bottom: 0;
   width: 64%;
   background-size: 21%;
-  font-size: 46px;
+  font-size: 37px;
 }
 
 .sesurity {
-  font-size: 25px;
+  font-size: 19px;
+  top: -22px;
 }
 
   .opa {
