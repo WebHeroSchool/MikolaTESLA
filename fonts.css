@@ -1,6 +1,9 @@
 @font-face {
   font-family: 'Montserrat';
   src: url('Montserrat-Bold.woff') format('woff');
+  src: url('Montserrat-Medium.woff') format('woff');
+  src: url('Montserrat-Regular.woff') format('woff');
+  src: url('Montserrat-SemiBold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
