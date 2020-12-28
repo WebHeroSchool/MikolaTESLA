@@ -402,17 +402,13 @@ a, button {
   }
 
   .info__more_order {
-    top: 6px;
     position: relative;
-    padding-top: 9px;
     color: #e51937;
     text-decoration: none;
     display: inline-block;
     width: 160px;
-    height: 40px;
     border: 2px solid #e51937;
     box-sizing: border-box;
-    text-align: center;
     font-size: 13px;
     font-family: "Montserrat", arial, helvetica, sans-serif;
     font-weight: 700;
@@ -825,7 +821,6 @@ a, button {
 }
 
 .info__spkm_km {
-  background-position-y: 74%;
   padding-left: 12.5%;
   margin-left: 1%;
   width: 36%;
@@ -850,7 +845,6 @@ a, button {
 .info__more_order {
   margin-left: 3.4%;
   width: 45%;
-  top: -6px;
   height: 57px;
   font-size: 23px;
   background: #E51937;
@@ -1291,10 +1285,15 @@ h1, h4 {
 
   .drive {
     width: 81%;
+    margin-bottom: 4%;
   }
 
 .info-models {
   width: 31%;
+}
+
+.options {
+  margin-bottom: 11%;
 }
 
 .drive__title {
