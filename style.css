@@ -1301,7 +1301,7 @@ h1, h4 {
 .options__display {
   width: 90%;
   padding-left: 21%;
-  background-size: 14%;
+  background-size: 13%;
 }
 
 .options__display_title {
@@ -1323,6 +1323,7 @@ h1, h4 {
 }
 
 .options__bag {
+  background-size: 13%;
   width: 96%;
 }
 
