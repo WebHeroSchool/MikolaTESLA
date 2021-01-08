@@ -751,6 +751,9 @@ a, button {
   color: #000;
   background-image: url(img/rul.svg);
   background-repeat: no-repeat;
+  padding-left: 4%;
+  font-size: 13px;
+  top: 12px;
   width: 129px;
   height: 40px;
 }
@@ -758,7 +761,7 @@ a, button {
 .info__more_order {
   padding-bottom: 9px;
   padding-top: 7px;
-  top: 7px;
+  top: 12px;
   font-size: 14px;
 }
 
