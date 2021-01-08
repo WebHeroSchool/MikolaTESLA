@@ -750,6 +750,7 @@ a, button {
 .info__more_test {
   color: #000;
   background-image: url(img/rul.svg);
+  background-repeat: no-repeat;
   width: 129px;
   height: 40px;
 }
