@@ -2400,6 +2400,9 @@ h1, h4 {
 .more-safety__order {
   top: 0;
   padding-top: 2%;
+  font-size: 13px;
+  padding-bottom: 26px;
+  margin-left: 4%;
 }
 
 .WHS__title {
@@ -2475,7 +2478,11 @@ h1, h4 {
  }
 
  .future {
-   background-position-y: 11.8%;
+   background-position-y: 12%;
+ }
+
+ .future__title {
+   margin-top: 32%;
  }
 
   .protection__passangeer_title,
